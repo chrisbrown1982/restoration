@@ -1,0 +1,324 @@
+./version5_CPU 1 1 0 1024 50
+total_time:26.3627
+total_time:26.403
+total_time:26.3817
+total_time:26.4104
+total_time:26.3833
+./version5_CPU 1 2 0 1024 50
+total_time:13.3366
+total_time:13.3737
+total_time:13.3265
+total_time:13.3245
+total_time:13.3271
+./version5_CPU 1 4 0 1024 50
+total_time:7.94586
+total_time:7.99025
+total_time:7.96969
+total_time:7.95075
+total_time:7.96714
+./version5_CPU 1 6 0 1024 50
+total_time:7.96746
+total_time:7.95216
+total_time:7.97088
+total_time:7.95253
+total_time:8.11413
+./version5_CPU 1 8 0 1024 50
+total_time:8.66693
+total_time:7.9734
+total_time:8.77889
+total_time:7.98704
+total_time:7.96021
+./version5_CPU 1 10 0 1024 50
+total_time:11.5119
+total_time:10.9394
+total_time:14.4124
+total_time:13.2632
+total_time:11.15
+./version5_CPU 1 12 0 1024 50
+total_time:19.2115
+total_time:13.8502
+total_time:15.1455
+total_time:15.4141
+total_time:23.6064
+./version5_CPU 1 14 0 1024 50
+total_time:18.7232
+total_time:22.9017
+total_time:23.6052
+total_time:23.7396
+total_time:23.4906
+./version5_CPU 1 16 0 1024 50
+total_time:23.4608
+total_time:23.9254
+total_time:25.0908
+total_time:21.4236
+total_time:22.3005
+./version5_CPU 2 1 0 1024 50
+total_time:26.369
+total_time:26.4219
+total_time:26.3655
+total_time:26.3979
+total_time:26.421
+./version5_CPU 2 2 0 1024 50
+total_time:13.6568
+total_time:15.5592
+total_time:15.4985
+total_time:15.6079
+total_time:14.8656
+./version5_CPU 2 4 0 1024 50
+total_time:7.92464
+total_time:7.87141
+total_time:7.61412
+total_time:7.82995
+total_time:7.47985
+./version5_CPU 2 6 0 1024 50
+total_time:5.33651
+total_time:5.57257
+total_time:5.50593
+total_time:6.61407
+total_time:5.74899
+./version5_CPU 2 8 0 1024 50
+total_time:4.66768
+total_time:4.61412
+total_time:5.04731
+total_time:6.97152
+total_time:4.29079
+./version5_CPU 2 10 0 1024 50
+total_time:38.0208
+total_time:23.2178
+total_time:20.9746
+total_time:11.731
+total_time:27.2941
+./version5_CPU 2 12 0 1024 50
+total_time:20.826
+total_time:20.1667
+total_time:19.0569
+total_time:26.4241
+total_time:33.3893
+./version5_CPU 2 14 0 1024 50
+total_time:22.7888
+total_time:22.9155
+total_time:21.7723
+total_time:36.9202
+total_time:18.7596
+./version5_CPU 2 16 0 1024 50
+total_time:16.0981
+total_time:18.1352
+total_time:16.991
+total_time:24.1821
+total_time:19.1246
+./version5_CPU 4 1 0 1024 50
+total_time:26.4325
+total_time:26.3922
+total_time:26.4657
+total_time:26.4271
+total_time:26.4527
+./version5_CPU 4 2 0 1024 50
+total_time:13.2944
+total_time:13.2779
+total_time:13.262
+total_time:13.2749
+total_time:13.3237
+./version5_CPU 4 4 0 1024 50
+total_time:7.3459
+total_time:7.32009
+total_time:8.57657
+total_time:7.71353
+total_time:7.98417
+./version5_CPU 4 6 0 1024 50
+total_time:5.18587
+total_time:5.6953
+total_time:5.56815
+total_time:5.21454
+total_time:5.84159
+./version5_CPU 4 8 0 1024 50
+total_time:25.5811
+total_time:18.7883
+total_time:18.5001
+total_time:11.4798
+total_time:8.00168
+./version5_CPU 4 10 0 1024 50
+total_time:28.9219
+total_time:27.4366
+total_time:36.2118
+total_time:31.8933
+total_time:29.8928
+./version5_CPU 4 12 0 1024 50
+total_time:45.3181
+total_time:59.5135
+total_time:50.4053
+total_time:38.6227
+total_time:32.9743
+./version5_CPU 4 14 0 1024 50
+total_time:29.8966
+total_time:32.5374
+total_time:38.0352
+total_time:39.3084
+total_time:36.7584
+./version5_CPU 4 16 0 1024 50
+total_time:34.0041
+total_time:41.1074
+total_time:32.6519
+total_time:52.7195
+total_time:39.4045
+./version5_CPU 6 1 0 1024 50
+total_time:26.3825
+total_time:26.3982
+total_time:26.3541
+total_time:26.3954
+total_time:26.3786
+./version5_CPU 6 2 0 1024 50
+total_time:15.9393
+total_time:14.9713
+total_time:16.0282
+total_time:17.6597
+total_time:15.9923
+./version5_CPU 6 4 0 1024 50
+total_time:7.49954
+total_time:8.27186
+total_time:8.52556
+total_time:7.23478
+total_time:7.67514
+./version5_CPU 6 6 0 1024 50
+total_time:23.1049
+total_time:11.0904
+total_time:21.1125
+total_time:7.18559
+total_time:8.13556
+./version5_CPU 6 8 0 1024 50
+total_time:30.917
+total_time:27.0576
+total_time:31.1562
+total_time:21.4768
+total_time:29.818
+./version5_CPU 6 10 0 1024 50
+total_time:50.0774
+total_time:50.237
+total_time:64.9009
+total_time:43.8315
+total_time:46.8506
+./version5_CPU 6 12 0 1024 50
+total_time:40.7688
+total_time:55.6064
+total_time:57.2197
+total_time:46.2753
+total_time:31.8884
+./version5_CPU 6 14 0 1024 50
+total_time:46.4027
+total_time:48.8982
+total_time:37.3493
+total_time:32.3067
+total_time:45.1561
+./version5_CPU 6 16 0 1024 50
+total_time:33.9792
+total_time:40.613
+total_time:26.5218
+total_time:52.3797
+total_time:32.3827
+./version5_CPU 8 1 0 1024 50
+total_time:26.3964
+total_time:27.1103
+total_time:26.4633
+total_time:26.4156
+total_time:26.4495
+./version5_CPU 8 2 0 1024 50
+total_time:14.8025
+total_time:15.0819
+total_time:14.7064
+total_time:14.6053
+total_time:15.2731
+./version5_CPU 8 4 0 1024 50
+total_time:16.7595
+total_time:11.7607
+total_time:22.6843
+total_time:13.565
+total_time:42.7671
+./version5_CPU 8 6 0 1024 50
+total_time:18.4045
+total_time:13.5305
+total_time:14.836
+total_time:15.7674
+total_time:12.9077
+./version5_CPU 8 8 0 1024 50
+total_time:40.5361
+total_time:27.7509
+total_time:40.3517
+total_time:33.8052
+total_time:44.9437
+./version5_CPU 8 10 0 1024 50
+total_time:46.251
+total_time:42.1282
+total_time:50.7308
+total_time:40.1411
+total_time:46.4974
+./version5_CPU 8 12 0 1024 50
+total_time:37.2851
+total_time:51.3167
+total_time:36.6376
+total_time:50.4361
+total_time:49.3578
+./version5_CPU 8 14 0 1024 50
+total_time:41.187
+total_time:46.999
+total_time:45.2629
+total_time:46.9562
+total_time:26.7991
+./version5_CPU 8 16 0 1024 50
+total_time:56.758
+total_time:73.6091
+total_time:54.3897
+total_time:53.9693
+total_time:93.489
+./version5_CPU 10 1 0 1024 50
+total_time:27.1716
+total_time:27.2245
+total_time:27.1794
+total_time:27.1592
+total_time:27.8944
+./version5_CPU 10 2 0 1024 50
+total_time:15.6754
+total_time:14.3476
+total_time:14.2388
+total_time:14.3582
+total_time:14.2582
+./version5_CPU 10 4 0 1024 50
+total_time:19.4953
+total_time:19.4348
+total_time:16.5033
+total_time:18.1589
+total_time:35.7618
+./version5_CPU 10 6 0 1024 50
+total_time:17.9164
+total_time:11.9853
+total_time:16.1381
+total_time:22.5804
+total_time:12.4413
+./version5_CPU 10 8 0 1024 50
+total_time:16.1323
+total_time:10.2773
+total_time:28.0516
+total_time:21.4231
+total_time:13.3507
+./version5_CPU 10 10 0 1024 50
+total_time:16.9787
+total_time:17.0802
+total_time:19.2472
+total_time:23.8062
+total_time:20.8596
+./version5_CPU 10 12 0 1024 50
+total_time:26.1276
+total_time:27.6859
+total_time:42.0869
+total_time:26.8473
+total_time:53.0862
+./version5_CPU 10 14 0 1024 50
+total_time:27.5959
+total_time:26.8518
+total_time:25.312
+total_time:66.3401
+total_time:52.0155
+./version5_CPU 10 16 0 1024 50
+total_time:14.1576
+total_time:27.4417
+total_time:65.193
+total_time:22.7033
+total_time:18.6336

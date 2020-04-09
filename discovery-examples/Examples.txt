@@ -1,0 +1,202 @@
+blackscholes & matmult (maybe PTH_fluidanimate) for pure farm
+
+a reduced pgpry & bfs for pure pipeline
+
+convolution as a combination
+
+
+cholmsky - 
+nqueens - is a pipeline of two farms
+
+
+Ordering
+
+- blackscholes
+- mandelbrot
+- nqueens (*)
+- cholesky (*)
+- convolution
+
+-- [Pipeline] -------------------------------------------------------------------------------------
+
+- PTH_pipelinetest
+  + Pipeline of two farms.
+  + This one is already done because it's the example we used to construct the refactorings.
+
+- PTH_simplePipeA
+  + Pipeline
+  + PThread and sequential versions.
+  + This one is a bit odd because you're producing n of the same stage.
+    * `iterate func xs !! n`
+
+- PTH_simplePipeB
+  + Pipeline
+  + PThread and sequential versions.
+
+- pdp-benchmarks/convolution
+  + Pipeline.
+  + TBB and sequential only.
+  + Probably a good example for pipeline; it's not too complicated but is more 'real-world'.
+
+- SEQ_bfs
+  + Farm (if you squint at it).
+    * It's a breadth-first traversal of a graph;
+    * You'd have to convert the graph into an ordered list/queue/whatever of nodes.
+    * Could be a Pipeline: stage 1 takes the graph & converts it, stage 2 does the operation.
+      > This might be a nice example, actually; the parallel version would be a bit odd compared with the _actual_ operation.
+  + Sequential only.
+
+- SEQ_commutative_1
+  + Pipeline
+  + Sequential only.
+  + Extremely trivial.
+
+- SEQ_commutative_2
+  + Pipeline/Map-Reduce
+  + Sequential only.
+  + Still trivial, but the side-effect might make it interesting?
+    * The side-effect is the only thing you'd need the reduce for.
+    * Strictly speaking, you'd not even need that but...
+
+- SEQ_histo
+  + Farm/Pipeline/Map-Reduce
+  + Sequential only.
+
+- SEQ_histo2
+  + Farm/Pipeline/Map-Reduce
+  + Sequential only.
+
+- PTH_pgpry
+  + Pipeline of two farms.
+  + It's very complicated, and we have the abstract version of this in PTH_pipelinetest.
+
+- SEQ_pgpry
+  + Sequential version of PTH_pgpry.
+
+- TBB_pgpry
+  + TBB version of PTH_pgpry.
+
+-- [Farm] -----------------------------------------------------------------------------------------
+
+- matmult
+  + Farm.
+  + PThread and sequential versions.
+
+- mandelbrot_set
+  + Farm.
+  + Sequential only?
+
+- PTH_parsec_blackscholes
+  + Farm
+  + PThreads only.
+  + The fact that the second argument to pthread_join isn't NULL is possibly interesting?
+
+- pdp-benchmarks/ant-colony
+  + Farm.
+  + Would probably be a good example barring the need to create a pthread farm.
+  + TBB and sequential versions.
+
+- PTH_fluidanimate
+  + Farm (or looks like one)
+  + From parsec so it's horrible. Would be nice if we could prune these to make them easier.
+  + Sequential and pthread versions.
+
+- SEQ_olden_em3d
+  + Pipeline of two Farms (suspected)
+  + Looks relatively complicated (compared with the trivial examples, certainly).
+  + From the Olden benchmarks?
+
+- SEQ_list1-map
+  + Farm
+    * Possibly a Pipeine of 3 stages if you convert into an array then back into a linked list
+  + Sequential only
+
+- SEQ_axpy
+  + Farm.
+  + Level 1 BLAS operation. (Wait, where is the \alpha here?)
+  + Extremely trivial.
+    * `zipWith (+)`
+  + Sequential only.
+
+- SEQ_mm
+  + Farm
+  + Trivial matrix multiplication.
+
+- SEQ_smm
+  + Farm.
+  + Sparse matrix multiply; it's a bit more complicated than the standard matmult.
+  + Sequential only.
+
+- SEQ_spmv
+  + Farm.
+  + Sequential only.
+  + Sparse matrix vector multiplication.
+  + It's just a kernel so no main or anything.
+
+- MPI_bioperf_clustalW_draft
+  + Farm
+  + MPI version only
+
+- OMP_slambench_depth2vertex_draft
+  + Farm
+  + OpenMP only. 
+    * This one looks delightfully trivial to convert.
+    * No `main` function, however. It's a kernel, that's why.
+    * From slambench
+
+- pdp-benchmarks/blackscholes
+  + Farm, I think it is.
+  + Parsec. Here be Dragons.
+
+- pdp-benchmarks/mandelbrot
+  + Same as above.
+
+- pdp-benchmarks/transfil
+  + Looks suspiciously like a Farm.
+    * The for loop in `runScenarios`.
+  + Seems to be instrumented.
+  + Here be a whole horde of dragons... Very complicated.
+  + Sequential only.
+
+-- [Pipeline?] ------------------------------------------------------------------------------------
+
+-- [Farm?] ----------------------------------------------------------------------------------------
+
+- PTH_simplejacobi
+  + Stencil, but there's probably a farm in there.
+  + PThread and sequential versions.
+
+- OMP_slambench_bilateralFilter_draft
+  + Stencil; possibly a farm?
+  + OpenMP only
+
+-- [Ignore] ---------------------------------------------------------------------------------------
+
+- PTH_parsec_bodytrack
+  + Far too complicated. Will come back to this one if need be.
+
+- SEQ_quicksort
+  + Divide-and-Conquer (but presumably you could farm out the `while` loop)
+  + Sequential only.
+
+- SEQ_hoist_select
+  + Probably another Map-Reduce.
+  + Sequential only.
+
+- SEQ_associative
+  + Reduce(?)
+  + Extremely trivial; it concatenates strings...
+  + Sequential only.
+
+- SEQ_stencil
+  + Stencil.
+  + It's a kernal.
+  + Not going to bother with this one.
+
+- PTH_nearPipeB
+  + Broken pipeline by design.
+
+- SEQ_mm_offender
+  + Broken...?
+
+-- [End] ------------------------------------------------------------------------------------------

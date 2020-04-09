@@ -1,0 +1,10 @@
+#
+# pgpry - PGP private key recovery
+# Copyright (C) 2010 Jonas Gehring
+#
+
+AT_INIT()
+AT_COPYRIGHT([Copyright (C) 2010 Jonas Gehring])
+
+m4_include([test_units.at])
+m4_include([test_behaviour.at])

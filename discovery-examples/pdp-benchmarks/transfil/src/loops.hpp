@@ -1,0 +1,18 @@
+#ifndef LOOPS_HPP
+#define LOOPS_HPP
+
+enum {
+  LOOP54,
+  LOOP233,
+  LOOP94,
+  LOOP78,
+  LOOP157,
+  LOOP183,
+  LOOP90,
+  LOOP120,
+  LOOP217,
+  LOOP464,
+  LOOP_NUMBER
+} __mark;
+
+#endif /* LOOPS_HPP */

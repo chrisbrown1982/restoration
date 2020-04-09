@@ -1,0 +1,5 @@
+for Y in 1 2 3 4 5
+do
+	./seq $Y 0 2048 500
+done
+

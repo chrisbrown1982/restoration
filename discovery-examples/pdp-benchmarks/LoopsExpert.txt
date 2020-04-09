@@ -1,0 +1,133 @@
+Question: are the iterations of this loop map/reduce-parallizable in algorithmic principle (eg possibly with some tweak)
+  
+ant-colony,90    1 0
+ant-colony,120   0 0
+ant-colony,123   1 1
+ant-colony,134   0 1
+ant-colony,211   1 0
+ant-colony,212   1 0    
+ant-colony,258   0 0
+ant-colony,259   1 0 
+
+blackscholes,285  1 0 
+blackscholes,290  1 0 
+blackscholes,373  0 0
+
+
+convolution,111  1 0
+convolution,112  1 0
+convolution,119  1 1
+convolution,120  1 1
+convolution,158  1 0
+
+
+mandelbrot,33    0 0
+mandelbrot,60    1 0
+mandelbrot,62    1 0 
+
+transfil,54   1 0
+transfil,78   1 0
+transfil,90   1 0
+transfil,94   0 0
+transfil,120  0 0
+transfil,157  0 0
+transfil,183  1 0
+transfil,217  1 1
+transfil,233  1 0
+transfil,464  1 0
+
+
+Detail
+------
+
+
+[Note   Simple. Surprised it is a hot spot]
+ant-colony,90      Map: yes Reduce: no.
+
+[Note:   THIS IS A DIFFICULT ONE, long with many global vars! ]
+ant-colony,120     Map: I don't think so (update of eta). Reduce: Don't think so
+
+[Note: this is a fairly simple reduction, with a small fused map, which includes a conditional. Like convolution 119/120
+and transfil 217]
+ant-colony,123     Map: yes  Reduce: yes
+
+[Note: this is a max-reduction which also finds the relevant index]
+ant-colony,134     Map: no  Reduce: yes
+
+[Note:  211 and 212 are collectively a simple 2D map, exploited in the TBB version]
+ant-colony,211   Map: yes   Reduce: no    
+ant-colony,212   Map: yes   Reduce: no    
+
+[Note: This is "simulated time-step" iteration hence strong dependencies]
+ant-colony,258   Map: no  Reduce: no
+
+[Note: This is a "for all ants independently" iteration, within each time step (Loop258). Exploited in TBB]                 
+ant-colony,259   Map: yes Reduce no 
+
+[Note an artifical loop which repeats the whole task, presumably to bulk up run time, mappable
+if we privatize (or atomicize) updates to the prices array]
+blackscholes,285  Map: yes Reduce: no
+
+[Note simple parallel loop, exploited in OpenMP code, there is potential reduction if ERRCHECK is def'ed]
+blackscholes,290  Map: yes Reduce: no
+
+[Note this is just reading a file into an array, line by line, but obviously pragmatic problems]
+blackscholes,373  Map: no Reduce: no 
+
+[Note: 111 and 112 are the nested "for every point in the image" loops]
+convolution,111  Map: yes  Reduce: no 
+convolution,112  Map: yes  Reduce: no
+
+[Note: 119 and 120 are the "for each point in the 2D stencil" loops, there is some mappable work before the summation
+ this a typical example of hand-fusing the map into the reduction loop. NB like transfil loop 217, and ant-coloony loop 123]
+convolution,119  Map: yes Reduce: yes
+convolution,120  Map: yes Reduce: yes
+
+[Note: This is the "for all images" loop, trivially parallel, mapped in the TBB ref code]
+convolution,158  Map: yes Reduce: no 
+
+[Note this is the classic mandel pointwise recurrence]
+mandelbrot,33,0,0  Map: no  Reduce: no
+
+[Note 60, 62 are the "for all rows, columns loops" across the domain]
+mandelbrot,60,0,0  Map: yes  Reduce: no
+mandelbrot,62,0,0  Map: yes  Reduce: no
+
+[Note, transfil is a simulation program, each simulation involves various entities evolving over a 
+ a series of time steps, with a further outer loop repeating the whole process with different
+randomization. There is a recurring issue wrt the generated random sequences used at various
+points: if we parallelize these loops we will get different randomization and hence different
+results. I don't know that application but I am guessing this is a case where as long as the 
+random numbers have the same properties, it probably doesn't matter - so I am classifying such
+loop as mappable, unless there is some other problem]
+
+[Note: this is the "for each replica" loop, so has the random sequence issue]
+transfil,54  Map: yes  Reduce: no
+
+[Note: this is the "for each scenario" loop]
+transfil,78  Map: yes  Reduce: no
+
+[Note: just like loop 183, this finds a random number with a specified property, random sequence issue]
+transfil,90  Map: yes  Reduce: no
+
+[Note: this is a time-step evolution loop]
+transfil,94  Map: no  Reduce: no
+
+[Note: another time step evolution loop]
+transfil,120  Map: no  Reduce: no
+
+[Note: another time step evolution loop]
+transfil,157  Map: no  Reduce: no
+
+[Note: just like loop90, finds a random number with a specified property, random sequence issue]
+transfil,183  Map: yes  Reduce: no
+
+[Note: this is a reduction across a "population", with minor map work fused into the same loop, like
+ convolution loop 119/120, and ant-colony loop 123]
+transfil,217  Map: yes Reduce: yes
+
+[Note: within one time step, this does independent work "for all hosts"]
+transfil,233   Map: yes Reduce: no
+
+[Note: within one time step, this does independent work "for all hosts"]
+transfil,464 Map: yes Reduce: no

@@ -1,0 +1,17 @@
+*.o
+/Makefile
+config.h
+config.status
+config.log
+src/.deps/
+src/Makefile
+src/pgpry
+stamp-h1
+tests/Makefile
+tests/atconfig
+tests/atlocal
+tests/formats-check.pl
+tests/formats-keys.tar.bz2
+tests/utests/.deps/
+tests/utests/Makefile
+tests/utests/utests

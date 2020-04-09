@@ -1,0 +1,12 @@
+for Y in 1 2 4 6 8 10
+do
+	for X in 1 2 4 6 8 10 12 14 16
+	do
+		echo "./version5_CPU $Y $X 0 1024 500"
+		for N in 1 2 3 4 5
+  		do
+			./version5_CPU $Y $X 0 1024 500
+		done
+	done
+done
+

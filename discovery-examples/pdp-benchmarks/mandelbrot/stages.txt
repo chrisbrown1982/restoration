@@ -1,0 +1,10 @@
+mandel.cpp
+mandel_pth.cpp -- naive pthreaded version (possibly too naive?)
+  + Note that I had to make a few arguments global (because I couldn't use a lambda with a pthread_create)
+  + Maybe a struct would have worked (what about casting?)
+mandel_pth.1.cpp -- primitive pthread removal
+  + Unsurprisingly, this is trivial and works out of the box
+mandel_pth.2.cpp -- beginning shaping: remove empty for-loops
+  + Removes the for loop that the pthread_join calls were in (not sure if this is part of the pth.1?)
+mandel_pth.3.cpp -- Introduce TBB farm
+  + As in blackscholes

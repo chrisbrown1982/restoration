@@ -1,0 +1,40 @@
+###############################################################################
+# Commutative functions in the benchmark (user-defined).
+###############################################################################
+
+# Functions known to be commutative.
+fun:cabs=commutative
+fun:llvm.*=commutative
+
+# Quasi-commutative functions.
+fun:vsnprintf=commutative
+fun:malloc=commutative
+fun:free=commutative
+fun:rand=commutative
+# --- operator new[](unsigned long)
+fun:_Znam=commutative
+# --- operator new(unsigned long)
+fun:_Znwm=commutative
+# --- std::allocator<char>::allocator()
+fun:_ZNSaIcEC1Ev=commutative
+# --- std::allocator<char>::~allocator()
+fun:_ZNSaIcED1Ev=commutative
+
+# Other C functions.
+fun:fopen=commutative
+fun:fread=commutative
+fun:fscanf=commutative
+
+# CXX functions.
+fun:_ZNKSt7__cxx1112basic_string*=commutative
+fun:_ZNSolsEPFRSoS_E=commutative
+fun:_ZNSt7__cxx1112basic_string*=commutative
+fun:_ZSt4endlIcSt11char_traits*=commutative
+fun:_ZStlsIcSt11char_traits*=commutative
+fun:_ZStlsISt11char_traits*=commutative
+
+# libpng functions (used in convolution).
+fun:png_*=commutative
+
+# libgsl functions (used in transfil).
+fun:gsl_*=commutative

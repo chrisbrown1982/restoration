@@ -1,0 +1,57 @@
+--- ../../PTH_pgpry/src/attack.cpp	2018-09-03 15:11:21.000000000 +0100
++++ attack.cpp	2018-09-04 15:18:02.000000000 +0100
+@@ -117,11 +117,13 @@
+ 	ctx->m_mutex.lock();
+ 
+ 	// Start signal handler
+-	SysUtils::SigHandler::block(SIGINT);
+-	AttackSigHandler sigHandler(ctx);
+-	sigHandler.start();
++	//SysUtils::SigHandler::block(SIGINT);
++	//AttackSigHandler sigHandler(ctx);
++	//sigHandler.start();
+ 
+ 	// Start threads 
++	// In sequential version, this is done in a loop...
++
+ 	for (uint32_t i = 0; i < ctx->m_guessers.size(); i++) {
+ 		if (reader) {
+ 			try {
+@@ -134,7 +136,15 @@
+ 				return EXIT_FAILURE;
+ 			}
+ 		}
+-		ctx->m_guessers[i]->start(reader != NULL);
++	}
++
++  for (uint32_t i = 0; i < ctx->m_guessers.size(); i++) {
++    ctx->m_guessers[i]->firstInit();
++	}
++  
++
++	/*
++	ctx->m_guessers[i]->start(reader != NULL);
+ 	}
+ 	for (uint32_t i = 0; i < ctx->m_regexFilters.size(); i++) {
+ 		ctx->m_regexFilters[i]->start();
+@@ -144,10 +154,19 @@
+ 	}
+ 	for (uint32_t i = 0; i < ctx->m_testers.size(); i++) {
+ 		ctx->m_testers[i]->start();
++	} */
++
++	while(!(ctx->m_condition.check())) {
++		ctx->m_guessers[0]->publicRun();
++    if (ctx->m_regexFilters.size() > 0)
++      ctx->m_regexFilters[0]->publicRun();
++    if (ctx->m_prefixSuffixFilters.size() >0)
++      ctx->m_prefixSuffixFilters[0]->publicRun();
++		ctx->m_testers[0]->publicRun();
+ 	}
+ 
+ 	// Now all we've got to do is wait
+-	ctx->m_condition.wait(&ctx->m_mutex);
++	//ctx->m_condition.wait(&ctx->m_mutex);
+ 
+ 	ctx->m_mutex.unlock();
+ 	if (ctx->m_status & STATUS_EXHAUSTED) {

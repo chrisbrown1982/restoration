@@ -1,0 +1,16 @@
+--- ../../PTH_pgpry/src/attack.h	2018-09-03 15:00:49.000000000 +0100
++++ attack.h	2018-09-04 15:18:02.000000000 +0100
+@@ -89,9 +89,13 @@
+ 		Memblock m_phrase;
+ 		Buffer m_buffers[4];
+ 		std::vector<Guessers::Guesser *> m_guessers;
++		//Guessers::Guesser *m_guesser;
+ 		std::vector<RegexFilter *> m_regexFilters;
++		//RegexFilter *m_regexFilters;
+ 		std::vector<PrefixSuffixFilter *> m_prefixSuffixFilters;
++		//PrefixSuffixFilter *m_prefixSuffixFilters;
+ 		std::vector<Tester *> m_testers;
++		//Tester *m_testers;
+ 		std::vector<SysUtils::Thread *> m_threads;
+ 		std::string m_errString;
+ 		int32_t m_status;

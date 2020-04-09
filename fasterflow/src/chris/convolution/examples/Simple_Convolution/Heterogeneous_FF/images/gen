@@ -1,0 +1,4 @@
+for i in {1..500}
+do
+	cp image1.png image$i.png
+done

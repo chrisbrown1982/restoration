@@ -1,0 +1,8 @@
+# 
+# pgpry 0.1.1 - State dump
+# 
+# Command-line options
+arg : ./pgpry
+arg : -g
+arg : random
+# Guesser state

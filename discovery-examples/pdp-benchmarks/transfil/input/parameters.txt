@@ -1,0 +1,30 @@
+[Host]
+0.00167		tau death rate 
+0.99	 	sysCompN parameters for systematic non-compliance of bed-nets
+0.0	 	rhoBU correlation between non-compliance and bite risk.
+0.0 		rhoCN correlation of non-compliance between bed-nets and MDA
+0.0 		sysComp parameters for systematic non-compliance. Larger means more variance in distribution so more correlation between rounds
+0.0075	0.002	mean and max importation rate
+0.01	0.14	min and max values for k
+
+[Vector]
+0	 	mosquitoSpecies species of mosquito 0 - Anopheles, 1 - Culex
+5	 	L3 init larvae density.
+10	 	lbda	bite rate per mosquito per month
+0.37	 	g Proportion of mosquitoes which pick up infection when biting an infected host
+4.395	 	kappas1 l3 uptake and development
+0.055		r1 l3 uptake and development
+5.0	 	sig baseline death rate of mosquitos
+150	53	mean and max v to h ratio
+
+[Worm]
+0.0	 	nu poly-monogamy parameter.
+1.0		alpha mf birth rate per FW
+1		fecRed reduction in fecundity due to MDA.
+0.414	 	psi1 Proportion of L3 leaving mosquito per bite
+0.32	 	psi2 Proportion of L3 leaving mosquito that enter host
+0.00275		s2 Prop of L3 that enter human host developing into adult.
+0.0104		mu death rate of worms
+0.1		gamma mf death rate
+0.95	 	mfPropMDA proportion of mf killed due to MDA
+0.55	 	wPropMDA proportion of worms killed due to MDA

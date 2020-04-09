@@ -1,0 +1,36 @@
+Taken from Parsec Benchmark suite.
+
+Description:
+------------
+The Black-Scholes equation is a differential equation that
+describes how, under a certain set of assumptions, the value of an option
+changes as the price of the underlying asset changes.
+
+The formula for a put option is similar. The cumulative normal distribution
+function, CND(x), gives the probability that normally distributed random
+variable will have a value less than x. There is no closed form expression for
+this function, and as such it must be evaluated numerically. Alternatively,
+the values of this function may be pre-computed and hard-coded in the table; in
+this case, they can be obtained at runtime using table lookup. We compare both
+of these approaches in our work. The other parameters are as follows:
+S underlying asset.s current price, X the strike price, T time to the
+expiration date, r risk-less rate of return, and v stock.s volatility.
+
+Based on this formula, one can compute the option price analytically based on
+the five input parameters.  Using this analytical approach to price option,
+the limiting factor lies with the amount of floating-point calculation a
+processor can perform.
+
+Parallelisation:
+----------------
+A simple map/farm that calculates the prices of multiple options in parallel.
+The code is parallelised using pthreads, where worker function executes
+the function for calculating the price of one option on a chunk of options
+(size of a chunk is determined by the index of the thread)
+
+Testing the application:
+------------------------
+The program accepts 3 parameters - number of threads, input file and output file.
+Input file can be generated using inputGen binary. inputGen accepts as a paremeter
+the number of options. For sensible runtimes, you need 100,000ish options
+

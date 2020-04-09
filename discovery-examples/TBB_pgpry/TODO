@@ -1,0 +1,10 @@
+Unsorted TODO list for pgpry
+============================
+
+Future work:
+ - Add support for saving key data unencrypted
+ - Add more tests (help screen, version screen, failure handling etc.) 
+ - Add networking support
+ - Add CUDA/OpenCL support
+ - Add missing algorithms: DES, Triple-DES and Twofish, MD5, RIPE-MD, SHA >= 256
+ - Add single-core mode (one single thread)

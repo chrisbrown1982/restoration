@@ -1,0 +1,3408 @@
+./convolution2 1 1 100
+=============
+size of tq is 0 100
+total_time, 16.7654
+total lock, 705
+total unlock, 705
+lock char, 202
+unlock char, 202
+lock tq, 300
+lock tq, 300
+lock t_task_t, 203
+lock t_task_t, 203
+Worker1 Time, 0.00039354
+Worker2 Time, 0.00166767
+=============
+=============
+size of tq is 0 100
+total_time, 16.9435
+total lock, 705
+total unlock, 705
+lock char, 202
+unlock char, 202
+lock tq, 300
+lock tq, 300
+lock t_task_t, 203
+lock t_task_t, 203
+Worker1 Time, 0.00039354
+Worker2 Time, 0.00168457
+=============
+=============
+size of tq is 0 100
+total_time, 16.7716
+total lock, 705
+total unlock, 705
+lock char, 202
+unlock char, 202
+lock tq, 300
+lock tq, 300
+lock t_task_t, 203
+lock t_task_t, 203
+Worker1 Time, 0.00039397
+Worker2 Time, 0.00165875
+=============
+=============
+size of tq is 0 100
+total_time, 16.9044
+total lock, 705
+total unlock, 705
+lock char, 202
+unlock char, 202
+lock tq, 300
+lock tq, 300
+lock t_task_t, 203
+lock t_task_t, 203
+Worker1 Time, 0.0003937
+Worker2 Time, 0.00176151
+=============
+=============
+size of tq is 0 100
+total_time, 16.9319
+total lock, 705
+total unlock, 705
+lock char, 202
+unlock char, 202
+lock tq, 300
+lock tq, 300
+lock t_task_t, 203
+lock t_task_t, 203
+Worker1 Time, 0.00039357
+Worker2 Time, 0.00168537
+=============
+./convolution2 1 2 100
+=============
+size of tq is 0 100
+total_time, 8.53241
+total lock, 707
+total unlock, 707
+lock char, 202
+unlock char, 202
+lock tq, 300
+lock tq, 300
+lock t_task_t, 205
+lock t_task_t, 205
+Worker1 Time, 0.00039419
+Worker2 Time, 0.00167625
+=============
+=============
+size of tq is 0 100
+total_time, 8.53276
+total lock, 707
+total unlock, 707
+lock char, 202
+unlock char, 202
+lock tq, 300
+lock tq, 300
+lock t_task_t, 205
+lock t_task_t, 205
+Worker1 Time, 0.00040026
+Worker2 Time, 0.00165735
+=============
+=============
+size of tq is 0 100
+total_time, 8.4667
+total lock, 707
+total unlock, 707
+lock char, 202
+unlock char, 202
+lock tq, 300
+lock tq, 300
+lock t_task_t, 205
+lock t_task_t, 205
+Worker1 Time, 0.00039377
+Worker2 Time, 0.00166841
+=============
+=============
+size of tq is 0 100
+total_time, 8.49369
+total lock, 707
+total unlock, 707
+lock char, 202
+unlock char, 202
+lock tq, 300
+lock tq, 300
+lock t_task_t, 205
+lock t_task_t, 205
+Worker1 Time, 0.00039357
+Worker2 Time, 0.00168435
+=============
+=============
+size of tq is 0 100
+total_time, 8.45036
+total lock, 707
+total unlock, 707
+lock char, 202
+unlock char, 202
+lock tq, 300
+lock tq, 300
+lock t_task_t, 205
+lock t_task_t, 205
+Worker1 Time, 0.00039401
+Worker2 Time, 0.00168354
+=============
+./convolution2 1 4 100
+=============
+size of tq is 0 100
+total_time, 4.46269
+total lock, 735
+total unlock, 735
+lock char, 202
+unlock char, 202
+lock tq, 300
+lock tq, 300
+lock t_task_t, 233
+lock t_task_t, 233
+Worker1 Time, 0.00041022
+Worker2 Time, 0.00169311
+=============
+=============
+size of tq is 0 100
+total_time, 4.48885
+total lock, 732
+total unlock, 732
+lock char, 202
+unlock char, 202
+lock tq, 300
+lock tq, 300
+lock t_task_t, 230
+lock t_task_t, 230
+Worker1 Time, 0.00041093
+Worker2 Time, 0.00167905
+=============
+=============
+size of tq is 0 100
+total_time, 4.42646
+total lock, 733
+total unlock, 733
+lock char, 202
+unlock char, 202
+lock tq, 300
+lock tq, 300
+lock t_task_t, 231
+lock t_task_t, 231
+Worker1 Time, 0.00041052
+Worker2 Time, 0.0018251
+=============
+=============
+size of tq is 0 100
+total_time, 4.47569
+total lock, 721
+total unlock, 721
+lock char, 202
+unlock char, 202
+lock tq, 300
+lock tq, 300
+lock t_task_t, 219
+lock t_task_t, 219
+Worker1 Time, 0.00039606
+Worker2 Time, 0.00172871
+=============
+=============
+size of tq is 0 100
+total_time, 4.50168
+total lock, 721
+total unlock, 721
+lock char, 202
+unlock char, 202
+lock tq, 300
+lock tq, 300
+lock t_task_t, 219
+lock t_task_t, 219
+Worker1 Time, 0.00039876
+Worker2 Time, 0.00170851
+=============
+./convolution2 1 6 100
+=============
+size of tq is 0 100
+total_time, 4.21336
+total lock, 808
+total unlock, 808
+lock char, 202
+unlock char, 202
+lock tq, 300
+lock tq, 300
+lock t_task_t, 306
+lock t_task_t, 306
+Worker1 Time, 0.0004126
+Worker2 Time, 0.0017106
+=============
+=============
+size of tq is 0 100
+total_time, 4.19685
+total lock, 808
+total unlock, 808
+lock char, 202
+unlock char, 202
+lock tq, 300
+lock tq, 300
+lock t_task_t, 306
+lock t_task_t, 306
+Worker1 Time, 0.00041209
+Worker2 Time, 0.00174443
+=============
+=============
+size of tq is 0 100
+total_time, 4.1421
+total lock, 808
+total unlock, 808
+lock char, 202
+unlock char, 202
+lock tq, 300
+lock tq, 300
+lock t_task_t, 306
+lock t_task_t, 306
+Worker1 Time, 0.0003946
+Worker2 Time, 0.0018072
+=============
+=============
+size of tq is 0 100
+total_time, 4.19014
+total lock, 808
+total unlock, 808
+lock char, 202
+unlock char, 202
+lock tq, 300
+lock tq, 300
+lock t_task_t, 306
+lock t_task_t, 306
+Worker1 Time, 0.00039494
+Worker2 Time, 0.00169043
+=============
+=============
+size of tq is 0 100
+total_time, 4.20535
+total lock, 808
+total unlock, 808
+lock char, 202
+unlock char, 202
+lock tq, 300
+lock tq, 300
+lock t_task_t, 306
+lock t_task_t, 306
+Worker1 Time, 0.00039824
+Worker2 Time, 0.00175205
+=============
+./convolution2 1 8 100
+=============
+size of tq is 0 100
+total_time, 4.6993
+total lock, 810
+total unlock, 810
+lock char, 202
+unlock char, 202
+lock tq, 300
+lock tq, 300
+lock t_task_t, 308
+lock t_task_t, 308
+Worker1 Time, 0.0003984
+Worker2 Time, 0.00170899
+=============
+=============
+size of tq is 0 100
+total_time, 4.33809
+total lock, 810
+total unlock, 810
+lock char, 202
+unlock char, 202
+lock tq, 300
+lock tq, 300
+lock t_task_t, 308
+lock t_task_t, 308
+Worker1 Time, 0.00041075
+Worker2 Time, 0.0017507
+=============
+=============
+size of tq is 0 100
+total_time, 4.22363
+total lock, 810
+total unlock, 810
+lock char, 202
+unlock char, 202
+lock tq, 300
+lock tq, 300
+lock t_task_t, 308
+lock t_task_t, 308
+Worker1 Time, 0.00039893
+Worker2 Time, 0.0018345
+=============
+=============
+size of tq is 0 100
+total_time, 4.22953
+total lock, 810
+total unlock, 810
+lock char, 202
+unlock char, 202
+lock tq, 300
+lock tq, 300
+lock t_task_t, 308
+lock t_task_t, 308
+Worker1 Time, 0.00041079
+Worker2 Time, 0.00170976
+=============
+=============
+size of tq is 0 100
+total_time, 4.17829
+total lock, 810
+total unlock, 810
+lock char, 202
+unlock char, 202
+lock tq, 300
+lock tq, 300
+lock t_task_t, 308
+lock t_task_t, 308
+Worker1 Time, 0.00041176
+Worker2 Time, 0.00175786
+=============
+./convolution2 1 12 100
+=============
+size of tq is 0 100
+total_time, 4.33702
+total lock, 814
+total unlock, 814
+lock char, 202
+unlock char, 202
+lock tq, 300
+lock tq, 300
+lock t_task_t, 312
+lock t_task_t, 312
+Worker1 Time, 0.000411
+Worker2 Time, 0.0016859
+=============
+=============
+size of tq is 0 100
+total_time, 4.16106
+total lock, 814
+total unlock, 814
+lock char, 202
+unlock char, 202
+lock tq, 300
+lock tq, 300
+lock t_task_t, 312
+lock t_task_t, 312
+Worker1 Time, 0.00039592
+Worker2 Time, 0.00170324
+=============
+=============
+size of tq is 0 100
+total_time, 4.1809
+total lock, 814
+total unlock, 814
+lock char, 202
+unlock char, 202
+lock tq, 300
+lock tq, 300
+lock t_task_t, 312
+lock t_task_t, 312
+Worker1 Time, 0.00041259
+Worker2 Time, 0.00169035
+=============
+=============
+size of tq is 0 100
+total_time, 4.19091
+total lock, 814
+total unlock, 814
+lock char, 202
+unlock char, 202
+lock tq, 300
+lock tq, 300
+lock t_task_t, 312
+lock t_task_t, 312
+Worker1 Time, 0.00041105
+Worker2 Time, 0.00176466
+=============
+=============
+size of tq is 0 100
+total_time, 4.3772
+total lock, 814
+total unlock, 814
+lock char, 202
+unlock char, 202
+lock tq, 300
+lock tq, 300
+lock t_task_t, 312
+lock t_task_t, 312
+Worker1 Time, 0.00039526
+Worker2 Time, 0.00173964
+=============
+./convolution2 1 14 100
+=============
+size of tq is 0 100
+total_time, 4.18149
+total lock, 816
+total unlock, 816
+lock char, 202
+unlock char, 202
+lock tq, 300
+lock tq, 300
+lock t_task_t, 314
+lock t_task_t, 314
+Worker1 Time, 0.00039463
+Worker2 Time, 0.00175235
+=============
+=============
+size of tq is 0 100
+total_time, 4.17308
+total lock, 816
+total unlock, 816
+lock char, 202
+unlock char, 202
+lock tq, 300
+lock tq, 300
+lock t_task_t, 314
+lock t_task_t, 314
+Worker1 Time, 0.00039491
+Worker2 Time, 0.00183441
+=============
+=============
+size of tq is 0 100
+total_time, 4.31092
+total lock, 816
+total unlock, 816
+lock char, 202
+unlock char, 202
+lock tq, 300
+lock tq, 300
+lock t_task_t, 314
+lock t_task_t, 314
+Worker1 Time, 0.00039941
+Worker2 Time, 0.00168665
+=============
+=============
+size of tq is 0 100
+total_time, 4.41738
+total lock, 816
+total unlock, 816
+lock char, 202
+unlock char, 202
+lock tq, 300
+lock tq, 300
+lock t_task_t, 314
+lock t_task_t, 314
+Worker1 Time, 0.00061734
+Worker2 Time, 0.00166727
+=============
+=============
+size of tq is 0 100
+total_time, 4.66237
+total lock, 816
+total unlock, 816
+lock char, 202
+unlock char, 202
+lock tq, 300
+lock tq, 300
+lock t_task_t, 314
+lock t_task_t, 314
+Worker1 Time, 0.00061684
+Worker2 Time, 0.00176754
+=============
+./convolution2 1 16 100
+=============
+size of tq is 0 100
+total_time, 4.36984
+total lock, 818
+total unlock, 818
+lock char, 202
+unlock char, 202
+lock tq, 300
+lock tq, 300
+lock t_task_t, 316
+lock t_task_t, 316
+Worker1 Time, 0.00039503
+Worker2 Time, 0.00183632
+=============
+=============
+size of tq is 0 100
+total_time, 4.68555
+total lock, 818
+total unlock, 818
+lock char, 202
+unlock char, 202
+lock tq, 300
+lock tq, 300
+lock t_task_t, 316
+lock t_task_t, 316
+Worker1 Time, 0.00061613
+Worker2 Time, 0.00170035
+=============
+=============
+size of tq is 0 100
+total_time, 4.20179
+total lock, 818
+total unlock, 818
+lock char, 202
+unlock char, 202
+lock tq, 300
+lock tq, 300
+lock t_task_t, 316
+lock t_task_t, 316
+Worker1 Time, 0.00039742
+Worker2 Time, 0.00171768
+=============
+=============
+size of tq is 0 100
+total_time, 4.14832
+total lock, 818
+total unlock, 818
+lock char, 202
+unlock char, 202
+lock tq, 300
+lock tq, 300
+lock t_task_t, 316
+lock t_task_t, 316
+Worker1 Time, 0.00039493
+Worker2 Time, 0.00173382
+=============
+=============
+size of tq is 0 100
+total_time, 4.20359
+total lock, 818
+total unlock, 818
+lock char, 202
+unlock char, 202
+lock tq, 300
+lock tq, 300
+lock t_task_t, 316
+lock t_task_t, 316
+Worker1 Time, 0.00039534
+Worker2 Time, 0.00166658
+=============
+./convolution2 2 1 100
+=============
+size of tq is 0 100
+total_time, 16.7194
+total lock, 706
+total unlock, 706
+lock char, 203
+unlock char, 203
+lock tq, 300
+lock tq, 300
+lock t_task_t, 203
+lock t_task_t, 203
+Worker1 Time, 0.0003957
+Worker2 Time, 0.00166545
+=============
+=============
+size of tq is 0 100
+total_time, 16.7308
+total lock, 706
+total unlock, 706
+lock char, 203
+unlock char, 203
+lock tq, 300
+lock tq, 300
+lock t_task_t, 203
+lock t_task_t, 203
+Worker1 Time, 0.00039463
+Worker2 Time, 0.00167344
+=============
+=============
+size of tq is 0 100
+total_time, 16.7445
+total lock, 706
+total unlock, 706
+lock char, 203
+unlock char, 203
+lock tq, 300
+lock tq, 300
+lock t_task_t, 203
+lock t_task_t, 203
+Worker1 Time, 0.00039717
+Worker2 Time, 0.00165596
+=============
+=============
+size of tq is 0 100
+total_time, 16.7746
+total lock, 706
+total unlock, 706
+lock char, 203
+unlock char, 203
+lock tq, 300
+lock tq, 300
+lock t_task_t, 203
+lock t_task_t, 203
+Worker1 Time, 0.00039577
+Worker2 Time, 0.00168478
+=============
+=============
+size of tq is 0 100
+total_time, 16.823
+total lock, 706
+total unlock, 706
+lock char, 203
+unlock char, 203
+lock tq, 300
+lock tq, 300
+lock t_task_t, 203
+lock t_task_t, 203
+Worker1 Time, 0.00039589
+Worker2 Time, 0.00167417
+=============
+./convolution2 2 2 100
+=============
+size of tq is 0 100
+total_time, 8.37898
+total lock, 708
+total unlock, 708
+lock char, 203
+unlock char, 203
+lock tq, 300
+lock tq, 300
+lock t_task_t, 205
+lock t_task_t, 205
+Worker1 Time, 0.0003949
+Worker2 Time, 0.00167044
+=============
+=============
+size of tq is 0 100
+total_time, 8.48827
+total lock, 708
+total unlock, 708
+lock char, 203
+unlock char, 203
+lock tq, 300
+lock tq, 300
+lock t_task_t, 205
+lock t_task_t, 205
+Worker1 Time, 0.00039501
+Worker2 Time, 0.00168205
+=============
+=============
+size of tq is 0 100
+total_time, 8.51436
+total lock, 708
+total unlock, 708
+lock char, 203
+unlock char, 203
+lock tq, 300
+lock tq, 300
+lock t_task_t, 205
+lock t_task_t, 205
+Worker1 Time, 0.0003993
+Worker2 Time, 0.00168392
+=============
+=============
+size of tq is 0 100
+total_time, 8.5232
+total lock, 708
+total unlock, 708
+lock char, 203
+unlock char, 203
+lock tq, 300
+lock tq, 300
+lock t_task_t, 205
+lock t_task_t, 205
+Worker1 Time, 0.00040971
+Worker2 Time, 0.00168421
+=============
+=============
+size of tq is 0 100
+total_time, 8.37887
+total lock, 708
+total unlock, 708
+lock char, 203
+unlock char, 203
+lock tq, 300
+lock tq, 300
+lock t_task_t, 205
+lock t_task_t, 205
+Worker1 Time, 0.00039346
+Worker2 Time, 0.00165927
+=============
+./convolution2 2 4 100
+=============
+size of tq is 0 100
+total_time, 4.42424
+total lock, 712
+total unlock, 712
+lock char, 203
+unlock char, 203
+lock tq, 300
+lock tq, 300
+lock t_task_t, 209
+lock t_task_t, 209
+Worker1 Time, 0.00041105
+Worker2 Time, 0.00166069
+=============
+=============
+size of tq is 0 100
+total_time, 4.64708
+total lock, 712
+total unlock, 711
+lock char, 203
+unlock char, 202
+lock tq, 300
+lock tq, 300
+lock t_task_t, 209
+lock t_task_t, 209
+Worker1 Time, 0.00041377
+Worker2 Time, 0.00168499
+=============
+=============
+size of tq is 0 100
+total_time, 4.46549
+total lock, 712
+total unlock, 712
+lock char, 203
+unlock char, 203
+lock tq, 300
+lock tq, 300
+lock t_task_t, 209
+lock t_task_t, 209
+Worker1 Time, 0.00040642
+Worker2 Time, 0.00170299
+=============
+=============
+size of tq is 0 100
+total_time, 4.36708
+total lock, 712
+total unlock, 712
+lock char, 203
+unlock char, 203
+lock tq, 300
+lock tq, 300
+lock t_task_t, 209
+lock t_task_t, 209
+Worker1 Time, 0.00041029
+Worker2 Time, 0.00194613
+=============
+=============
+size of tq is 0 100
+total_time, 4.47039
+total lock, 712
+total unlock, 712
+lock char, 203
+unlock char, 203
+lock tq, 300
+lock tq, 300
+lock t_task_t, 209
+lock t_task_t, 209
+Worker1 Time, 0.00041023
+Worker2 Time, 0.00168786
+=============
+./convolution2 2 6 100
+=============
+size of tq is 0 100
+total_time, 3.22427
+total lock, 716
+total unlock, 716
+lock char, 203
+unlock char, 203
+lock tq, 300
+lock tq, 300
+lock t_task_t, 213
+lock t_task_t, 213
+Worker1 Time, 0.00041039
+Worker2 Time, 0.00165435
+=============
+=============
+size of tq is 0 100
+total_time, 3.19832
+total lock, 716
+total unlock, 716
+lock char, 203
+unlock char, 203
+lock tq, 300
+lock tq, 300
+lock t_task_t, 213
+lock t_task_t, 213
+Worker1 Time, 0.00041149
+Worker2 Time, 0.00168147
+=============
+=============
+size of tq is 0 100
+total_time, 3.16903
+total lock, 717
+total unlock, 717
+lock char, 203
+unlock char, 203
+lock tq, 300
+lock tq, 300
+lock t_task_t, 214
+lock t_task_t, 214
+Worker1 Time, 0.00041313
+Worker2 Time, 0.00170468
+=============
+=============
+size of tq is 0 100
+total_time, 3.25217
+total lock, 720
+total unlock, 720
+lock char, 203
+unlock char, 203
+lock tq, 300
+lock tq, 300
+lock t_task_t, 217
+lock t_task_t, 217
+Worker1 Time, 0.00064333
+Worker2 Time, 0.00172441
+=============
+=============
+size of tq is 0 100
+total_time, 3.05641
+total lock, 716
+total unlock, 716
+lock char, 203
+unlock char, 203
+lock tq, 300
+lock tq, 300
+lock t_task_t, 213
+lock t_task_t, 213
+Worker1 Time, 0.00041162
+Worker2 Time, 0.00168174
+=============
+./convolution2 2 8 100
+=============
+size of tq is 0 100
+total_time, 2.68361
+total lock, 781
+total unlock, 781
+lock char, 203
+unlock char, 203
+lock tq, 300
+lock tq, 300
+lock t_task_t, 278
+lock t_task_t, 278
+Worker1 Time, 0.00065027
+Worker2 Time, 0.00182007
+=============
+=============
+size of tq is 0 100
+total_time, 2.67988
+total lock, 725
+total unlock, 725
+lock char, 203
+unlock char, 203
+lock tq, 300
+lock tq, 300
+lock t_task_t, 222
+lock t_task_t, 222
+Worker1 Time, 0.00066082
+Worker2 Time, 0.00174588
+=============
+=============
+size of tq is 0 100
+total_time, 2.67663
+total lock, 788
+total unlock, 788
+lock char, 203
+unlock char, 203
+lock tq, 300
+lock tq, 300
+lock t_task_t, 285
+lock t_task_t, 285
+Worker1 Time, 0.00064919
+Worker2 Time, 0.00174851
+=============
+=============
+size of tq is 0 100
+total_time, 2.68025
+total lock, 722
+total unlock, 722
+lock char, 203
+unlock char, 203
+lock tq, 300
+lock tq, 300
+lock t_task_t, 219
+lock t_task_t, 219
+Worker1 Time, 0.00041248
+Worker2 Time, 0.00202387
+=============
+=============
+size of tq is 0 100
+total_time, 2.62733
+total lock, 738
+total unlock, 738
+lock char, 203
+unlock char, 203
+lock tq, 300
+lock tq, 300
+lock t_task_t, 235
+lock t_task_t, 235
+Worker1 Time, 0.00041209
+Worker2 Time, 0.001965
+=============
+./convolution2 2 12 100
+=============
+size of tq is 0 100
+total_time, 2.63813
+total lock, 813
+total unlock, 813
+lock char, 203
+unlock char, 203
+lock tq, 300
+lock tq, 300
+lock t_task_t, 310
+lock t_task_t, 310
+Worker1 Time, 0.00065941
+Worker2 Time, 0.00173286
+=============
+=============
+size of tq is 0 100
+total_time, 2.73971
+total lock, 814
+total unlock, 814
+lock char, 203
+unlock char, 203
+lock tq, 299
+lock tq, 299
+lock t_task_t, 312
+lock t_task_t, 312
+Worker1 Time, 0.00041165
+Worker2 Time, 0.00173565
+=============
+=============
+size of tq is 0 100
+total_time, 2.81968
+total lock, 815
+total unlock, 815
+lock char, 203
+unlock char, 203
+lock tq, 300
+lock tq, 300
+lock t_task_t, 312
+lock t_task_t, 312
+Worker1 Time, 0.00063387
+Worker2 Time, 0.00170852
+=============
+=============
+size of tq is 0 100
+total_time, 2.75667
+total lock, 815
+total unlock, 815
+lock char, 203
+unlock char, 203
+lock tq, 300
+lock tq, 300
+lock t_task_t, 312
+lock t_task_t, 312
+Worker1 Time, 0.0006422
+Worker2 Time, 0.0017909
+=============
+=============
+size of tq is 0 100
+total_time, 2.7805
+total lock, 815
+total unlock, 815
+lock char, 203
+unlock char, 203
+lock tq, 300
+lock tq, 300
+lock t_task_t, 312
+lock t_task_t, 312
+Worker1 Time, 0.00047184
+Worker2 Time, 0.00175168
+=============
+./convolution2 2 14 100
+=============
+size of tq is 0 100
+total_time, 2.65043
+total lock, 817
+total unlock, 817
+lock char, 203
+unlock char, 203
+lock tq, 300
+lock tq, 300
+lock t_task_t, 314
+lock t_task_t, 314
+Worker1 Time, 0.00041072
+Worker2 Time, 0.0018636
+=============
+=============
+size of tq is 0 100
+total_time, 2.80507
+total lock, 817
+total unlock, 817
+lock char, 203
+unlock char, 203
+lock tq, 300
+lock tq, 300
+lock t_task_t, 314
+lock t_task_t, 314
+Worker1 Time, 0.00064473
+Worker2 Time, 0.00192988
+=============
+=============
+size of tq is 0 100
+total_time, 2.71222
+total lock, 817
+total unlock, 817
+lock char, 203
+unlock char, 203
+lock tq, 300
+lock tq, 300
+lock t_task_t, 314
+lock t_task_t, 314
+Worker1 Time, 0.00065436
+Worker2 Time, 0.00191493
+=============
+=============
+size of tq is 0 100
+total_time, 2.84758
+total lock, 816
+total unlock, 816
+lock char, 203
+unlock char, 203
+lock tq, 300
+lock tq, 300
+lock t_task_t, 313
+lock t_task_t, 313
+Worker1 Time, 0.00065953
+Worker2 Time, 0.00175102
+=============
+=============
+size of tq is 0 100
+total_time, 2.88413
+total lock, 817
+total unlock, 817
+lock char, 203
+unlock char, 203
+lock tq, 300
+lock tq, 300
+lock t_task_t, 314
+lock t_task_t, 314
+Worker1 Time, 0.00066848
+Worker2 Time, 0.00173919
+=============
+./convolution2 2 16 100
+=============
+size of tq is 0 100
+total_time, 2.79187
+total lock, 819
+total unlock, 819
+lock char, 203
+unlock char, 203
+lock tq, 300
+lock tq, 300
+lock t_task_t, 316
+lock t_task_t, 316
+Worker1 Time, 0.00064402
+Worker2 Time, 0.00188371
+=============
+=============
+size of tq is 0 100
+total_time, 2.5649
+total lock, 819
+total unlock, 819
+lock char, 203
+unlock char, 203
+lock tq, 300
+lock tq, 300
+lock t_task_t, 316
+lock t_task_t, 316
+Worker1 Time, 0.00041196
+Worker2 Time, 0.00207383
+=============
+=============
+size of tq is 0 100
+total_time, 2.75723
+total lock, 819
+total unlock, 819
+lock char, 203
+unlock char, 203
+lock tq, 300
+lock tq, 300
+lock t_task_t, 316
+lock t_task_t, 316
+Worker1 Time, 0.00066183
+Worker2 Time, 0.00173646
+=============
+=============
+size of tq is 0 100
+total_time, 2.75281
+total lock, 819
+total unlock, 819
+lock char, 203
+unlock char, 203
+lock tq, 300
+lock tq, 300
+lock t_task_t, 316
+lock t_task_t, 316
+Worker1 Time, 0.00062732
+Worker2 Time, 0.00172829
+=============
+=============
+size of tq is 0 100
+total_time, 2.80309
+total lock, 819
+total unlock, 819
+lock char, 203
+unlock char, 203
+lock tq, 300
+lock tq, 300
+lock t_task_t, 316
+lock t_task_t, 316
+Worker1 Time, 0.00062749
+Worker2 Time, 0.0017477
+=============
+./convolution2 4 1 100
+=============
+size of tq is 0 100
+total_time, 16.7536
+total lock, 708
+total unlock, 708
+lock char, 205
+unlock char, 205
+lock tq, 300
+lock tq, 300
+lock t_task_t, 203
+lock t_task_t, 203
+Worker1 Time, 0.00041117
+Worker2 Time, 0.00165239
+=============
+=============
+size of tq is 0 100
+total_time, 16.7667
+total lock, 708
+total unlock, 708
+lock char, 205
+unlock char, 205
+lock tq, 300
+lock tq, 300
+lock t_task_t, 203
+lock t_task_t, 203
+Worker1 Time, 0.00041008
+Worker2 Time, 0.0016533
+=============
+=============
+size of tq is 0 100
+total_time, 16.7541
+total lock, 708
+total unlock, 708
+lock char, 205
+unlock char, 205
+lock tq, 300
+lock tq, 300
+lock t_task_t, 203
+lock t_task_t, 203
+Worker1 Time, 0.00040059
+Worker2 Time, 0.00164991
+=============
+=============
+size of tq is 0 100
+total_time, 16.7605
+total lock, 708
+total unlock, 708
+lock char, 205
+unlock char, 205
+lock tq, 300
+lock tq, 300
+lock t_task_t, 203
+lock t_task_t, 203
+Worker1 Time, 0.00041056
+Worker2 Time, 0.00167154
+=============
+=============
+size of tq is 0 100
+total_time, 16.7459
+total lock, 708
+total unlock, 708
+lock char, 205
+unlock char, 205
+lock tq, 300
+lock tq, 300
+lock t_task_t, 203
+lock t_task_t, 203
+Worker1 Time, 0.00041654
+Worker2 Time, 0.0016723
+=============
+./convolution2 4 2 100
+=============
+size of tq is 0 100
+total_time, 8.46683
+total lock, 710
+total unlock, 710
+lock char, 205
+unlock char, 205
+lock tq, 300
+lock tq, 300
+lock t_task_t, 205
+lock t_task_t, 205
+Worker1 Time, 0.00040986
+Worker2 Time, 0.00167286
+=============
+=============
+size of tq is 0 100
+total_time, 8.54794
+total lock, 710
+total unlock, 710
+lock char, 205
+unlock char, 205
+lock tq, 300
+lock tq, 300
+lock t_task_t, 205
+lock t_task_t, 205
+Worker1 Time, 0.00041201
+Worker2 Time, 0.00166423
+=============
+=============
+size of tq is 0 100
+total_time, 8.58231
+total lock, 710
+total unlock, 710
+lock char, 205
+unlock char, 205
+lock tq, 300
+lock tq, 300
+lock t_task_t, 205
+lock t_task_t, 205
+Worker1 Time, 0.000394
+Worker2 Time, 0.00167713
+=============
+=============
+size of tq is 0 100
+total_time, 8.4429
+total lock, 710
+total unlock, 710
+lock char, 205
+unlock char, 205
+lock tq, 300
+lock tq, 300
+lock t_task_t, 205
+lock t_task_t, 205
+Worker1 Time, 0.00041307
+Worker2 Time, 0.00165507
+=============
+=============
+size of tq is 0 100
+total_time, 8.4509
+total lock, 710
+total unlock, 710
+lock char, 205
+unlock char, 205
+lock tq, 300
+lock tq, 300
+lock t_task_t, 205
+lock t_task_t, 205
+Worker1 Time, 0.00041178
+Worker2 Time, 0.00166064
+=============
+./convolution2 4 4 100
+=============
+size of tq is 0 100
+total_time, 4.59593
+total lock, 714
+total unlock, 714
+lock char, 205
+unlock char, 205
+lock tq, 300
+lock tq, 300
+lock t_task_t, 209
+lock t_task_t, 209
+Worker1 Time, 0.00062917
+Worker2 Time, 0.00172699
+=============
+=============
+size of tq is 0 100
+total_time, 4.49148
+total lock, 714
+total unlock, 714
+lock char, 205
+unlock char, 205
+lock tq, 300
+lock tq, 300
+lock t_task_t, 209
+lock t_task_t, 209
+Worker1 Time, 0.00041013
+Worker2 Time, 0.0017267
+=============
+=============
+size of tq is 0 100
+total_time, 4.53299
+total lock, 714
+total unlock, 714
+lock char, 205
+unlock char, 205
+lock tq, 300
+lock tq, 300
+lock t_task_t, 209
+lock t_task_t, 209
+Worker1 Time, 0.00041452
+Worker2 Time, 0.00168264
+=============
+=============
+size of tq is 0 100
+total_time, 4.50576
+total lock, 714
+total unlock, 714
+lock char, 205
+unlock char, 205
+lock tq, 300
+lock tq, 300
+lock t_task_t, 209
+lock t_task_t, 209
+Worker1 Time, 0.00040978
+Worker2 Time, 0.00169088
+=============
+=============
+size of tq is 0 100
+total_time, 4.44892
+total lock, 714
+total unlock, 714
+lock char, 205
+unlock char, 205
+lock tq, 300
+lock tq, 300
+lock t_task_t, 209
+lock t_task_t, 209
+Worker1 Time, 0.00041005
+Worker2 Time, 0.00166623
+=============
+./convolution2 4 6 100
+=============
+size of tq is 0 100
+total_time, 3.14709
+total lock, 718
+total unlock, 718
+lock char, 205
+unlock char, 205
+lock tq, 300
+lock tq, 300
+lock t_task_t, 213
+lock t_task_t, 213
+Worker1 Time, 0.00057551
+Worker2 Time, 0.00167218
+=============
+=============
+size of tq is 0 100
+total_time, 5.87849
+total lock, 714
+total unlock, 714
+lock char, 205
+unlock char, 205
+lock tq, 300
+lock tq, 300
+lock t_task_t, 209
+lock t_task_t, 209
+Worker1 Time, 0.00039349
+Worker2 Time, 0.00166784
+=============
+=============
+size of tq is 0 100
+total_time, 3.23309
+total lock, 717
+total unlock, 717
+lock char, 205
+unlock char, 205
+lock tq, 299
+lock tq, 299
+lock t_task_t, 213
+lock t_task_t, 213
+Worker1 Time, 0.00041139
+Worker2 Time, 0.00171078
+=============
+=============
+size of tq is 0 100
+total_time, 3.40931
+total lock, 717
+total unlock, 717
+lock char, 205
+unlock char, 205
+lock tq, 299
+lock tq, 299
+lock t_task_t, 213
+lock t_task_t, 213
+Worker1 Time, 0.00041031
+Worker2 Time, 0.00172272
+=============
+=============
+size of tq is 0 100
+total_time, 17.0039
+total lock, 712
+total unlock, 712
+lock char, 205
+unlock char, 205
+lock tq, 300
+lock tq, 300
+lock t_task_t, 207
+lock t_task_t, 207
+Worker1 Time, 0.00039356
+Worker2 Time, 0.00167593
+=============
+./convolution2 4 8 100
+=============
+size of tq is 0 100
+total_time, 2.81223
+total lock, 722
+total unlock, 722
+lock char, 205
+unlock char, 205
+lock tq, 300
+lock tq, 300
+lock t_task_t, 217
+lock t_task_t, 217
+Worker1 Time, 0.00041055
+Worker2 Time, 0.0018696
+=============
+=============
+size of tq is 0 100
+total_time, 2.62346
+total lock, 722
+total unlock, 722
+lock char, 205
+unlock char, 205
+lock tq, 300
+lock tq, 300
+lock t_task_t, 217
+lock t_task_t, 217
+Worker1 Time, 0.00065784
+Worker2 Time, 0.0016901
+=============
+=============
+size of tq is 0 100
+total_time, 16.7976
+total lock, 714
+total unlock, 714
+lock char, 205
+unlock char, 205
+lock tq, 300
+lock tq, 300
+lock t_task_t, 209
+lock t_task_t, 209
+Worker1 Time, 0.00041001
+Worker2 Time, 0.00165388
+=============
+=============
+size of tq is 0 100
+total_time, 2.59931
+total lock, 722
+total unlock, 722
+lock char, 205
+unlock char, 205
+lock tq, 300
+lock tq, 300
+lock t_task_t, 217
+lock t_task_t, 217
+Worker1 Time, 0.00041052
+Worker2 Time, 0.00168957
+=============
+=============
+size of tq is 0 100
+total_time, 2.63264
+total lock, 722
+total unlock, 722
+lock char, 205
+unlock char, 205
+lock tq, 300
+lock tq, 300
+lock t_task_t, 217
+lock t_task_t, 217
+Worker1 Time, 0.00067793
+Worker2 Time, 0.0016864
+=============
+./convolution2 4 12 100
+=============
+size of tq is 0 100
+total_time, 2.09338
+total lock, 730
+total unlock, 730
+lock char, 205
+unlock char, 205
+lock tq, 300
+lock tq, 300
+lock t_task_t, 225
+lock t_task_t, 225
+Worker1 Time, 0.00065047
+Worker2 Time, 0.00204381
+=============
+=============
+size of tq is 0 100
+total_time, 2.13669
+total lock, 730
+total unlock, 730
+lock char, 205
+unlock char, 205
+lock tq, 300
+lock tq, 300
+lock t_task_t, 225
+lock t_task_t, 225
+Worker1 Time, 0.00066274
+Worker2 Time, 0.00315706
+=============
+=============
+size of tq is 0 100
+total_time, 2.10796
+total lock, 730
+total unlock, 730
+lock char, 205
+unlock char, 205
+lock tq, 300
+lock tq, 300
+lock t_task_t, 225
+lock t_task_t, 225
+Worker1 Time, 0.00046126
+Worker2 Time, 0.00192858
+=============
+=============
+size of tq is 0 100
+total_time, 16.7901
+total lock, 718
+total unlock, 718
+lock char, 205
+unlock char, 205
+lock tq, 300
+lock tq, 300
+lock t_task_t, 213
+lock t_task_t, 213
+Worker1 Time, 0.00041028
+Worker2 Time, 0.00165555
+=============
+=============
+size of tq is 0 100
+total_time, 2.05679
+total lock, 730
+total unlock, 730
+lock char, 205
+unlock char, 205
+lock tq, 300
+lock tq, 300
+lock t_task_t, 225
+lock t_task_t, 225
+Worker1 Time, 0.00147767
+Worker2 Time, 0.00192865
+=============
+./convolution2 4 14 100
+=============
+size of tq is 0 100
+total_time, 16.7805
+total lock, 720
+total unlock, 720
+lock char, 205
+unlock char, 205
+lock tq, 300
+lock tq, 300
+lock t_task_t, 215
+lock t_task_t, 215
+Worker1 Time, 0.00040335
+Worker2 Time, 0.00167839
+=============
+=============
+size of tq is 0 100
+total_time, 1.98364
+total lock, 762
+total unlock, 762
+lock char, 205
+unlock char, 205
+lock tq, 300
+lock tq, 300
+lock t_task_t, 257
+lock t_task_t, 257
+Worker1 Time, 0.00119865
+Worker2 Time, 0.00220895
+=============
+=============
+size of tq is 0 100
+total_time, 1.97932
+total lock, 765
+total unlock, 765
+lock char, 205
+unlock char, 205
+lock tq, 300
+lock tq, 300
+lock t_task_t, 260
+lock t_task_t, 260
+Worker1 Time, 0.00065575
+Worker2 Time, 0.0023362
+=============
+=============
+size of tq is 0 100
+total_time, 1.99656
+total lock, 815
+total unlock, 815
+lock char, 205
+unlock char, 205
+lock tq, 300
+lock tq, 300
+lock t_task_t, 310
+lock t_task_t, 310
+Worker1 Time, 0.00065003
+Worker2 Time, 0.00196322
+=============
+=============
+size of tq is 0 100
+total_time, 16.7961
+total lock, 720
+total unlock, 720
+lock char, 205
+unlock char, 205
+lock tq, 300
+lock tq, 300
+lock t_task_t, 215
+lock t_task_t, 215
+Worker1 Time, 0.00041867
+Worker2 Time, 0.0016589
+=============
+./convolution2 4 16 100
+=============
+size of tq is 0 100
+total_time, 2.03157
+total lock, 813
+total unlock, 813
+lock char, 205
+unlock char, 205
+lock tq, 300
+lock tq, 300
+lock t_task_t, 308
+lock t_task_t, 308
+Worker1 Time, 0.00104292
+Worker2 Time, 0.00177532
+=============
+=============
+size of tq is 0 100
+total_time, 2.08529
+total lock, 821
+total unlock, 821
+lock char, 205
+unlock char, 205
+lock tq, 300
+lock tq, 300
+lock t_task_t, 316
+lock t_task_t, 316
+Worker1 Time, 0.00065087
+Worker2 Time, 0.00192619
+=============
+=============
+size of tq is 0 100
+total_time, 16.7929
+total lock, 722
+total unlock, 722
+lock char, 205
+unlock char, 205
+lock tq, 300
+lock tq, 300
+lock t_task_t, 217
+lock t_task_t, 217
+Worker1 Time, 0.00039678
+Worker2 Time, 0.00167543
+=============
+=============
+size of tq is 0 100
+total_time, 2.41079
+total lock, 730
+total unlock, 730
+lock char, 205
+unlock char, 205
+lock tq, 300
+lock tq, 300
+lock t_task_t, 225
+lock t_task_t, 225
+Worker1 Time, 0.00067447
+Worker2 Time, 0.00172358
+=============
+=============
+size of tq is 0 100
+total_time, 5.83219
+total lock, 724
+total unlock, 724
+lock char, 205
+unlock char, 205
+lock tq, 300
+lock tq, 300
+lock t_task_t, 219
+lock t_task_t, 219
+Worker1 Time, 0.0004132
+Worker2 Time, 0.00167599
+=============
+./convolution2 6 1 100
+=============
+size of tq is 0 100
+total_time, 16.7568
+total lock, 710
+total unlock, 710
+lock char, 207
+unlock char, 207
+lock tq, 300
+lock tq, 300
+lock t_task_t, 203
+lock t_task_t, 203
+Worker1 Time, 0.00041226
+Worker2 Time, 0.00166751
+=============
+=============
+size of tq is 0 100
+total_time, 16.7838
+total lock, 710
+total unlock, 710
+lock char, 207
+unlock char, 207
+lock tq, 300
+lock tq, 300
+lock t_task_t, 203
+lock t_task_t, 203
+Worker1 Time, 0.00041076
+Worker2 Time, 0.00165136
+=============
+=============
+size of tq is 0 100
+total_time, 16.7299
+total lock, 710
+total unlock, 710
+lock char, 207
+unlock char, 207
+lock tq, 300
+lock tq, 300
+lock t_task_t, 203
+lock t_task_t, 203
+Worker1 Time, 0.00041126
+Worker2 Time, 0.001653
+=============
+=============
+size of tq is 0 100
+total_time, 16.7613
+total lock, 710
+total unlock, 710
+lock char, 207
+unlock char, 207
+lock tq, 300
+lock tq, 300
+lock t_task_t, 203
+lock t_task_t, 203
+Worker1 Time, 0.00041027
+Worker2 Time, 0.00167292
+=============
+=============
+size of tq is 0 100
+total_time, 16.8819
+total lock, 710
+total unlock, 710
+lock char, 207
+unlock char, 207
+lock tq, 300
+lock tq, 300
+lock t_task_t, 203
+lock t_task_t, 203
+Worker1 Time, 0.00041152
+Worker2 Time, 0.00168307
+=============
+./convolution2 6 2 100
+=============
+size of tq is 0 100
+total_time, 8.43623
+total lock, 712
+total unlock, 712
+lock char, 207
+unlock char, 207
+lock tq, 300
+lock tq, 300
+lock t_task_t, 205
+lock t_task_t, 205
+Worker1 Time, 0.00041783
+Worker2 Time, 0.00164823
+=============
+=============
+size of tq is 0 100
+total_time, 8.55866
+total lock, 712
+total unlock, 712
+lock char, 207
+unlock char, 207
+lock tq, 300
+lock tq, 300
+lock t_task_t, 205
+lock t_task_t, 205
+Worker1 Time, 0.00040983
+Worker2 Time, 0.0016798
+=============
+=============
+size of tq is 0 100
+total_time, 8.58802
+total lock, 712
+total unlock, 712
+lock char, 207
+unlock char, 207
+lock tq, 300
+lock tq, 300
+lock t_task_t, 205
+lock t_task_t, 205
+Worker1 Time, 0.00041034
+Worker2 Time, 0.0017071
+=============
+=============
+size of tq is 0 100
+total_time, 8.58016
+total lock, 712
+total unlock, 712
+lock char, 207
+unlock char, 207
+lock tq, 300
+lock tq, 300
+lock t_task_t, 205
+lock t_task_t, 205
+Worker1 Time, 0.00040603
+Worker2 Time, 0.00166851
+=============
+=============
+size of tq is 0 100
+total_time, 8.47872
+total lock, 712
+total unlock, 712
+lock char, 207
+unlock char, 207
+lock tq, 300
+lock tq, 300
+lock t_task_t, 205
+lock t_task_t, 205
+Worker1 Time, 0.00045683
+Worker2 Time, 0.00166212
+=============
+./convolution2 6 4 100
+=============
+size of tq is 0 100
+total_time, 4.69602
+total lock, 716
+total unlock, 716
+lock char, 207
+unlock char, 207
+lock tq, 300
+lock tq, 300
+lock t_task_t, 209
+lock t_task_t, 209
+Worker1 Time, 0.00065296
+Worker2 Time, 0.00176176
+=============
+=============
+size of tq is 0 100
+total_time, 16.7978
+total lock, 712
+total unlock, 712
+lock char, 207
+unlock char, 207
+lock tq, 300
+lock tq, 300
+lock t_task_t, 205
+lock t_task_t, 205
+Worker1 Time, 0.00041037
+Worker2 Time, 0.00167698
+=============
+=============
+size of tq is 0 100
+total_time, 4.52332
+total lock, 716
+total unlock, 716
+lock char, 207
+unlock char, 207
+lock tq, 300
+lock tq, 300
+lock t_task_t, 209
+lock t_task_t, 209
+Worker1 Time, 0.00041023
+Worker2 Time, 0.0017064
+=============
+=============
+size of tq is 0 100
+total_time, 4.59851
+total lock, 716
+total unlock, 716
+lock char, 207
+unlock char, 207
+lock tq, 300
+lock tq, 300
+lock t_task_t, 209
+lock t_task_t, 209
+Worker1 Time, 0.00064865
+Worker2 Time, 0.00168707
+=============
+=============
+size of tq is 0 100
+total_time, 5.82891
+total lock, 714
+total unlock, 714
+lock char, 207
+unlock char, 207
+lock tq, 300
+lock tq, 300
+lock t_task_t, 207
+lock t_task_t, 207
+Worker1 Time, 0.0004007
+Worker2 Time, 0.00166611
+=============
+./convolution2 6 6 100
+=============
+size of tq is 0 100
+total_time, 16.7307
+total lock, 714
+total unlock, 714
+lock char, 207
+unlock char, 207
+lock tq, 300
+lock tq, 300
+lock t_task_t, 207
+lock t_task_t, 207
+Worker1 Time, 0.00041265
+Worker2 Time, 0.00165249
+=============
+=============
+size of tq is 0 100
+total_time, 16.7584
+total lock, 714
+total unlock, 714
+lock char, 207
+unlock char, 207
+lock tq, 300
+lock tq, 300
+lock t_task_t, 207
+lock t_task_t, 207
+Worker1 Time, 0.00041397
+Worker2 Time, 0.00167064
+=============
+=============
+size of tq is 0 100
+total_time, 3.30024
+total lock, 720
+total unlock, 720
+lock char, 207
+unlock char, 207
+lock tq, 300
+lock tq, 300
+lock t_task_t, 213
+lock t_task_t, 213
+Worker1 Time, 0.0006406
+Worker2 Time, 0.00170309
+=============
+=============
+size of tq is 0 100
+total_time, 3.49851
+total lock, 720
+total unlock, 720
+lock char, 207
+unlock char, 207
+lock tq, 300
+lock tq, 300
+lock t_task_t, 213
+lock t_task_t, 213
+Worker1 Time, 0.00064929
+Worker2 Time, 0.00168047
+=============
+=============
+size of tq is 0 100
+total_time, 3.14491
+total lock, 720
+total unlock, 720
+lock char, 207
+unlock char, 207
+lock tq, 300
+lock tq, 300
+lock t_task_t, 213
+lock t_task_t, 213
+Worker1 Time, 0.00057242
+Worker2 Time, 0.00172958
+=============
+./convolution2 6 8 100
+=============
+size of tq is 0 100
+total_time, 2.61299
+total lock, 724
+total unlock, 724
+lock char, 207
+unlock char, 207
+lock tq, 300
+lock tq, 300
+lock t_task_t, 217
+lock t_task_t, 217
+Worker1 Time, 0.000655
+Worker2 Time, 0.00171326
+=============
+=============
+size of tq is 0 100
+total_time, 2.57358
+total lock, 724
+total unlock, 724
+lock char, 207
+unlock char, 207
+lock tq, 300
+lock tq, 300
+lock t_task_t, 217
+lock t_task_t, 217
+Worker1 Time, 0.00064798
+Worker2 Time, 0.00221441
+=============
+=============
+size of tq is 0 100
+total_time, 2.67875
+total lock, 724
+total unlock, 724
+lock char, 207
+unlock char, 207
+lock tq, 300
+lock tq, 300
+lock t_task_t, 217
+lock t_task_t, 217
+Worker1 Time, 0.00064241
+Worker2 Time, 0.0016685
+=============
+=============
+size of tq is 0 100
+total_time, 16.7531
+total lock, 716
+total unlock, 716
+lock char, 207
+unlock char, 207
+lock tq, 300
+lock tq, 300
+lock t_task_t, 209
+lock t_task_t, 209
+Worker1 Time, 0.00042165
+Worker2 Time, 0.00165215
+=============
+=============
+size of tq is 0 100
+total_time, 2.5779
+total lock, 724
+total unlock, 724
+lock char, 207
+unlock char, 207
+lock tq, 300
+lock tq, 300
+lock t_task_t, 217
+lock t_task_t, 217
+Worker1 Time, 0.00064651
+Worker2 Time, 0.00174712
+=============
+./convolution2 6 12 100
+=============
+size of tq is 0 100
+total_time, 2.10005
+total lock, 731
+total unlock, 731
+lock char, 207
+unlock char, 207
+lock tq, 299
+lock tq, 299
+lock t_task_t, 225
+lock t_task_t, 225
+Worker1 Time, 0.00112544
+Worker2 Time, 0.00207779
+=============
+=============
+size of tq is 0 100
+total_time, 2.06777
+total lock, 732
+total unlock, 732
+lock char, 207
+unlock char, 207
+lock tq, 300
+lock tq, 300
+lock t_task_t, 225
+lock t_task_t, 225
+Worker1 Time, 0.00131588
+Worker2 Time, 0.0022856
+=============
+=============
+size of tq is 0 100
+total_time, 4.47942
+total lock, 723
+total unlock, 723
+lock char, 207
+unlock char, 207
+lock tq, 300
+lock tq, 300
+lock t_task_t, 216
+lock t_task_t, 216
+Worker1 Time, 0.00041006
+Worker2 Time, 0.00167217
+=============
+=============
+size of tq is 0 100
+total_time, 2.07088
+total lock, 732
+total unlock, 732
+lock char, 207
+unlock char, 207
+lock tq, 300
+lock tq, 300
+lock t_task_t, 225
+lock t_task_t, 225
+Worker1 Time, 0.00096448
+Worker2 Time, 0.00172997
+=============
+=============
+size of tq is 0 100
+total_time, 2.02257
+total lock, 732
+total unlock, 732
+lock char, 207
+unlock char, 207
+lock tq, 300
+lock tq, 300
+lock t_task_t, 225
+lock t_task_t, 225
+Worker1 Time, 0.00066875
+Worker2 Time, 0.00174027
+=============
+./convolution2 6 14 100
+=============
+size of tq is 0 100
+total_time, 8.50473
+total lock, 723
+total unlock, 723
+lock char, 207
+unlock char, 207
+lock tq, 300
+lock tq, 300
+lock t_task_t, 216
+lock t_task_t, 216
+Worker1 Time, 0.00041055
+Worker2 Time, 0.00168044
+=============
+=============
+size of tq is 0 100
+total_time, 1.95554
+total lock, 736
+total unlock, 736
+lock char, 207
+unlock char, 207
+lock tq, 300
+lock tq, 300
+lock t_task_t, 229
+lock t_task_t, 229
+Worker1 Time, 0.0006939
+Worker2 Time, 0.00235792
+=============
+=============
+size of tq is 0 100
+total_time, 1.9708
+total lock, 736
+total unlock, 736
+lock char, 207
+unlock char, 207
+lock tq, 300
+lock tq, 300
+lock t_task_t, 229
+lock t_task_t, 229
+Worker1 Time, 0.00132315
+Worker2 Time, 0.00292657
+=============
+=============
+size of tq is 0 100
+total_time, 1.99373
+total lock, 781
+total unlock, 781
+lock char, 207
+unlock char, 207
+lock tq, 300
+lock tq, 300
+lock t_task_t, 274
+lock t_task_t, 274
+Worker1 Time, 0.00127484
+Worker2 Time, 0.00209197
+=============
+=============
+size of tq is 0 100
+total_time, 8.50883
+total lock, 723
+total unlock, 723
+lock char, 207
+unlock char, 207
+lock tq, 300
+lock tq, 300
+lock t_task_t, 216
+lock t_task_t, 216
+Worker1 Time, 0.00041198
+Worker2 Time, 0.00167119
+=============
+./convolution2 6 16 100
+=============
+size of tq is 0 100
+total_time, 2.02084
+total lock, 821
+total unlock, 821
+lock char, 207
+unlock char, 207
+lock tq, 300
+lock tq, 300
+lock t_task_t, 314
+lock t_task_t, 314
+Worker1 Time, 0.00067081
+Worker2 Time, 0.00232237
+=============
+=============
+size of tq is 0 100
+total_time, 8.55681
+total lock, 725
+total unlock, 725
+lock char, 207
+unlock char, 207
+lock tq, 300
+lock tq, 300
+lock t_task_t, 218
+lock t_task_t, 218
+Worker1 Time, 0.00041114
+Worker2 Time, 0.00166891
+=============
+=============
+size of tq is 0 100
+total_time, 2.118
+total lock, 771
+total unlock, 771
+lock char, 207
+unlock char, 207
+lock tq, 300
+lock tq, 300
+lock t_task_t, 264
+lock t_task_t, 264
+Worker1 Time, 0.00086727
+Worker2 Time, 0.00173702
+=============
+=============
+size of tq is 0 100
+total_time, 1.95292
+total lock, 740
+total unlock, 740
+lock char, 207
+unlock char, 207
+lock tq, 300
+lock tq, 300
+lock t_task_t, 233
+lock t_task_t, 233
+Worker1 Time, 0.00131132
+Worker2 Time, 0.00259776
+=============
+=============
+size of tq is 0 100
+total_time, 2.01203
+total lock, 814
+total unlock, 814
+lock char, 207
+unlock char, 207
+lock tq, 300
+lock tq, 300
+lock t_task_t, 307
+lock t_task_t, 307
+Worker1 Time, 0.00130503
+Worker2 Time, 0.00226067
+=============
+./convolution2 8 1 100
+=============
+size of tq is 0 100
+total_time, 16.7536
+total lock, 712
+total unlock, 712
+lock char, 209
+unlock char, 209
+lock tq, 300
+lock tq, 300
+lock t_task_t, 203
+lock t_task_t, 203
+Worker1 Time, 0.00044867
+Worker2 Time, 0.00166103
+=============
+=============
+size of tq is 0 100
+total_time, 16.8167
+total lock, 712
+total unlock, 712
+lock char, 209
+unlock char, 209
+lock tq, 300
+lock tq, 300
+lock t_task_t, 203
+lock t_task_t, 203
+Worker1 Time, 0.0004605
+Worker2 Time, 0.00166204
+=============
+=============
+size of tq is 0 100
+total_time, 16.792
+total lock, 711
+total unlock, 711
+lock char, 209
+unlock char, 209
+lock tq, 300
+lock tq, 300
+lock t_task_t, 202
+lock t_task_t, 202
+Worker1 Time, 0.00040937
+Worker2 Time, 0.00167185
+=============
+=============
+size of tq is 0 100
+total_time, 16.8269
+total lock, 712
+total unlock, 712
+lock char, 209
+unlock char, 209
+lock tq, 300
+lock tq, 300
+lock t_task_t, 203
+lock t_task_t, 203
+Worker1 Time, 0.00063066
+Worker2 Time, 0.00168019
+=============
+=============
+size of tq is 0 100
+total_time, 16.8411
+total lock, 712
+total unlock, 712
+lock char, 209
+unlock char, 209
+lock tq, 300
+lock tq, 300
+lock t_task_t, 203
+lock t_task_t, 203
+Worker1 Time, 0.00064698
+Worker2 Time, 0.00164998
+=============
+./convolution2 8 2 100
+=============
+size of tq is 0 100
+total_time, 8.61749
+total lock, 714
+total unlock, 714
+lock char, 209
+unlock char, 209
+lock tq, 300
+lock tq, 300
+lock t_task_t, 205
+lock t_task_t, 205
+Worker1 Time, 0.00064048
+Worker2 Time, 0.00167977
+=============
+=============
+size of tq is 0 100
+total_time, 8.47278
+total lock, 714
+total unlock, 714
+lock char, 209
+unlock char, 209
+lock tq, 300
+lock tq, 300
+lock t_task_t, 205
+lock t_task_t, 205
+Worker1 Time, 0.00063522
+Worker2 Time, 0.00166788
+=============
+=============
+size of tq is 0 100
+total_time, 8.70241
+total lock, 714
+total unlock, 714
+lock char, 209
+unlock char, 209
+lock tq, 300
+lock tq, 300
+lock t_task_t, 205
+lock t_task_t, 205
+Worker1 Time, 0.00064175
+Worker2 Time, 0.00166491
+=============
+=============
+size of tq is 0 100
+total_time, 8.51545
+total lock, 714
+total unlock, 714
+lock char, 209
+unlock char, 209
+lock tq, 300
+lock tq, 300
+lock t_task_t, 205
+lock t_task_t, 205
+Worker1 Time, 0.00062495
+Worker2 Time, 0.00166754
+=============
+=============
+size of tq is 0 100
+total_time, 8.57633
+total lock, 714
+total unlock, 714
+lock char, 209
+unlock char, 209
+lock tq, 300
+lock tq, 300
+lock t_task_t, 205
+lock t_task_t, 205
+Worker1 Time, 0.00041231
+Worker2 Time, 0.0016641
+=============
+./convolution2 8 4 100
+=============
+size of tq is 0 100
+total_time, 4.58908
+total lock, 718
+total unlock, 717
+lock char, 209
+unlock char, 209
+lock tq, 300
+lock tq, 300
+lock t_task_t, 209
+lock t_task_t, 209
+Worker1 Time, 0.00065268
+Worker2 Time, 0.00169384
+=============
+=============
+size of tq is 0 100
+total_time, 16.759
+total lock, 714
+total unlock, 714
+lock char, 209
+unlock char, 209
+lock tq, 300
+lock tq, 300
+lock t_task_t, 205
+lock t_task_t, 205
+Worker1 Time, 0.0005396
+Worker2 Time, 0.00166864
+=============
+=============
+size of tq is 0 100
+total_time, 8.50753
+total lock, 715
+total unlock, 715
+lock char, 209
+unlock char, 209
+lock tq, 300
+lock tq, 300
+lock t_task_t, 206
+lock t_task_t, 206
+Worker1 Time, 0.00041067
+Worker2 Time, 0.00165052
+=============
+=============
+size of tq is 0 100
+total_time, 4.52646
+total lock, 718
+total unlock, 717
+lock char, 209
+unlock char, 209
+lock tq, 300
+lock tq, 300
+lock t_task_t, 209
+lock t_task_t, 209
+Worker1 Time, 0.00062041
+Worker2 Time, 0.00169419
+=============
+=============
+size of tq is 0 100
+total_time, 4.49885
+total lock, 718
+total unlock, 718
+lock char, 209
+unlock char, 209
+lock tq, 300
+lock tq, 300
+lock t_task_t, 209
+lock t_task_t, 209
+Worker1 Time, 0.00051118
+Worker2 Time, 0.00169087
+=============
+./convolution2 8 6 100
+=============
+size of tq is 0 100
+total_time, 5.84234
+total lock, 718
+total unlock, 718
+lock char, 209
+unlock char, 209
+lock tq, 300
+lock tq, 300
+lock t_task_t, 209
+lock t_task_t, 209
+Worker1 Time, 0.00064435
+Worker2 Time, 0.00167458
+=============
+=============
+size of tq is 0 100
+total_time, 3.30683
+total lock, 722
+total unlock, 722
+lock char, 209
+unlock char, 209
+lock tq, 300
+lock tq, 300
+lock t_task_t, 213
+lock t_task_t, 213
+Worker1 Time, 0.00067271
+Worker2 Time, 0.00173471
+=============
+=============
+size of tq is 0 100
+total_time, 3.35534
+total lock, 722
+total unlock, 722
+lock char, 209
+unlock char, 209
+lock tq, 300
+lock tq, 300
+lock t_task_t, 213
+lock t_task_t, 213
+Worker1 Time, 0.00063077
+Worker2 Time, 0.00170314
+=============
+=============
+size of tq is 0 100
+total_time, 3.16263
+total lock, 722
+total unlock, 722
+lock char, 209
+unlock char, 209
+lock tq, 300
+lock tq, 300
+lock t_task_t, 213
+lock t_task_t, 213
+Worker1 Time, 0.00066947
+Worker2 Time, 0.00174458
+=============
+=============
+size of tq is 0 100
+total_time, 8.59868
+total lock, 717
+total unlock, 717
+lock char, 209
+unlock char, 209
+lock tq, 300
+lock tq, 300
+lock t_task_t, 208
+lock t_task_t, 208
+Worker1 Time, 0.00063221
+Worker2 Time, 0.00167972
+=============
+./convolution2 8 8 100
+=============
+size of tq is 0 100
+total_time, 2.65896
+total lock, 726
+total unlock, 726
+lock char, 209
+unlock char, 209
+lock tq, 300
+lock tq, 300
+lock t_task_t, 217
+lock t_task_t, 217
+Worker1 Time, 0.00137808
+Worker2 Time, 0.00204346
+=============
+=============
+size of tq is 0 100
+total_time, 2.53697
+total lock, 726
+total unlock, 726
+lock char, 209
+unlock char, 209
+lock tq, 300
+lock tq, 300
+lock t_task_t, 217
+lock t_task_t, 217
+Worker1 Time, 0.00065468
+Worker2 Time, 0.00171592
+=============
+=============
+size of tq is 0 100
+total_time, 2.63777
+total lock, 726
+total unlock, 726
+lock char, 209
+unlock char, 209
+lock tq, 300
+lock tq, 300
+lock t_task_t, 217
+lock t_task_t, 217
+Worker1 Time, 0.000651
+Worker2 Time, 0.00194207
+=============
+=============
+size of tq is 0 100
+total_time, 2.69924
+total lock, 726
+total unlock, 726
+lock char, 209
+unlock char, 209
+lock tq, 300
+lock tq, 300
+lock t_task_t, 217
+lock t_task_t, 217
+Worker1 Time, 0.00065632
+Worker2 Time, 0.00173928
+=============
+=============
+size of tq is 0 100
+total_time, 2.62239
+total lock, 726
+total unlock, 726
+lock char, 209
+unlock char, 209
+lock tq, 300
+lock tq, 300
+lock t_task_t, 217
+lock t_task_t, 217
+Worker1 Time, 0.00064739
+Worker2 Time, 0.00199544
+=============
+./convolution2 8 12 100
+=============
+size of tq is 0 100
+total_time, 2.06918
+total lock, 734
+total unlock, 734
+lock char, 209
+unlock char, 209
+lock tq, 300
+lock tq, 300
+lock t_task_t, 225
+lock t_task_t, 225
+Worker1 Time, 0.00145257
+Worker2 Time, 0.00176377
+=============
+=============
+size of tq is 0 100
+total_time, 2.06921
+total lock, 733
+total unlock, 733
+lock char, 209
+unlock char, 209
+lock tq, 299
+lock tq, 299
+lock t_task_t, 225
+lock t_task_t, 225
+Worker1 Time, 0.00077216
+Worker2 Time, 0.00198798
+=============
+=============
+size of tq is 0 100
+total_time, 3.19589
+total lock, 726
+total unlock, 726
+lock char, 209
+unlock char, 209
+lock tq, 299
+lock tq, 299
+lock t_task_t, 218
+lock t_task_t, 218
+Worker1 Time, 0.00066425
+Worker2 Time, 0.00178194
+=============
+=============
+size of tq is 0 100
+total_time, 2.03266
+total lock, 734
+total unlock, 734
+lock char, 209
+unlock char, 209
+lock tq, 300
+lock tq, 300
+lock t_task_t, 225
+lock t_task_t, 225
+Worker1 Time, 0.00134691
+Worker2 Time, 0.00211508
+=============
+=============
+size of tq is 0 100
+total_time, 2.09278
+total lock, 734
+total unlock, 734
+lock char, 209
+unlock char, 209
+lock tq, 300
+lock tq, 300
+lock t_task_t, 225
+lock t_task_t, 225
+Worker1 Time, 0.00072147
+Worker2 Time, 0.00185401
+=============
+./convolution2 8 14 100
+=============
+size of tq is 0 100
+total_time, 1.98884
+total lock, 738
+total unlock, 738
+lock char, 209
+unlock char, 209
+lock tq, 300
+lock tq, 300
+lock t_task_t, 229
+lock t_task_t, 229
+Worker1 Time, 0.00135995
+Worker2 Time, 0.00205432
+=============
+=============
+size of tq is 0 100
+total_time, 2.02528
+total lock, 738
+total unlock, 738
+lock char, 209
+unlock char, 209
+lock tq, 300
+lock tq, 300
+lock t_task_t, 229
+lock t_task_t, 229
+Worker1 Time, 0.00151407
+Worker2 Time, 0.0020088
+=============
+=============
+size of tq is 0 100
+total_time, 2.18944
+total lock, 734
+total unlock, 734
+lock char, 209
+unlock char, 209
+lock tq, 300
+lock tq, 300
+lock t_task_t, 225
+lock t_task_t, 225
+Worker1 Time, 0.00125321
+Worker2 Time, 0.00208813
+=============
+=============
+size of tq is 0 100
+total_time, 1.99696
+total lock, 738
+total unlock, 738
+lock char, 209
+unlock char, 209
+lock tq, 300
+lock tq, 300
+lock t_task_t, 229
+lock t_task_t, 229
+Worker1 Time, 0.0012258
+Worker2 Time, 0.00193026
+=============
+=============
+size of tq is 0 100
+total_time, 1.97856
+total lock, 738
+total unlock, 738
+lock char, 209
+unlock char, 209
+lock tq, 300
+lock tq, 300
+lock t_task_t, 229
+lock t_task_t, 229
+Worker1 Time, 0.00086822
+Worker2 Time, 0.00206404
+=============
+./convolution2 8 16 100
+=============
+size of tq is 0 100
+total_time, 1.96738
+total lock, 796
+total unlock, 796
+lock char, 209
+unlock char, 209
+lock tq, 300
+lock tq, 300
+lock t_task_t, 287
+lock t_task_t, 287
+Worker1 Time, 0.00144904
+Worker2 Time, 0.0032233
+=============
+=============
+size of tq is 0 100
+total_time, 3.2115
+total lock, 731
+total unlock, 731
+lock char, 209
+unlock char, 209
+lock tq, 300
+lock tq, 300
+lock t_task_t, 222
+lock t_task_t, 222
+Worker1 Time, 0.00041922
+Worker2 Time, 0.0016902
+=============
+=============
+size of tq is 0 100
+total_time, 16.8652
+total lock, 726
+total unlock, 726
+lock char, 209
+unlock char, 209
+lock tq, 300
+lock tq, 300
+lock t_task_t, 217
+lock t_task_t, 217
+Worker1 Time, 0.00062771
+Worker2 Time, 0.00165237
+=============
+=============
+size of tq is 0 100
+total_time, 1.98067
+total lock, 768
+total unlock, 768
+lock char, 209
+unlock char, 209
+lock tq, 300
+lock tq, 300
+lock t_task_t, 259
+lock t_task_t, 259
+Worker1 Time, 0.00126656
+Worker2 Time, 0.00221523
+=============
+=============
+size of tq is 0 100
+total_time, 1.96923
+total lock, 758
+total unlock, 758
+lock char, 209
+unlock char, 209
+lock tq, 300
+lock tq, 300
+lock t_task_t, 249
+lock t_task_t, 249
+Worker1 Time, 0.00154552
+Worker2 Time, 0.00381137
+=============
+./convolution2 10 1 100
+=============
+size of tq is 0 100
+total_time, 16.8675
+total lock, 714
+total unlock, 714
+lock char, 211
+unlock char, 211
+lock tq, 300
+lock tq, 300
+lock t_task_t, 203
+lock t_task_t, 203
+Worker1 Time, 0.00064894
+Worker2 Time, 0.0017775
+=============
+=============
+size of tq is 0 100
+total_time, 16.8074
+total lock, 714
+total unlock, 714
+lock char, 211
+unlock char, 211
+lock tq, 300
+lock tq, 300
+lock t_task_t, 203
+lock t_task_t, 203
+Worker1 Time, 0.00042014
+Worker2 Time, 0.00166921
+=============
+=============
+size of tq is 0 100
+total_time, 16.8862
+total lock, 714
+total unlock, 714
+lock char, 211
+unlock char, 211
+lock tq, 300
+lock tq, 300
+lock t_task_t, 203
+lock t_task_t, 203
+Worker1 Time, 0.00063673
+Worker2 Time, 0.00166457
+=============
+=============
+size of tq is 0 100
+total_time, 16.7602
+total lock, 714
+total unlock, 714
+lock char, 211
+unlock char, 211
+lock tq, 300
+lock tq, 300
+lock t_task_t, 203
+lock t_task_t, 203
+Worker1 Time, 0.00041107
+Worker2 Time, 0.00165278
+=============
+=============
+size of tq is 0 100
+total_time, 16.7982
+total lock, 714
+total unlock, 714
+lock char, 211
+unlock char, 211
+lock tq, 300
+lock tq, 300
+lock t_task_t, 203
+lock t_task_t, 203
+Worker1 Time, 0.00062833
+Worker2 Time, 0.0016776
+=============
+./convolution2 10 2 100
+=============
+size of tq is 0 100
+total_time, 8.50973
+total lock, 716
+total unlock, 716
+lock char, 211
+unlock char, 211
+lock tq, 300
+lock tq, 300
+lock t_task_t, 205
+lock t_task_t, 205
+Worker1 Time, 0.00065949
+Worker2 Time, 0.00166427
+=============
+=============
+size of tq is 0 100
+total_time, 8.65487
+total lock, 716
+total unlock, 716
+lock char, 211
+unlock char, 211
+lock tq, 300
+lock tq, 300
+lock t_task_t, 205
+lock t_task_t, 205
+Worker1 Time, 0.00055847
+Worker2 Time, 0.00169605
+=============
+=============
+size of tq is 0 100
+total_time, 8.69635
+total lock, 715
+total unlock, 715
+lock char, 211
+unlock char, 211
+lock tq, 299
+lock tq, 299
+lock t_task_t, 205
+lock t_task_t, 205
+Worker1 Time, 0.00041158
+Worker2 Time, 0.00165437
+=============
+=============
+size of tq is 0 100
+total_time, 8.55098
+total lock, 716
+total unlock, 716
+lock char, 211
+unlock char, 211
+lock tq, 300
+lock tq, 300
+lock t_task_t, 205
+lock t_task_t, 205
+Worker1 Time, 0.00063292
+Worker2 Time, 0.00165545
+=============
+=============
+size of tq is 0 100
+total_time, 8.63682
+total lock, 716
+total unlock, 716
+lock char, 211
+unlock char, 211
+lock tq, 300
+lock tq, 300
+lock t_task_t, 205
+lock t_task_t, 205
+Worker1 Time, 0.00041114
+Worker2 Time, 0.0016871
+=============
+./convolution2 10 4 100
+=============
+size of tq is 0 100
+total_time, 4.56257
+total lock, 720
+total unlock, 720
+lock char, 211
+unlock char, 211
+lock tq, 300
+lock tq, 300
+lock t_task_t, 209
+lock t_task_t, 209
+Worker1 Time, 0.00054097
+Worker2 Time, 0.00165375
+=============
+=============
+size of tq is 0 100
+total_time, 4.40605
+total lock, 720
+total unlock, 720
+lock char, 211
+unlock char, 211
+lock tq, 300
+lock tq, 300
+lock t_task_t, 209
+lock t_task_t, 209
+Worker1 Time, 0.00065956
+Worker2 Time, 0.00167958
+=============
+=============
+size of tq is 0 100
+total_time, 4.41585
+total lock, 720
+total unlock, 720
+lock char, 211
+unlock char, 211
+lock tq, 300
+lock tq, 300
+lock t_task_t, 209
+lock t_task_t, 209
+Worker1 Time, 0.00064775
+Worker2 Time, 0.00178161
+=============
+=============
+size of tq is 0 100
+total_time, 4.59212
+total lock, 720
+total unlock, 719
+lock char, 211
+unlock char, 211
+lock tq, 300
+lock tq, 300
+lock t_task_t, 209
+lock t_task_t, 209
+Worker1 Time, 0.00041389
+Worker2 Time, 0.00167791
+=============
+=============
+size of tq is 0 100
+total_time, 4.50552
+total lock, 720
+total unlock, 720
+lock char, 211
+unlock char, 211
+lock tq, 300
+lock tq, 300
+lock t_task_t, 209
+lock t_task_t, 209
+Worker1 Time, 0.00041137
+Worker2 Time, 0.0016877
+=============
+./convolution2 10 6 100
+=============
+size of tq is 0 100
+total_time, 3.40505
+total lock, 724
+total unlock, 723
+lock char, 211
+unlock char, 211
+lock tq, 300
+lock tq, 300
+lock t_task_t, 213
+lock t_task_t, 213
+Worker1 Time, 0.00064192
+Worker2 Time, 0.00174981
+=============
+=============
+size of tq is 0 100
+total_time, 3.207
+total lock, 724
+total unlock, 724
+lock char, 211
+unlock char, 211
+lock tq, 300
+lock tq, 300
+lock t_task_t, 213
+lock t_task_t, 213
+Worker1 Time, 0.00062985
+Worker2 Time, 0.00176563
+=============
+=============
+size of tq is 0 100
+total_time, 3.41866
+total lock, 724
+total unlock, 724
+lock char, 211
+unlock char, 211
+lock tq, 300
+lock tq, 300
+lock t_task_t, 213
+lock t_task_t, 213
+Worker1 Time, 0.00060295
+Worker2 Time, 0.00187168
+=============
+=============
+size of tq is 0 100
+total_time, 3.19445
+total lock, 724
+total unlock, 724
+lock char, 211
+unlock char, 211
+lock tq, 300
+lock tq, 300
+lock t_task_t, 213
+lock t_task_t, 213
+Worker1 Time, 0.00060961
+Worker2 Time, 0.00171672
+=============
+=============
+size of tq is 0 100
+total_time, 3.19279
+total lock, 724
+total unlock, 724
+lock char, 211
+unlock char, 211
+lock tq, 300
+lock tq, 300
+lock t_task_t, 213
+lock t_task_t, 213
+Worker1 Time, 0.00049653
+Worker2 Time, 0.00167757
+=============
+./convolution2 10 8 100
+=============
+size of tq is 0 100
+total_time, 2.72236
+total lock, 728
+total unlock, 728
+lock char, 211
+unlock char, 211
+lock tq, 300
+lock tq, 300
+lock t_task_t, 217
+lock t_task_t, 217
+Worker1 Time, 0.00074449
+Worker2 Time, 0.00198562
+=============
+=============
+size of tq is 0 100
+total_time, 16.8696
+total lock, 720
+total unlock, 720
+lock char, 211
+unlock char, 211
+lock tq, 300
+lock tq, 300
+lock t_task_t, 209
+lock t_task_t, 209
+Worker1 Time, 0.00063581
+Worker2 Time, 0.00165228
+=============
+=============
+size of tq is 0 100
+total_time, 2.53996
+total lock, 728
+total unlock, 728
+lock char, 211
+unlock char, 211
+lock tq, 300
+lock tq, 300
+lock t_task_t, 217
+lock t_task_t, 217
+Worker1 Time, 0.00065184
+Worker2 Time, 0.00174175
+=============
+=============
+size of tq is 0 100
+total_time, 2.90667
+total lock, 726
+total unlock, 726
+lock char, 211
+unlock char, 211
+lock tq, 300
+lock tq, 300
+lock t_task_t, 215
+lock t_task_t, 215
+Worker1 Time, 0.00091608
+Worker2 Time, 0.00170514
+=============
+=============
+size of tq is 0 100
+total_time, 2.59559
+total lock, 726
+total unlock, 726
+lock char, 211
+unlock char, 211
+lock tq, 299
+lock tq, 299
+lock t_task_t, 216
+lock t_task_t, 216
+Worker1 Time, 0.00094796
+Worker2 Time, 0.00168771
+=============
+./convolution2 10 12 100
+=============
+size of tq is 0 100
+total_time, 2.13686
+total lock, 736
+total unlock, 736
+lock char, 211
+unlock char, 211
+lock tq, 300
+lock tq, 300
+lock t_task_t, 225
+lock t_task_t, 225
+Worker1 Time, 0.00073697
+Worker2 Time, 0.00194802
+=============
+=============
+size of tq is 0 100
+total_time, 3.79781
+total lock, 728
+total unlock, 728
+lock char, 211
+unlock char, 211
+lock tq, 300
+lock tq, 300
+lock t_task_t, 217
+lock t_task_t, 217
+Worker1 Time, 0.00064499
+Worker2 Time, 0.00169542
+=============
+=============
+size of tq is 0 100
+total_time, 2.08867
+total lock, 736
+total unlock, 736
+lock char, 211
+unlock char, 211
+lock tq, 300
+lock tq, 300
+lock t_task_t, 225
+lock t_task_t, 225
+Worker1 Time, 0.00130291
+Worker2 Time, 0.0017711
+=============
+=============
+size of tq is 0 100
+total_time, 2.07739
+total lock, 736
+total unlock, 736
+lock char, 211
+unlock char, 211
+lock tq, 300
+lock tq, 300
+lock t_task_t, 225
+lock t_task_t, 225
+Worker1 Time, 0.00142054
+Worker2 Time, 0.00212539
+=============
+=============
+size of tq is 0 100
+total_time, 2.06632
+total lock, 736
+total unlock, 736
+lock char, 211
+unlock char, 211
+lock tq, 300
+lock tq, 300
+lock t_task_t, 225
+lock t_task_t, 225
+Worker1 Time, 0.00141198
+Worker2 Time, 0.00216074
+=============
+./convolution2 10 14 100
+=============
+size of tq is 0 100
+total_time, 1.98601
+total lock, 740
+total unlock, 740
+lock char, 211
+unlock char, 211
+lock tq, 300
+lock tq, 300
+lock t_task_t, 229
+lock t_task_t, 229
+Worker1 Time, 0.00129172
+Worker2 Time, 0.00204627
+=============
+=============
+size of tq is 0 100
+total_time, 2.03631
+total lock, 740
+total unlock, 740
+lock char, 211
+unlock char, 211
+lock tq, 300
+lock tq, 300
+lock t_task_t, 229
+lock t_task_t, 229
+Worker1 Time, 0.00097583
+Worker2 Time, 0.00173349
+=============
+=============
+size of tq is 0 100
+total_time, 2.05186
+total lock, 740
+total unlock, 740
+lock char, 211
+unlock char, 211
+lock tq, 300
+lock tq, 300
+lock t_task_t, 229
+lock t_task_t, 229
+Worker1 Time, 0.00129306
+Worker2 Time, 0.00195337
+=============
+=============
+size of tq is 0 100
+total_time, 3.05915
+total lock, 732
+total unlock, 732
+lock char, 211
+unlock char, 211
+lock tq, 300
+lock tq, 300
+lock t_task_t, 221
+lock t_task_t, 221
+Worker1 Time, 0.00071902
+Worker2 Time, 0.00193691
+=============
+=============
+size of tq is 0 100
+total_time, 2.04844
+total lock, 740
+total unlock, 740
+lock char, 211
+unlock char, 211
+lock tq, 300
+lock tq, 300
+lock t_task_t, 229
+lock t_task_t, 229
+Worker1 Time, 0.00198029
+Worker2 Time, 0.00196242
+=============
+./convolution2 10 16 100
+=============
+size of tq is 0 100
+total_time, 2.0611
+total lock, 747
+total unlock, 747
+lock char, 211
+unlock char, 211
+lock tq, 299
+lock tq, 299
+lock t_task_t, 237
+lock t_task_t, 237
+Worker1 Time, 0.00161448
+Worker2 Time, 0.0027521
+=============
+=============
+size of tq is 0 100
+total_time, 4.60227
+total lock, 731
+total unlock, 731
+lock char, 211
+unlock char, 211
+lock tq, 300
+lock tq, 300
+lock t_task_t, 220
+lock t_task_t, 220
+Worker1 Time, 0.00065214
+Worker2 Time, 0.00170058
+=============
+=============
+size of tq is 0 100
+total_time, 1.96365
+total lock, 744
+total unlock, 744
+lock char, 211
+unlock char, 211
+lock tq, 300
+lock tq, 300
+lock t_task_t, 233
+lock t_task_t, 233
+Worker1 Time, 0.00181817
+Worker2 Time, 0.00235652
+=============
+=============
+size of tq is 0 100
+total_time, 2.01397
+total lock, 744
+total unlock, 744
+lock char, 211
+unlock char, 211
+lock tq, 300
+lock tq, 300
+lock t_task_t, 233
+lock t_task_t, 233
+Worker1 Time, 0.00093956
+Worker2 Time, 0.00230962
+=============
+=============
+size of tq is 0 100
+total_time, 2.01483
+total lock, 756
+total unlock, 756
+lock char, 211
+unlock char, 211
+lock tq, 300
+lock tq, 300
+lock t_task_t, 245
+lock t_task_t, 245
+Worker1 Time, 0.00154444
+Worker2 Time, 0.00295802
+=============

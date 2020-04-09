@@ -1,0 +1,4 @@
+default: anisotropiefilter
+
+anisotropiefilter: main.cpp Benchmarking.cpp Benchmarking.h Anisotropicfilter_kernel.cu PreProcessing.cu 
+	nvcc -I ~/NVIDIA_GPU_Computing_SDK/C/common/inc -L ~/NVIDIA_GPU_Computing_SDK/C/common/lib/linux main.cpp Benchmarking.cpp PreProcessing.cu Anisotropicfilter_kernel.cu -l GLEW -l opencv_core -lrt -o anisotropiefilter_gpu.out

@@ -1,0 +1,19 @@
+NWRegion	2005	2023
+Scenario1	0	7	 0.65	 12	 5	da 
+Scenario2	11	12	 0.65	 12	 6   	da
+Scenario3	6	8	 0.65	 12	 5	da
+Scenario4	12	13	 0.65	 12	 5	da
+Scenario5	7	
+Scenario6	12	13	 0.65	 12	 5	da
+Scenario7	12	13	 0.8	 12	 5	da	
+Scenario8	12	13	 0.65	 6	 5	da
+Scenario9	2	8	 0.65	 12	 5	da	
+Scenario10	12	13	 0.65	 12	 5	da
+Scenario11	7	10	 0.65	 12	 5	da
+Scenario12	12	13	 0.8	 12	 2	da
+Scenario13	12	13	 0.65	 6	 2	da
+Scenario14	12	13	 0.65	 12	 5	da
+Scenario15	9
+Scenario16	12	13	 0.65	 12	 5	da
+Scenario17	12	13	 0.8	 12	 5	da	
+Scenario18	12	13	 0.65	 6	 5	da

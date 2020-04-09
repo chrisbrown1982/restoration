@@ -1,0 +1,11 @@
+--- ../../PTH_pgpry/src/tester.h	2018-09-03 15:00:49.000000000 +0100
++++ tester.h	2018-09-04 15:18:02.000000000 +0100
+@@ -39,6 +39,8 @@
+ 		Tester(const Key &key, Buffer *buffer);
+ 		~Tester();
+ 
++		void publicRun();
++
+ 	protected:
+ 		void run();
+ 

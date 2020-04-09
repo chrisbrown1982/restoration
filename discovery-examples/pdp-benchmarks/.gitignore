@@ -1,0 +1,10 @@
+trace
+*.bin
+*.trace
+*.pdf
+*.gv
+*.dzn
+*.szn
+*.input
+*.o
+*~

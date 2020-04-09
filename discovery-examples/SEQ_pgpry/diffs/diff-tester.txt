@@ -1,0 +1,32 @@
+--- ../../PTH_pgpry/src/tester.cpp	2018-09-03 15:00:49.000000000 +0100
++++ tester.cpp	2018-09-04 15:18:02.000000000 +0100
+@@ -57,6 +57,11 @@
+ 	delete[] m_out;
+ }
+ 
++void Tester::publicRun()
++{
++	run();
++}
++
+ // Main thread loop
+ void Tester::run()
+ {
+@@ -73,7 +78,7 @@
+ 	uint32_t numBlocks = 0;
+ 	Memblock blocks[8];
+ 
+-	while (!abortFlag()) {
++	//while (!abortFlag()) {
+ 		numBlocks = m_buffer->taken(8, blocks);
+ 
+ 		for (uint32_t i = 0; i < numBlocks; i++) {
+@@ -81,7 +86,7 @@
+ 				Attack::phraseFound(blocks[i]);
+ 			}
+ 		}
+-	}
++	//}
+ }
+ 
+ // Initializes the tester

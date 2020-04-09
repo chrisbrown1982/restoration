@@ -1,0 +1,2792 @@
+total_time, 816.293
+total_time, 816.786
+total_time, 755.491
+total_time, 817.863
+total_time, 816.716
+./go: line 2: ./pdppdpSeq1024: No such file or directory
+./version5_CPU 1 1 0 1024 500
+worker 0 : 0.000000
+FastFlow trace not enabled
+total_time:131.581
+worker 0 : 0.000000
+FastFlow trace not enabled
+total_time:131.516
+worker 0 : 0.000000
+FastFlow trace not enabled
+total_time:131.524
+worker 0 : 0.000000
+FastFlow trace not enabled
+total_time:131.522
+worker 0 : 0.000000
+FastFlow trace not enabled
+total_time:131.501
+./version5_CPU 1 2 0 1024 500
+worker 1 : 0.000000
+worker 0 : 0.000000
+FastFlow trace not enabled
+total_time:66.2818
+worker 1 : 0.000000
+worker 0 : 0.000000
+FastFlow trace not enabled
+total_time:65.988
+worker 1 : 0.000000
+worker 0 : 0.000000
+FastFlow trace not enabled
+total_time:65.9372
+worker 1 : 0.000000
+worker 0 : 0.000000
+FastFlow trace not enabled
+total_time:65.935
+worker 1 : 0.000000
+worker 0 : 0.000000
+FastFlow trace not enabled
+total_time:65.9359
+./version5_CPU 1 4 0 1024 500
+worker 1 : 0.000000
+worker 2 : 0.000000
+worker 3 : 0.000000
+worker 0 : 0.000000
+FastFlow trace not enabled
+total_time:38.5519
+worker 1 : 0.000000
+worker 2 : 0.000000
+worker 3 : 0.000000
+worker 0 : 0.000000
+FastFlow trace not enabled
+total_time:38.6191
+worker 1 : 0.000000
+worker 2 : 0.000000
+worker 3 : 0.000000
+worker 0 : 0.000000
+FastFlow trace not enabled
+total_time:38.6674
+worker 1 : 0.000000
+worker 2 : 0.000000
+worker 3 : 0.000000
+worker 0 : 0.000000
+FastFlow trace not enabled
+total_time:38.5542
+worker 1 : 0.000000
+worker 2 : 0.000000
+worker 3 : 0.000000
+worker 0 : 0.000000
+FastFlow trace not enabled
+total_time:38.4961
+./version5_CPU 1 6 0 1024 500
+worker 4 : 0.000000
+worker 3 : 0.000000
+worker 5 : 0.000000
+worker 0 : 0.000000
+worker 1 : 0.000000
+worker 2 : 0.000000
+FastFlow trace not enabled
+total_time:38.5382
+worker 4 : 0.000000
+worker 3 : 0.000000
+worker 5 : 0.000000
+worker 0 : 0.000000
+worker 1 : 0.000000
+worker 2 : 0.000000
+FastFlow trace not enabled
+total_time:38.5636
+worker 4 : 0.000000
+worker 3 : 0.000000
+worker 5 : 0.000000
+worker 0 : 0.000000
+worker 1 : 0.000000
+worker 2 : 0.000000
+FastFlow trace not enabled
+total_time:38.5524
+worker 4 : 0.000000
+worker 3 : 0.000000
+worker 5 : 0.000000
+worker 0 : 0.000000
+worker 1 : 0.000000
+worker 2 : 0.000000
+FastFlow trace not enabled
+total_time:38.6382
+worker 4 : 0.000000
+worker 3 : 0.000000
+worker 5 : 0.000000
+worker 0 : 0.000000
+worker 1 : 0.000000
+worker 2 : 0.000000
+FastFlow trace not enabled
+total_time:38.5629
+./version5_CPU 1 8 0 1024 500
+worker 6 : 0.000000
+worker 0 : 0.000000
+worker 5 : 0.000000
+worker 7 : 0.000000
+worker 1 : 0.000000
+worker 2 : 0.000000
+worker 3 : 0.000000
+worker 4 : 0.000000
+FastFlow trace not enabled
+total_time:39.3328
+worker 0 : 0.000000
+worker 7 : 0.000000
+worker 5 : 0.000000
+worker 6 : 0.000000
+worker 1 : 0.000000
+worker 2 : 0.000000
+worker 3 : 0.000000
+worker 4 : 0.000000
+FastFlow trace not enabled
+total_time:39.3601
+worker 0 : 0.000000
+worker 7 : 0.000000
+worker 6 : 0.000000
+worker 5 : 0.000000
+worker 1 : 0.000000
+worker 2 : 0.000000
+worker 3 : 0.000000
+worker 4 : 0.000000
+FastFlow trace not enabled
+total_time:38.5269
+worker 0 : 0.000000
+worker 7 : 0.000000
+worker 5 : 0.000000
+worker 6 : 0.000000
+worker 1 : 0.000000
+worker 2 : 0.000000
+worker 3 : 0.000000
+worker 4 : 0.000000
+FastFlow trace not enabled
+total_time:38.7658
+worker 0 : 0.000000
+worker 7 : 0.000000
+worker 6 : 0.000000
+worker 5 : 0.000000
+worker 1 : 0.000000
+worker 2 : 0.000000
+worker 3 : 0.000000
+worker 4 : 0.000000
+FastFlow trace not enabled
+total_time:38.6265
+./version5_CPU 1 10 0 1024 500
+worker 5 : 0.000000
+worker 4 : 0.000000
+worker 2 : 0.000000
+worker 1 : 0.000000
+worker 3 : 0.000000
+worker 6 : 0.000000
+worker 7 : 0.000000
+worker 8 : 0.000000
+worker 0 : 0.000000
+worker 9 : 0.000000
+FastFlow trace not enabled
+total_time:63.6453
+worker 5 : 0.000000
+worker 4 : 0.000000
+worker 1 : 0.000000
+worker 2 : 0.000000
+worker 3 : 0.000000
+worker 7 : 0.000000
+worker 6 : 0.000000
+worker 8 : 0.000000
+worker 0 : 0.000000
+worker 9 : 0.000000
+FastFlow trace not enabled
+total_time:57.2032
+worker 7 : 0.000000
+worker 1 : 0.000000
+worker 4 : 0.000000
+worker 3 : 0.000000
+worker 6 : 0.000000
+worker 2 : 0.000000
+worker 5 : 0.000000
+worker 8 : 0.000000
+worker 9 : 0.000000
+worker 0 : 0.000000
+FastFlow trace not enabled
+total_time:57.793
+worker 5 : 0.000000
+worker 4 : 0.000000
+worker 2 : 0.000000
+worker 6 : 0.000000
+worker 3 : 0.000000
+worker 1 : 0.000000
+worker 7 : 0.000000
+worker 8 : 0.000000
+worker 0 : 0.000000
+worker 9 : 0.000000
+FastFlow trace not enabled
+total_time:68.8397
+worker 7 : 0.000000
+worker 5 : 0.000000
+worker 1 : 0.000000
+worker 6 : 0.000000
+worker 4 : 0.000000
+worker 3 : 0.000000
+worker 2 : 0.000000
+worker 8 : 0.000000
+worker 0 : 0.000000
+worker 9 : 0.000000
+FastFlow trace not enabled
+total_time:71.4078
+./version5_CPU 1 12 0 1024 500
+worker 9 : 0.000000
+worker 0 : 0.000000
+worker 5 : 0.000000
+worker 4 : 0.000000
+worker 1 : 0.000000
+worker 3 : 0.000000
+worker 2 : 0.000000
+worker 10 : 0.000000
+worker 11 : 0.000000
+worker 6 : 0.000000
+worker 7 : 0.000000
+worker 8 : 0.000000
+FastFlow trace not enabled
+total_time:80.9035
+worker 9 : 0.000000
+worker 0 : 0.000000
+worker 5 : 0.000000
+worker 4 : 0.000000
+worker 3 : 0.000000
+worker 2 : 0.000000
+worker 1 : 0.000000
+worker 10 : 0.000000
+worker 11 : 0.000000
+worker 6 : 0.000000
+worker 7 : 0.000000
+worker 8 : 0.000000
+FastFlow trace not enabled
+total_time:83.1925
+worker 9 : 0.000000
+worker 0 : 0.000000
+worker 4 : 0.000000
+worker 1 : 0.000000
+worker 3 : 0.000000
+worker 2 : 0.000000
+worker 10 : 0.000000
+worker 11 : 0.000000
+worker 7 : 0.000000
+worker 5 : 0.000000
+worker 6 : 0.000000
+worker 8 : 0.000000
+FastFlow trace not enabled
+total_time:87.0938
+worker 4 : 0.000000
+worker 10 : 0.000000
+worker 3 : 0.000000
+worker 2 : 0.000000
+worker 1 : 0.000000
+worker 0 : 0.000000
+worker 5 : 0.000000
+worker 11 : 0.000000
+worker 6 : 0.000000
+worker 7 : 0.000000
+worker 9 : 0.000000
+worker 8 : 0.000000
+FastFlow trace not enabled
+total_time:82.158
+worker 9 : 0.000000
+worker 3 : 0.000000
+worker 6 : 0.000000
+worker 0 : 0.000000
+worker 10 : 0.000000
+worker 4 : 0.000000
+worker 5 : 0.000000
+worker 2 : 0.000000
+worker 1 : 0.000000
+worker 11 : 0.000000
+worker 7 : 0.000000
+worker 8 : 0.000000
+FastFlow trace not enabled
+total_time:87.4845
+./version5_CPU 1 14 0 1024 500
+worker 0 : 0.000000
+worker 11 : 0.000000
+worker 12 : 0.000000
+worker 8 : 0.000000
+worker 7 : 0.000000
+worker 13 : 0.000000
+worker 6 : 0.000000
+worker 4 : 0.000000
+worker 5 : 0.000000
+worker 2 : 0.000000
+worker 3 : 0.000000
+worker 1 : 0.000000
+worker 9 : 0.000000
+worker 10 : 0.000000
+FastFlow trace not enabled
+total_time:113.11
+worker 13 : 0.000000
+worker 0 : 0.000000
+worker 6 : 0.000000
+worker 5 : 0.000000
+worker 3 : 0.000000
+worker 4 : 0.000000
+worker 2 : 0.000000
+worker 1 : 0.000000
+worker 7 : 0.000000
+worker 11 : 0.000000
+worker 8 : 0.000000
+worker 12 : 0.000000
+worker 9 : 0.000000
+worker 10 : 0.000000
+FastFlow trace not enabled
+total_time:117.514
+worker 13 : 0.000000
+worker 1 : 0.000000
+worker 2 : 0.000000
+worker 4 : 0.000000
+worker 11 : 0.000000
+worker 3 : 0.000000
+worker 6 : 0.000000
+worker 7 : 0.000000
+worker 5 : 0.000000
+worker 0 : 0.000000
+worker 12 : 0.000000
+worker 8 : 0.000000
+worker 9 : 0.000000
+worker 10 : 0.000000
+FastFlow trace not enabled
+total_time:116.398
+worker 7 : 0.000000
+worker 5 : 0.000000
+worker 11 : 0.000000
+worker 3 : 0.000000
+worker 4 : 0.000000
+worker 6 : 0.000000
+worker 8 : 0.000000
+worker 0 : 0.000000
+worker 1 : 0.000000
+worker 2 : 0.000000
+worker 12 : 0.000000
+worker 13 : 0.000000
+worker 9 : 0.000000
+worker 10 : 0.000000
+FastFlow trace not enabled
+total_time:110.098
+worker 0 : 0.000000
+worker 2 : 0.000000
+worker 3 : 0.000000
+worker 6 : 0.000000
+worker 5 : 0.000000
+worker 4 : 0.000000
+worker 1 : 0.000000
+worker 13 : 0.000000
+worker 11 : 0.000000
+worker 7 : 0.000000
+worker 8 : 0.000000
+worker 12 : 0.000000
+worker 9 : 0.000000
+worker 10 : 0.000000
+FastFlow trace not enabled
+total_time:115.238
+./version5_CPU 1 16 0 1024 500
+worker 0 : 0.000000
+worker 13 : 0.000000
+worker 3 : 0.000000
+worker 1 : 0.000000
+worker 12 : 0.000000
+worker 5 : 0.000000
+worker 2 : 0.000000
+worker 10 : 0.000000
+worker 9 : 0.000000
+worker 6 : 0.000000
+worker 8 : 0.000000
+worker 11 : 0.000000
+worker 7 : 0.000000
+worker 15 : 0.000000
+worker 14 : 0.000000
+worker 4 : 0.000000
+FastFlow trace not enabled
+total_time:116.03
+worker 5 : 0.000000
+worker 14 : 0.000000
+worker 13 : 0.000000
+worker 12 : 0.000000
+worker 11 : 0.000000
+worker 3 : 0.000000
+worker 2 : 0.000000
+worker 1 : 0.000000
+worker 6 : 0.000000
+worker 10 : 0.000000
+worker 9 : 0.000000
+worker 8 : 0.000000
+worker 7 : 0.000000
+worker 15 : 0.000000
+worker 0 : 0.000000
+worker 4 : 0.000000
+FastFlow trace not enabled
+total_time:108.897
+worker 10 : 0.000000
+worker 12 : 0.000000
+worker 14 : 0.000000
+worker 13 : 0.000000
+worker 5 : 0.000000
+worker 6 : 0.000000
+worker 1 : 0.000000
+worker 11 : 0.000000
+worker 8 : 0.000000
+worker 15 : 0.000000
+worker 9 : 0.000000
+worker 7 : 0.000000
+worker 2 : 0.000000
+worker 3 : 0.000000
+worker 0 : 0.000000
+worker 4 : 0.000000
+FastFlow trace not enabled
+total_time:117.836
+worker 0 : 0.000000
+worker 11 : 0.000000
+worker 15 : 0.000000
+worker 8 : 0.000000
+worker 1 : 0.000000
+worker 7 : 0.000000
+worker 6 : 0.000000
+worker 5 : 0.000000
+worker 2 : 0.000000
+worker 3 : 0.000000
+worker 9 : 0.000000
+worker 10 : 0.000000
+worker 12 : 0.000000
+worker 14 : 0.000000
+worker 13 : 0.000000
+worker 4 : 0.000000
+FastFlow trace not enabled
+total_time:114.13
+worker 13 : 0.000000
+worker 6 : 0.000000
+worker 14 : 0.000000
+worker 8 : 0.000000
+worker 5 : 0.000000
+worker 7 : 0.000000
+worker 1 : 0.000000
+worker 11 : 0.000000
+worker 10 : 0.000000
+worker 15 : 0.000000
+worker 12 : 0.000000
+worker 9 : 0.000000
+worker 0 : 0.000000
+worker 2 : 0.000000
+worker 3 : 0.000000
+worker 4 : 0.000000
+FastFlow trace not enabled
+total_time:116.199
+./version5_CPU 2 1 0 1024 500
+worker 0 : 0.000000
+FastFlow trace not enabled
+total_time:131.582
+worker 0 : 0.000000
+FastFlow trace not enabled
+total_time:131.513
+worker 0 : 0.000000
+FastFlow trace not enabled
+total_time:131.479
+worker 0 : 0.000000
+FastFlow trace not enabled
+total_time:131.479
+worker 0 : 0.000000
+FastFlow trace not enabled
+total_time:131.476
+./version5_CPU 2 2 0 1024 500
+worker 0 : 0.000000
+worker 1 : 0.000000
+FastFlow trace not enabled
+total_time:79.85
+worker 1 : 0.000000
+worker 0 : 0.000000
+FastFlow trace not enabled
+total_time:78.9259
+worker 1 : 0.000000
+worker 0 : 0.000000
+FastFlow trace not enabled
+total_time:78.0061
+worker 1 : 0.000000
+worker 0 : 0.000000
+FastFlow trace not enabled
+total_time:78.4318
+worker 1 : 0.000000
+worker 0 : 0.000000
+FastFlow trace not enabled
+total_time:77.9226
+./version5_CPU 2 4 0 1024 500
+worker 3 : 0.000000
+worker 1 : 0.000000
+worker 0 : 0.000000
+worker 2 : 0.000000
+FastFlow trace not enabled
+total_time:38.5081
+worker 3 : 0.000000
+worker 1 : 0.000000
+worker 2 : 0.000000
+worker 0 : 0.000000
+FastFlow trace not enabled
+total_time:34.741
+worker 3 : 0.000000
+worker 0 : 0.000000
+worker 1 : 0.000000
+worker 2 : 0.000000
+FastFlow trace not enabled
+total_time:37.6548
+worker 3 : 0.000000
+worker 1 : 0.000000
+worker 0 : 0.000000
+worker 2 : 0.000000
+FastFlow trace not enabled
+total_time:37.959
+worker 3 : 0.000000
+worker 1 : 0.000000
+worker 2 : 0.000000
+worker 0 : 0.000000
+FastFlow trace not enabled
+total_time:35.6572
+./version5_CPU 2 6 0 1024 500
+worker 1 : 0.000000
+worker 0 : 0.000000
+worker 3 : 0.000000
+worker 5 : 0.000000
+worker 2 : 0.000000
+worker 4 : 0.000000
+FastFlow trace not enabled
+total_time:26.6523
+worker 1 : 0.000000
+worker 0 : 0.000000
+worker 3 : 0.000000
+worker 5 : 0.000000
+worker 2 : 0.000000
+worker 4 : 0.000000
+FastFlow trace not enabled
+total_time:27.0833
+worker 3 : 0.000000
+worker 5 : 0.000000
+worker 1 : 0.000000
+worker 2 : 0.000000
+worker 0 : 0.000000
+worker 4 : 0.000000
+FastFlow trace not enabled
+total_time:26.7678
+worker 1 : 0.000000
+worker 5 : 0.000000
+worker 3 : 0.000000
+worker 0 : 0.000000
+worker 2 : 0.000000
+worker 4 : 0.000000
+FastFlow trace not enabled
+total_time:26.0657
+worker 1 : 0.000000
+worker 3 : 0.000000
+worker 2 : 0.000000
+worker 0 : 0.000000
+worker 5 : 0.000000
+worker 4 : 0.000000
+FastFlow trace not enabled
+total_time:26.1334
+./version5_CPU 2 8 0 1024 500
+worker 0 : 0.000000
+worker 7 : 0.000000
+worker 5 : 0.000000
+worker 6 : 0.000000
+worker 1 : 0.000000
+worker 2 : 0.000000
+worker 3 : 0.000000
+worker 4 : 0.000000
+FastFlow trace not enabled
+total_time:20.9614
+worker 7 : 0.000000
+worker 6 : 0.000000
+worker 5 : 0.000000
+worker 1 : 0.000000
+worker 0 : 0.000000
+worker 2 : 0.000000
+worker 3 : 0.000000
+worker 4 : 0.000000
+FastFlow trace not enabled
+total_time:20.6037
+worker 6 : 0.000000
+worker 7 : 0.000000
+worker 5 : 0.000000
+worker 1 : 0.000000
+worker 0 : 0.000000
+worker 2 : 0.000000
+worker 3 : 0.000000
+worker 4 : 0.000000
+FastFlow trace not enabled
+total_time:21.3286
+worker 0 : 0.000000
+worker 6 : 0.000000
+worker 5 : 0.000000
+worker 7 : 0.000000
+worker 1 : 0.000000
+worker 2 : 0.000000
+worker 3 : 0.000000
+worker 4 : 0.000000
+FastFlow trace not enabled
+total_time:20.6412
+worker 0 : 0.000000
+worker 6 : 0.000000
+worker 5 : 0.000000
+worker 7 : 0.000000
+worker 1 : 0.000000
+worker 2 : 0.000000
+worker 3 : 0.000000
+worker 4 : 0.000000
+FastFlow trace not enabled
+total_time:21.3552
+./version5_CPU 2 10 0 1024 500
+worker 1 : 0.000000
+worker 3 : 0.000000
+worker 5 : 0.000000
+worker 2 : 0.000000
+worker 4 : 0.000000
+worker 7 : 0.000000
+worker 8 : 0.000000
+worker 9 : 0.000000
+worker 0 : 0.000000
+worker 6 : 0.000000
+FastFlow trace not enabled
+total_time:76.291
+worker 1 : 0.000000
+worker 2 : 0.000000
+worker 4 : 0.000000
+worker 5 : 0.000000
+worker 3 : 0.000000
+worker 7 : 0.000000
+worker 0 : 0.000000
+worker 8 : 0.000000
+worker 6 : 0.000000
+worker 9 : 0.000000
+FastFlow trace not enabled
+total_time:85.4388
+worker 5 : 0.000000
+worker 4 : 0.000000
+worker 1 : 0.000000
+worker 2 : 0.000000
+worker 3 : 0.000000
+worker 7 : 0.000000
+worker 8 : 0.000000
+worker 6 : 0.000000
+worker 9 : 0.000000
+worker 0 : 0.000000
+FastFlow trace not enabled
+total_time:88.5329
+worker 2 : 0.000000
+worker 5 : 0.000000
+worker 3 : 0.000000
+worker 1 : 0.000000
+worker 4 : 0.000000
+worker 7 : 0.000000
+worker 8 : 0.000000
+worker 0 : 0.000000
+worker 6 : 0.000000
+worker 9 : 0.000000
+FastFlow trace not enabled
+total_time:76.2392
+worker 3 : 0.000000
+worker 6 : 0.000000
+worker 4 : 0.000000
+worker 1 : 0.000000
+worker 5 : 0.000000
+worker 2 : 0.000000
+worker 7 : 0.000000
+worker 8 : 0.000000
+worker 0 : 0.000000
+worker 9 : 0.000000
+FastFlow trace not enabled
+total_time:76.7169
+./version5_CPU 2 12 0 1024 500
+worker 1 : 0.000000
+worker 3 : 0.000000
+worker 11 : 0.000000
+worker 2 : 0.000000
+worker 5 : 0.000000
+worker 0 : 0.000000
+worker 4 : 0.000000
+worker 10 : 0.000000
+worker 9 : 0.000000
+worker 6 : 0.000000
+worker 7 : 0.000000
+worker 8 : 0.000000
+FastFlow trace not enabled
+total_time:85.4818
+worker 0 : 0.000000
+worker 2 : 0.000000
+worker 3 : 0.000000
+worker 10 : 0.000000
+worker 1 : 0.000000
+worker 4 : 0.000000
+worker 5 : 0.000000
+worker 9 : 0.000000
+worker 11 : 0.000000
+worker 7 : 0.000000
+worker 6 : 0.000000
+worker 8 : 0.000000
+FastFlow trace not enabled
+total_time:141.38
+worker 10 : 0.000000
+worker 9 : 0.000000
+worker 1 : 0.000000
+worker 11 : 0.000000
+worker 5 : 0.000000
+worker 0 : 0.000000
+worker 4 : 0.000000
+worker 3 : 0.000000
+worker 2 : 0.000000
+worker 7 : 0.000000
+worker 6 : 0.000000
+worker 8 : 0.000000
+FastFlow trace not enabled
+total_time:93.079
+worker 1 : 0.000000
+worker 11 : 0.000000
+worker 6 : 0.000000
+worker 10 : 0.000000
+worker 5 : 0.000000
+worker 3 : 0.000000
+worker 2 : 0.000000
+worker 9 : 0.000000
+worker 0 : 0.000000
+worker 4 : 0.000000
+worker 7 : 0.000000
+worker 8 : 0.000000
+FastFlow trace not enabled
+total_time:135.47
+worker 1 : 0.000000
+worker 11 : 0.000000
+worker 0 : 0.000000
+worker 3 : 0.000000
+worker 9 : 0.000000
+worker 2 : 0.000000
+worker 4 : 0.000000
+worker 5 : 0.000000
+worker 6 : 0.000000
+worker 10 : 0.000000
+worker 7 : 0.000000
+worker 8 : 0.000000
+FastFlow trace not enabled
+total_time:127.374
+./version5_CPU 2 14 0 1024 500
+worker 13 : 0.000000
+worker 0 : 0.000000
+worker 2 : 0.000000
+worker 5 : 0.000000
+worker 4 : 0.000000
+worker 1 : 0.000000
+worker 3 : 0.000000
+worker 11 : 0.000000
+worker 9 : 0.000000
+worker 6 : 0.000000
+worker 7 : 0.000000
+worker 8 : 0.000000
+worker 10 : 0.000000
+worker 12 : 0.000000
+FastFlow trace not enabled
+total_time:170.089
+worker 13 : 0.000000
+worker 2 : 0.000000
+worker 1 : 0.000000
+worker 5 : 0.000000
+worker 0 : 0.000000
+worker 4 : 0.000000
+worker 3 : 0.000000
+worker 11 : 0.000000
+worker 6 : 0.000000
+worker 7 : 0.000000
+worker 8 : 0.000000
+worker 12 : 0.000000
+worker 9 : 0.000000
+worker 10 : 0.000000
+FastFlow trace not enabled
+total_time:117.992
+worker 0 : 0.000000
+worker 8 : 0.000000
+worker 3 : 0.000000
+worker 11 : 0.000000
+worker 5 : 0.000000
+worker 4 : 0.000000
+worker 1 : 0.000000
+worker 2 : 0.000000
+worker 12 : 0.000000
+worker 7 : 0.000000
+worker 6 : 0.000000
+worker 13 : 0.000000
+worker 9 : 0.000000
+worker 10 : 0.000000
+FastFlow trace not enabled
+total_time:155.295
+worker 6 : 0.000000
+worker 11 : 0.000000
+worker 3 : 0.000000
+worker 5 : 0.000000
+worker 0 : 0.000000
+worker 12 : 0.000000
+worker 7 : 0.000000
+worker 2 : 0.000000
+worker 4 : 0.000000
+worker 1 : 0.000000
+worker 8 : 0.000000
+worker 10 : 0.000000
+worker 9 : 0.000000
+worker 13 : 0.000000
+FastFlow trace not enabled
+total_time:102.259
+worker 6 : 0.000000
+worker 11 : 0.000000
+worker 2 : 0.000000
+worker 0 : 0.000000
+worker 3 : 0.000000
+worker 4 : 0.000000
+worker 5 : 0.000000
+worker 1 : 0.000000
+worker 7 : 0.000000
+worker 12 : 0.000000
+worker 9 : 0.000000
+worker 13 : 0.000000
+worker 10 : 0.000000
+worker 8 : 0.000000
+FastFlow trace not enabled
+total_time:126.84
+./version5_CPU 2 16 0 1024 500
+worker 8 : 0.000000
+worker 6 : 0.000000
+worker 11 : 0.000000
+worker 5 : 0.000000
+worker 7 : 0.000000
+worker 10 : 0.000000
+worker 14 : 0.000000
+worker 12 : 0.000000
+worker 1 : 0.000000
+worker 2 : 0.000000
+worker 15 : 0.000000
+worker 3 : 0.000000
+worker 0 : 0.000000
+worker 4 : 0.000000
+worker 13 : 0.000000
+worker 9 : 0.000000
+FastFlow trace not enabled
+total_time:86.9148
+worker 9 : 0.000000
+worker 8 : 0.000000
+worker 10 : 0.000000
+worker 5 : 0.000000
+worker 13 : 0.000000
+worker 14 : 0.000000
+worker 7 : 0.000000
+worker 2 : 0.000000
+worker 1 : 0.000000
+worker 12 : 0.000000
+worker 6 : 0.000000
+worker 11 : 0.000000
+worker 15 : 0.000000
+worker 0 : 0.000000
+worker 3 : 0.000000
+worker 4 : 0.000000
+FastFlow trace not enabled
+total_time:69.2785
+worker 9 : 0.000000
+worker 2 : 0.000000
+worker 11 : 0.000000
+worker 13 : 0.000000
+worker 6 : 0.000000
+worker 5 : 0.000000
+worker 1 : 0.000000
+worker 14 : 0.000000
+worker 8 : 0.000000
+worker 7 : 0.000000
+worker 10 : 0.000000
+worker 12 : 0.000000
+worker 15 : 0.000000
+worker 3 : 0.000000
+worker 0 : 0.000000
+worker 4 : 0.000000
+FastFlow trace not enabled
+total_time:79.1947
+worker 8 : 0.000000
+worker 14 : 0.000000
+worker 12 : 0.000000
+worker 7 : 0.000000
+worker 1 : 0.000000
+worker 0 : 0.000000
+worker 2 : 0.000000
+worker 10 : 0.000000
+worker 5 : 0.000000
+worker 11 : 0.000000
+worker 13 : 0.000000
+worker 6 : 0.000000
+worker 9 : 0.000000
+worker 15 : 0.000000
+worker 3 : 0.000000
+worker 4 : 0.000000
+FastFlow trace not enabled
+total_time:75.5072
+worker 14 : 0.000000
+worker 6 : 0.000000
+worker 5 : 0.000000
+worker 10 : 0.000000
+worker 12 : 0.000000
+worker 8 : 0.000000
+worker 11 : 0.000000
+worker 7 : 0.000000
+worker 15 : 0.000000
+worker 1 : 0.000000
+worker 2 : 0.000000
+worker 9 : 0.000000
+worker 0 : 0.000000
+worker 3 : 0.000000
+worker 4 : 0.000000
+worker 13 : 0.000000
+FastFlow trace not enabled
+total_time:120.419
+./version5_CPU 4 1 0 1024 500
+worker 0 : 0.000000
+FastFlow trace not enabled
+total_time:131.704
+worker 0 : 0.000000
+FastFlow trace not enabled
+total_time:131.686
+worker 0 : 0.000000
+FastFlow trace not enabled
+total_time:131.628
+worker 0 : 0.000000
+FastFlow trace not enabled
+total_time:131.701
+worker 0 : 0.000000
+FastFlow trace not enabled
+total_time:131.66
+./version5_CPU 4 2 0 1024 500
+worker 1 : 0.000000
+worker 0 : 0.000000
+FastFlow trace not enabled
+total_time:65.9252
+worker 1 : 0.000000
+worker 0 : 0.000000
+FastFlow trace not enabled
+total_time:65.9224
+worker 1 : 0.000000
+worker 0 : 0.000000
+FastFlow trace not enabled
+total_time:65.9233
+worker 1 : 0.000000
+worker 0 : 0.000000
+FastFlow trace not enabled
+total_time:65.9168
+worker 1 : 0.000000
+worker 0 : 0.000000
+FastFlow trace not enabled
+total_time:65.9075
+./version5_CPU 4 4 0 1024 500
+worker 0 : 0.000000
+worker 2 : 0.000000
+worker 3 : 0.000000
+worker 1 : 0.000000
+FastFlow trace not enabled
+total_time:38.5823
+worker 0 : 0.000000
+worker 3 : 0.000000
+worker 2 : 0.000000
+worker 1 : 0.000000
+FastFlow trace not enabled
+total_time:36.7295
+worker 0 : 0.000000
+worker 3 : 0.000000
+worker 2 : 0.000000
+worker 1 : 0.000000
+FastFlow trace not enabled
+total_time:36.6124
+worker 0 : 0.000000
+worker 2 : 0.000000
+worker 3 : 0.000000
+worker 1 : 0.000000
+FastFlow trace not enabled
+total_time:36.6865
+worker 0 : 0.000000
+worker 2 : 0.000000
+worker 3 : 0.000000
+worker 1 : 0.000000
+FastFlow trace not enabled
+total_time:37.8222
+./version5_CPU 4 6 0 1024 500
+worker 0 : 0.000000
+worker 4 : 0.000000
+worker 5 : 0.000000
+worker 2 : 0.000000
+worker 1 : 0.000000
+worker 3 : 0.000000
+FastFlow trace not enabled
+total_time:25.7853
+worker 4 : 0.000000
+worker 5 : 0.000000
+worker 0 : 0.000000
+worker 3 : 0.000000
+worker 1 : 0.000000
+worker 2 : 0.000000
+FastFlow trace not enabled
+total_time:25.3423
+worker 0 : 0.000000
+worker 4 : 0.000000
+worker 5 : 0.000000
+worker 2 : 0.000000
+worker 3 : 0.000000
+worker 1 : 0.000000
+FastFlow trace not enabled
+total_time:25.4472
+worker 4 : 0.000000
+worker 0 : 0.000000
+worker 5 : 0.000000
+worker 3 : 0.000000
+worker 2 : 0.000000
+worker 1 : 0.000000
+FastFlow trace not enabled
+total_time:28.6443
+worker 0 : 0.000000
+worker 4 : 0.000000
+worker 5 : 0.000000
+worker 3 : 0.000000
+worker 2 : 0.000000
+worker 1 : 0.000000
+FastFlow trace not enabled
+total_time:30.711
+./version5_CPU 4 8 0 1024 500
+worker 5 : 0.000000
+worker 0 : 0.000000
+worker 7 : 0.000000
+worker 1 : 0.000000
+worker 2 : 0.000000
+worker 3 : 0.000000
+worker 4 : 0.000000
+worker 6 : 0.000000
+FastFlow trace not enabled
+total_time:51.0216
+worker 0 : 0.000000
+worker 5 : 0.000000
+worker 6 : 0.000000
+worker 1 : 0.000000
+worker 2 : 0.000000
+worker 3 : 0.000000
+worker 7 : 0.000000
+worker 4 : 0.000000
+FastFlow trace not enabled
+total_time:51.2419
+worker 0 : 0.000000
+worker 6 : 0.000000
+worker 5 : 0.000000
+worker 1 : 0.000000
+worker 2 : 0.000000
+worker 3 : 0.000000
+worker 7 : 0.000000
+worker 4 : 0.000000
+FastFlow trace not enabled
+total_time:51.7369
+worker 5 : 0.000000
+worker 0 : 0.000000
+worker 1 : 0.000000
+worker 6 : 0.000000
+worker 2 : 0.000000
+worker 3 : 0.000000
+worker 7 : 0.000000
+worker 4 : 0.000000
+FastFlow trace not enabled
+total_time:46.8324
+worker 6 : 0.000000
+worker 0 : 0.000000
+worker 5 : 0.000000
+worker 1 : 0.000000
+worker 7 : 0.000000
+worker 2 : 0.000000
+worker 3 : 0.000000
+worker 4 : 0.000000
+FastFlow trace not enabled
+total_time:67.9774
+./version5_CPU 4 10 0 1024 500
+worker 2 : 0.000000
+worker 1 : 0.000000
+worker 3 : 0.000000
+worker 0 : 0.000000
+worker 7 : 0.000000
+worker 8 : 0.000000
+worker 5 : 0.000000
+worker 4 : 0.000000
+worker 9 : 0.000000
+worker 6 : 0.000000
+FastFlow trace not enabled
+total_time:138.956
+worker 1 : 0.000000
+worker 3 : 0.000000
+worker 2 : 0.000000
+worker 5 : 0.000000
+worker 6 : 0.000000
+worker 7 : 0.000000
+worker 0 : 0.000000
+worker 8 : 0.000000
+worker 9 : 0.000000
+worker 4 : 0.000000
+FastFlow trace not enabled
+total_time:128.28
+worker 1 : 0.000000
+worker 3 : 0.000000
+worker 2 : 0.000000
+worker 9 : 0.000000
+worker 6 : 0.000000
+worker 4 : 0.000000
+worker 5 : 0.000000
+worker 7 : 0.000000
+worker 0 : 0.000000
+worker 8 : 0.000000
+FastFlow trace not enabled
+total_time:145.544
+worker 1 : 0.000000
+worker 2 : 0.000000
+worker 3 : 0.000000
+worker 4 : 0.000000
+worker 7 : 0.000000
+worker 0 : 0.000000
+worker 8 : 0.000000
+worker 5 : 0.000000
+worker 6 : 0.000000
+worker 9 : 0.000000
+FastFlow trace not enabled
+total_time:171.568
+worker 3 : 0.000000
+worker 1 : 0.000000
+worker 2 : 0.000000
+worker 4 : 0.000000
+worker 7 : 0.000000
+worker 5 : 0.000000
+worker 9 : 0.000000
+worker 8 : 0.000000
+worker 0 : 0.000000
+worker 6 : 0.000000
+FastFlow trace not enabled
+total_time:181.019
+./version5_CPU 4 12 0 1024 500
+worker 3 : 0.000000
+worker 11 : 0.000000
+worker 1 : 0.000000
+worker 9 : 0.000000
+worker 0 : 0.000000
+worker 2 : 0.000000
+worker 4 : 0.000000
+worker 6 : 0.000000
+worker 10 : 0.000000
+worker 5 : 0.000000
+worker 8 : 0.000000
+worker 7 : 0.000000
+FastFlow trace not enabled
+total_time:234.863
+worker 0 : 0.000000
+worker 2 : 0.000000
+worker 3 : 0.000000
+worker 10 : 0.000000
+worker 11 : 0.000000
+worker 1 : 0.000000
+worker 5 : 0.000000
+worker 9 : 0.000000
+worker 6 : 0.000000
+worker 4 : 0.000000
+worker 7 : 0.000000
+worker 8 : 0.000000
+FastFlow trace not enabled
+total_time:191.566
+worker 0 : 0.000000
+worker 4 : 0.000000
+worker 1 : 0.000000
+worker 3 : 0.000000
+worker 5 : 0.000000
+worker 11 : 0.000000
+worker 10 : 0.000000
+worker 9 : 0.000000
+worker 6 : 0.000000
+worker 2 : 0.000000
+worker 7 : 0.000000
+worker 8 : 0.000000
+FastFlow trace not enabled
+total_time:177.673
+worker 3 : 0.000000
+worker 11 : 0.000000
+worker 10 : 0.000000
+worker 9 : 0.000000
+worker 0 : 0.000000
+worker 1 : 0.000000
+worker 2 : 0.000000
+worker 5 : 0.000000
+worker 7 : 0.000000
+worker 6 : 0.000000
+worker 4 : 0.000000
+worker 8 : 0.000000
+FastFlow trace not enabled
+total_time:219.079
+worker 1 : 0.000000
+worker 10 : 0.000000
+worker 9 : 0.000000
+worker 0 : 0.000000
+worker 3 : 0.000000
+worker 2 : 0.000000
+worker 6 : 0.000000
+worker 4 : 0.000000
+worker 7 : 0.000000
+worker 11 : 0.000000
+worker 5 : 0.000000
+worker 8 : 0.000000
+FastFlow trace not enabled
+total_time:252.929
+./version5_CPU 4 14 0 1024 500
+worker 12 : 0.000000
+worker 13 : 0.000000
+worker 11 : 0.000000
+worker 5 : 0.000000
+worker 0 : 0.000000
+worker 2 : 0.000000
+worker 3 : 0.000000
+worker 1 : 0.000000
+worker 6 : 0.000000
+worker 8 : 0.000000
+worker 4 : 0.000000
+worker 9 : 0.000000
+worker 7 : 0.000000
+worker 10 : 0.000000
+FastFlow trace not enabled
+total_time:234.468
+worker 13 : 0.000000
+worker 0 : 0.000000
+worker 12 : 0.000000
+worker 3 : 0.000000
+worker 11 : 0.000000
+worker 1 : 0.000000
+worker 2 : 0.000000
+worker 4 : 0.000000
+worker 5 : 0.000000
+worker 8 : 0.000000
+worker 7 : 0.000000
+worker 9 : 0.000000
+worker 10 : 0.000000
+worker 6 : 0.000000
+FastFlow trace not enabled
+total_time:177.548
+worker 4 : 0.000000
+worker 5 : 0.000000
+worker 13 : 0.000000
+worker 2 : 0.000000
+worker 11 : 0.000000
+worker 0 : 0.000000
+worker 1 : 0.000000
+worker 12 : 0.000000
+worker 3 : 0.000000
+worker 8 : 0.000000
+worker 10 : 0.000000
+worker 9 : 0.000000
+worker 7 : 0.000000
+worker 6 : 0.000000
+FastFlow trace not enabled
+total_time:224.651
+worker 0 : 0.000000
+worker 12 : 0.000000
+worker 13 : 0.000000
+worker 1 : 0.000000
+worker 3 : 0.000000
+worker 2 : 0.000000
+worker 4 : 0.000000
+worker 5 : 0.000000
+worker 6 : 0.000000
+worker 8 : 0.000000
+worker 9 : 0.000000
+worker 11 : 0.000000
+worker 10 : 0.000000
+worker 7 : 0.000000
+FastFlow trace not enabled
+total_time:168.95
+worker 0 : 0.000000
+worker 11 : 0.000000
+worker 5 : 0.000000
+worker 3 : 0.000000
+worker 2 : 0.000000
+worker 12 : 0.000000
+worker 13 : 0.000000
+worker 1 : 0.000000
+worker 7 : 0.000000
+worker 4 : 0.000000
+worker 6 : 0.000000
+worker 8 : 0.000000
+worker 9 : 0.000000
+worker 10 : 0.000000
+FastFlow trace not enabled
+total_time:214.075
+./version5_CPU 4 16 0 1024 500
+worker 2 : 0.000000
+worker 5 : 0.000000
+worker 12 : 0.000000
+worker 13 : 0.000000
+worker 1 : 0.000000
+worker 3 : 0.000000
+worker 11 : 0.000000
+worker 7 : 0.000000
+worker 10 : 0.000000
+worker 8 : 0.000000
+worker 14 : 0.000000
+worker 9 : 0.000000
+worker 6 : 0.000000
+worker 15 : 0.000000
+worker 0 : 0.000000
+worker 4 : 0.000000
+FastFlow trace not enabled
+total_time:153.113
+worker 7 : 0.000000
+worker 14 : 0.000000
+worker 15 : 0.000000
+worker 8 : 0.000000
+worker 12 : 0.000000
+worker 11 : 0.000000
+worker 1 : 0.000000
+worker 10 : 0.000000
+worker 5 : 0.000000
+worker 6 : 0.000000
+worker 9 : 0.000000
+worker 13 : 0.000000
+worker 0 : 0.000000
+worker 2 : 0.000000
+worker 4 : 0.000000
+worker 3 : 0.000000
+FastFlow trace not enabled
+total_time:170.596
+worker 6 : 0.000000
+worker 5 : 0.000000
+worker 12 : 0.000000
+worker 13 : 0.000000
+worker 9 : 0.000000
+worker 10 : 0.000000
+worker 15 : 0.000000
+worker 14 : 0.000000
+worker 2 : 0.000000
+worker 1 : 0.000000
+worker 3 : 0.000000
+worker 4 : 0.000000
+worker 8 : 0.000000
+worker 7 : 0.000000
+worker 11 : 0.000000
+worker 0 : 0.000000
+FastFlow trace not enabled
+total_time:211.604
+worker 1 : 0.000000
+worker 14 : 0.000000
+worker 11 : 0.000000
+worker 13 : 0.000000
+worker 12 : 0.000000
+worker 5 : 0.000000
+worker 9 : 0.000000
+worker 15 : 0.000000
+worker 0 : 0.000000
+worker 3 : 0.000000
+worker 2 : 0.000000
+worker 6 : 0.000000
+worker 7 : 0.000000
+worker 10 : 0.000000
+worker 8 : 0.000000
+worker 4 : 0.000000
+FastFlow trace not enabled
+total_time:165.247
+worker 6 : 0.000000
+worker 13 : 0.000000
+worker 10 : 0.000000
+worker 12 : 0.000000
+worker 8 : 0.000000
+worker 14 : 0.000000
+worker 9 : 0.000000
+worker 5 : 0.000000
+worker 11 : 0.000000
+worker 7 : 0.000000
+worker 15 : 0.000000
+worker 1 : 0.000000
+worker 2 : 0.000000
+worker 3 : 0.000000
+worker 4 : 0.000000
+worker 0 : 0.000000
+FastFlow trace not enabled
+total_time:198.409
+./version5_CPU 6 1 0 1024 500
+worker 0 : 0.000000
+FastFlow trace not enabled
+total_time:131.429
+worker 0 : 0.000000
+FastFlow trace not enabled
+total_time:131.432
+worker 0 : 0.000000
+FastFlow trace not enabled
+total_time:131.461
+worker 0 : 0.000000
+FastFlow trace not enabled
+total_time:131.482
+worker 0 : 0.000000
+FastFlow trace not enabled
+total_time:131.481
+./version5_CPU 6 2 0 1024 500
+worker 0 : 0.000000
+worker 1 : 0.000000
+FastFlow trace not enabled
+total_time:81.2675
+worker 1 : 0.000000
+worker 0 : 0.000000
+FastFlow trace not enabled
+total_time:80.6433
+worker 1 : 0.000000
+worker 0 : 0.000000
+FastFlow trace not enabled
+total_time:78.6813
+worker 0 : 0.000000
+worker 1 : 0.000000
+FastFlow trace not enabled
+total_time:80.8073
+worker 1 : 0.000000
+worker 0 : 0.000000
+FastFlow trace not enabled
+total_time:81.8476
+./version5_CPU 6 4 0 1024 500
+worker 3 : 0.000000
+worker 2 : 0.000000
+worker 1 : 0.000000
+worker 0 : 0.000000
+FastFlow trace not enabled
+total_time:39.69
+worker 2 : 0.000000
+worker 3 : 0.000000
+worker 0 : 0.000000
+worker 1 : 0.000000
+FastFlow trace not enabled
+total_time:40.562
+worker 3 : 0.000000
+worker 2 : 0.000000
+worker 0 : 0.000000
+worker 1 : 0.000000
+FastFlow trace not enabled
+total_time:38.6756
+worker 3 : 0.000000
+worker 2 : 0.000000
+worker 1 : 0.000000
+worker 0 : 0.000000
+FastFlow trace not enabled
+total_time:39.4837
+worker 1 : 0.000000
+worker 0 : 0.000000
+worker 3 : 0.000000
+worker 2 : 0.000000
+FastFlow trace not enabled
+total_time:33.5582
+./version5_CPU 6 6 0 1024 500
+worker 3 : 0.000000
+worker 0 : 0.000000
+worker 1 : 0.000000
+worker 2 : 0.000000
+worker 4 : 0.000000
+worker 5 : 0.000000
+FastFlow trace not enabled
+total_time:35.0876
+worker 3 : 0.000000
+worker 0 : 0.000000
+worker 1 : 0.000000
+worker 5 : 0.000000
+worker 4 : 0.000000
+worker 2 : 0.000000
+FastFlow trace not enabled
+total_time:67.7834
+worker 3 : 0.000000
+worker 0 : 0.000000
+worker 1 : 0.000000
+worker 2 : 0.000000
+worker 5 : 0.000000
+worker 4 : 0.000000
+FastFlow trace not enabled
+total_time:37.1372
+worker 3 : 0.000000
+worker 2 : 0.000000
+worker 0 : 0.000000
+worker 1 : 0.000000
+worker 5 : 0.000000
+worker 4 : 0.000000
+FastFlow trace not enabled
+total_time:37.3442
+worker 3 : 0.000000
+worker 0 : 0.000000
+worker 2 : 0.000000
+worker 1 : 0.000000
+worker 5 : 0.000000
+worker 4 : 0.000000
+FastFlow trace not enabled
+total_time:36.375
+./version5_CPU 6 8 0 1024 500
+worker 1 : 0.000000
+worker 0 : 0.000000
+worker 5 : 0.000000
+worker 2 : 0.000000
+worker 7 : 0.000000
+worker 4 : 0.000000
+worker 6 : 0.000000
+worker 3 : 0.000000
+FastFlow trace not enabled
+total_time:137.465
+worker 0 : 0.000000
+worker 1 : 0.000000
+worker 2 : 0.000000
+worker 6 : 0.000000
+worker 5 : 0.000000
+worker 3 : 0.000000
+worker 7 : 0.000000
+worker 4 : 0.000000
+FastFlow trace not enabled
+total_time:120.896
+worker 0 : 0.000000
+worker 1 : 0.000000
+worker 5 : 0.000000
+worker 4 : 0.000000
+worker 7 : 0.000000
+worker 6 : 0.000000
+worker 3 : 0.000000
+worker 2 : 0.000000
+FastFlow trace not enabled
+total_time:112.14
+worker 6 : 0.000000
+worker 5 : 0.000000
+worker 1 : 0.000000
+worker 0 : 0.000000
+worker 7 : 0.000000
+worker 3 : 0.000000
+worker 2 : 0.000000
+worker 4 : 0.000000
+FastFlow trace not enabled
+total_time:109.156
+worker 0 : 0.000000
+worker 2 : 0.000000
+worker 6 : 0.000000
+worker 7 : 0.000000
+worker 5 : 0.000000
+worker 1 : 0.000000
+worker 3 : 0.000000
+worker 4 : 0.000000
+FastFlow trace not enabled
+total_time:91.4217
+./version5_CPU 6 10 0 1024 500
+worker 2 : 0.000000
+worker 1 : 0.000000
+worker 0 : 0.000000
+worker 3 : 0.000000
+worker 6 : 0.000000
+worker 7 : 0.000000
+worker 5 : 0.000000
+worker 9 : 0.000000
+worker 4 : 0.000000
+worker 8 : 0.000000
+FastFlow trace not enabled
+total_time:237.181
+worker 2 : 0.000000
+worker 1 : 0.000000
+worker 6 : 0.000000
+worker 5 : 0.000000
+worker 4 : 0.000000
+worker 7 : 0.000000
+worker 3 : 0.000000
+worker 9 : 0.000000
+worker 8 : 0.000000
+worker 0 : 0.000000
+FastFlow trace not enabled
+total_time:253.509
+worker 5 : 0.000000
+worker 1 : 0.000000
+worker 3 : 0.000000
+worker 7 : 0.000000
+worker 2 : 0.000000
+worker 8 : 0.000000
+worker 6 : 0.000000
+worker 4 : 0.000000
+worker 0 : 0.000000
+worker 9 : 0.000000
+FastFlow trace not enabled
+total_time:259.954
+worker 3 : 0.000000
+worker 6 : 0.000000
+worker 1 : 0.000000
+worker 4 : 0.000000
+worker 2 : 0.000000
+worker 8 : 0.000000
+worker 9 : 0.000000
+worker 5 : 0.000000
+worker 0 : 0.000000
+worker 7 : 0.000000
+FastFlow trace not enabled
+total_time:249.783
+worker 1 : 0.000000
+worker 3 : 0.000000
+worker 2 : 0.000000
+worker 6 : 0.000000
+worker 5 : 0.000000
+worker 7 : 0.000000
+worker 0 : 0.000000
+worker 4 : 0.000000
+worker 9 : 0.000000
+worker 8 : 0.000000
+FastFlow trace not enabled
+total_time:203.003
+./version5_CPU 6 12 0 1024 500
+worker 1 : 0.000000
+worker 2 : 0.000000
+worker 11 : 0.000000
+worker 10 : 0.000000
+worker 0 : 0.000000
+worker 5 : 0.000000
+worker 6 : 0.000000
+worker 9 : 0.000000
+worker 3 : 0.000000
+worker 7 : 0.000000
+worker 8 : 0.000000
+worker 4 : 0.000000
+FastFlow trace not enabled
+total_time:300.259
+worker 11 : 0.000000
+worker 10 : 0.000000
+worker 0 : 0.000000
+worker 1 : 0.000000
+worker 3 : 0.000000
+worker 9 : 0.000000
+worker 2 : 0.000000
+worker 5 : 0.000000
+worker 4 : 0.000000
+worker 6 : 0.000000
+worker 7 : 0.000000
+worker 8 : 0.000000
+FastFlow trace not enabled
+total_time:233.965
+worker 0 : 0.000000
+worker 1 : 0.000000
+worker 11 : 0.000000
+worker 10 : 0.000000
+worker 4 : 0.000000
+worker 6 : 0.000000
+worker 3 : 0.000000
+worker 2 : 0.000000
+worker 9 : 0.000000
+worker 5 : 0.000000
+worker 7 : 0.000000
+worker 8 : 0.000000
+FastFlow trace not enabled
+total_time:265.409
+worker 5 : 0.000000
+worker 2 : 0.000000
+worker 0 : 0.000000
+worker 10 : 0.000000
+worker 11 : 0.000000
+worker 3 : 0.000000
+worker 1 : 0.000000
+worker 9 : 0.000000
+worker 4 : 0.000000
+worker 6 : 0.000000
+worker 8 : 0.000000
+worker 7 : 0.000000
+FastFlow trace not enabled
+total_time:286.877
+worker 2 : 0.000000
+worker 0 : 0.000000
+worker 6 : 0.000000
+worker 3 : 0.000000
+worker 10 : 0.000000
+worker 11 : 0.000000
+worker 1 : 0.000000
+worker 9 : 0.000000
+worker 4 : 0.000000
+worker 5 : 0.000000
+worker 7 : 0.000000
+worker 8 : 0.000000
+FastFlow trace not enabled
+total_time:226.414
+./version5_CPU 6 14 0 1024 500
+worker 1 : 0.000000
+worker 0 : 0.000000
+worker 11 : 0.000000
+worker 13 : 0.000000
+worker 8 : 0.000000
+worker 12 : 0.000000
+worker 2 : 0.000000
+worker 6 : 0.000000
+worker 7 : 0.000000
+worker 3 : 0.000000
+worker 10 : 0.000000
+worker 9 : 0.000000
+worker 4 : 0.000000
+worker 5 : 0.000000
+FastFlow trace not enabled
+total_time:263.357
+worker 0 : 0.000000
+worker 3 : 0.000000
+worker 6 : 0.000000
+worker 1 : 0.000000
+worker 11 : 0.000000
+worker 13 : 0.000000
+worker 12 : 0.000000
+worker 2 : 0.000000
+worker 7 : 0.000000
+worker 5 : 0.000000
+worker 4 : 0.000000
+worker 8 : 0.000000
+worker 9 : 0.000000
+worker 10 : 0.000000
+FastFlow trace not enabled
+total_time:282.917
+worker 11 : 0.000000
+worker 12 : 0.000000
+worker 1 : 0.000000
+worker 13 : 0.000000
+worker 0 : 0.000000
+worker 4 : 0.000000
+worker 3 : 0.000000
+worker 5 : 0.000000
+worker 2 : 0.000000
+worker 7 : 0.000000
+worker 6 : 0.000000
+worker 9 : 0.000000
+worker 10 : 0.000000
+worker 8 : 0.000000
+FastFlow trace not enabled
+total_time:232.895
+worker 0 : 0.000000
+worker 12 : 0.000000
+worker 7 : 0.000000
+worker 11 : 0.000000
+worker 6 : 0.000000
+worker 13 : 0.000000
+worker 1 : 0.000000
+worker 3 : 0.000000
+worker 2 : 0.000000
+worker 4 : 0.000000
+worker 8 : 0.000000
+worker 10 : 0.000000
+worker 9 : 0.000000
+worker 5 : 0.000000
+FastFlow trace not enabled
+total_time:210.883
+worker 3 : 0.000000
+worker 12 : 0.000000
+worker 1 : 0.000000
+worker 13 : 0.000000
+worker 11 : 0.000000
+worker 0 : 0.000000
+worker 4 : 0.000000
+worker 2 : 0.000000
+worker 6 : 0.000000
+worker 7 : 0.000000
+worker 8 : 0.000000
+worker 10 : 0.000000
+worker 9 : 0.000000
+worker 5 : 0.000000
+FastFlow trace not enabled
+total_time:182.33
+./version5_CPU 6 16 0 1024 500
+worker 9 : 0.000000
+worker 14 : 0.000000
+worker 15 : 0.000000
+worker 5 : 0.000000
+worker 13 : 0.000000
+worker 11 : 0.000000
+worker 0 : 0.000000
+worker 12 : 0.000000
+worker 8 : 0.000000
+worker 6 : 0.000000
+worker 10 : 0.000000
+worker 3 : 0.000000
+worker 7 : 0.000000
+worker 1 : 0.000000
+worker 4 : 0.000000
+worker 2 : 0.000000
+FastFlow trace not enabled
+total_time:270.36
+worker 9 : 0.000000
+worker 12 : 0.000000
+worker 5 : 0.000000
+worker 14 : 0.000000
+worker 11 : 0.000000
+worker 10 : 0.000000
+worker 15 : 0.000000
+worker 0 : 0.000000
+worker 7 : 0.000000
+worker 13 : 0.000000
+worker 8 : 0.000000
+worker 1 : 0.000000
+worker 6 : 0.000000
+worker 2 : 0.000000
+worker 3 : 0.000000
+worker 4 : 0.000000
+FastFlow trace not enabled
+total_time:204.364
+worker 10 : 0.000000
+worker 6 : 0.000000
+worker 11 : 0.000000
+worker 9 : 0.000000
+worker 5 : 0.000000
+worker 14 : 0.000000
+worker 1 : 0.000000
+worker 7 : 0.000000
+worker 13 : 0.000000
+worker 8 : 0.000000
+worker 12 : 0.000000
+worker 2 : 0.000000
+worker 15 : 0.000000
+worker 3 : 0.000000
+worker 4 : 0.000000
+worker 0 : 0.000000
+FastFlow trace not enabled
+total_time:188.894
+worker 11 : 0.000000
+worker 10 : 0.000000
+worker 12 : 0.000000
+worker 13 : 0.000000
+worker 14 : 0.000000
+worker 6 : 0.000000
+worker 1 : 0.000000
+worker 9 : 0.000000
+worker 7 : 0.000000
+worker 8 : 0.000000
+worker 15 : 0.000000
+worker 5 : 0.000000
+worker 2 : 0.000000
+worker 3 : 0.000000
+worker 4 : 0.000000
+worker 0 : 0.000000
+FastFlow trace not enabled
+total_time:199.388
+worker 10 : 0.000000
+worker 9 : 0.000000
+worker 5 : 0.000000
+worker 14 : 0.000000
+worker 7 : 0.000000
+worker 6 : 0.000000
+worker 1 : 0.000000
+worker 15 : 0.000000
+worker 2 : 0.000000
+worker 4 : 0.000000
+worker 8 : 0.000000
+worker 12 : 0.000000
+worker 11 : 0.000000
+worker 13 : 0.000000
+worker 3 : 0.000000
+worker 0 : 0.000000
+FastFlow trace not enabled
+total_time:193.419
+./version5_CPU 8 1 0 1024 500
+worker 0 : 0.000000
+FastFlow trace not enabled
+total_time:131.485
+worker 0 : 0.000000
+FastFlow trace not enabled
+total_time:131.516
+worker 0 : 0.000000
+FastFlow trace not enabled
+total_time:132.672
+worker 0 : 0.000000
+FastFlow trace not enabled
+total_time:132.273
+worker 0 : 0.000000
+FastFlow trace not enabled
+total_time:132.273
+./version5_CPU 8 2 0 1024 500
+worker 1 : 0.000000
+worker 0 : 0.000000
+FastFlow trace not enabled
+total_time:72.4848
+worker 0 : 0.000000
+worker 1 : 0.000000
+FastFlow trace not enabled
+total_time:71.6684
+worker 0 : 0.000000
+worker 1 : 0.000000
+FastFlow trace not enabled
+total_time:72.3787
+worker 1 : 0.000000
+worker 0 : 0.000000
+FastFlow trace not enabled
+total_time:72.5579
+worker 0 : 0.000000
+worker 1 : 0.000000
+FastFlow trace not enabled
+total_time:71.4514
+./version5_CPU 8 4 0 1024 500
+worker 1 : 0.000000
+worker 3 : 0.000000
+worker 2 : 0.000000
+worker 0 : 0.000000
+FastFlow trace not enabled
+total_time:122.739
+worker 1 : 0.000000
+worker 3 : 0.000000
+worker 2 : 0.000000
+worker 0 : 0.000000
+FastFlow trace not enabled
+total_time:59.4983
+worker 1 : 0.000000
+worker 3 : 0.000000
+worker 2 : 0.000000
+worker 0 : 0.000000
+FastFlow trace not enabled
+total_time:58.3936
+worker 1 : 0.000000
+worker 2 : 0.000000
+worker 3 : 0.000000
+worker 0 : 0.000000
+FastFlow trace not enabled
+total_time:61.5154
+worker 1 : 0.000000
+worker 3 : 0.000000
+worker 2 : 0.000000
+worker 0 : 0.000000
+FastFlow trace not enabled
+total_time:57.3976
+./version5_CPU 8 6 0 1024 500
+worker 0 : 0.000000
+worker 4 : 0.000000
+worker 1 : 0.000000
+worker 5 : 0.000000
+worker 3 : 0.000000
+worker 2 : 0.000000
+FastFlow trace not enabled
+total_time:84.6036
+worker 4 : 0.000000
+worker 2 : 0.000000
+worker 0 : 0.000000
+worker 5 : 0.000000
+worker 1 : 0.000000
+worker 3 : 0.000000
+FastFlow trace not enabled
+total_time:121.958
+worker 0 : 0.000000
+worker 1 : 0.000000
+worker 4 : 0.000000
+worker 5 : 0.000000
+worker 3 : 0.000000
+worker 2 : 0.000000
+FastFlow trace not enabled
+total_time:88.1519
+worker 4 : 0.000000
+worker 5 : 0.000000
+worker 0 : 0.000000
+worker 1 : 0.000000
+worker 2 : 0.000000
+worker 3 : 0.000000
+FastFlow trace not enabled
+total_time:117.198
+worker 5 : 0.000000
+worker 0 : 0.000000
+worker 1 : 0.000000
+worker 4 : 0.000000
+worker 3 : 0.000000
+worker 2 : 0.000000
+FastFlow trace not enabled
+total_time:71.771
+./version5_CPU 8 8 0 1024 500
+worker 5 : 0.000000
+worker 1 : 0.000000
+worker 7 : 0.000000
+worker 0 : 0.000000
+worker 6 : 0.000000
+worker 3 : 0.000000
+worker 4 : 0.000000
+worker 2 : 0.000000
+FastFlow trace not enabled
+total_time:211.193
+worker 1 : 0.000000
+worker 5 : 0.000000
+worker 0 : 0.000000
+worker 3 : 0.000000
+worker 7 : 0.000000
+worker 4 : 0.000000
+worker 6 : 0.000000
+worker 2 : 0.000000
+FastFlow trace not enabled
+total_time:184.443
+worker 1 : 0.000000
+worker 5 : 0.000000
+worker 0 : 0.000000
+worker 3 : 0.000000
+worker 7 : 0.000000
+worker 2 : 0.000000
+worker 6 : 0.000000
+worker 4 : 0.000000
+FastFlow trace not enabled
+total_time:178.506
+worker 0 : 0.000000
+worker 7 : 0.000000
+worker 5 : 0.000000
+worker 1 : 0.000000
+worker 2 : 0.000000
+worker 4 : 0.000000
+worker 6 : 0.000000
+worker 3 : 0.000000
+FastFlow trace not enabled
+total_time:220.861
+worker 6 : 0.000000
+worker 5 : 0.000000
+worker 0 : 0.000000
+worker 1 : 0.000000
+worker 2 : 0.000000
+worker 7 : 0.000000
+worker 4 : 0.000000
+worker 3 : 0.000000
+FastFlow trace not enabled
+total_time:224.915
+./version5_CPU 8 10 0 1024 500
+worker 4 : 0.000000
+worker 3 : 0.000000
+worker 1 : 0.000000
+worker 5 : 0.000000
+worker 8 : 0.000000
+worker 9 : 0.000000
+worker 0 : 0.000000
+worker 2 : 0.000000
+worker 7 : 0.000000
+worker 6 : 0.000000
+FastFlow trace not enabled
+total_time:261.795
+worker 3 : 0.000000
+worker 6 : 0.000000
+worker 5 : 0.000000
+worker 2 : 0.000000
+worker 1 : 0.000000
+worker 4 : 0.000000
+worker 9 : 0.000000
+worker 8 : 0.000000
+worker 7 : 0.000000
+worker 0 : 0.000000
+FastFlow trace not enabled
+total_time:259.549
+worker 6 : 0.000000
+worker 2 : 0.000000
+worker 5 : 0.000000
+worker 1 : 0.000000
+worker 7 : 0.000000
+worker 3 : 0.000000
+worker 8 : 0.000000
+worker 9 : 0.000000
+worker 0 : 0.000000
+worker 4 : 0.000000
+FastFlow trace not enabled
+total_time:237.995
+worker 5 : 0.000000
+worker 2 : 0.000000
+worker 3 : 0.000000
+worker 6 : 0.000000
+worker 1 : 0.000000
+worker 7 : 0.000000
+worker 8 : 0.000000
+worker 9 : 0.000000
+worker 4 : 0.000000
+worker 0 : 0.000000
+FastFlow trace not enabled
+total_time:251.052
+worker 8 : 0.000000
+worker 5 : 0.000000
+worker 7 : 0.000000
+worker 2 : 0.000000
+worker 4 : 0.000000
+worker 3 : 0.000000
+worker 1 : 0.000000
+worker 9 : 0.000000
+worker 6 : 0.000000
+worker 0 : 0.000000
+FastFlow trace not enabled
+total_time:261.035
+./version5_CPU 8 12 0 1024 500
+worker 1 : 0.000000
+worker 4 : 0.000000
+worker 9 : 0.000000
+worker 10 : 0.000000
+worker 6 : 0.000000
+worker 11 : 0.000000
+worker 0 : 0.000000
+worker 2 : 0.000000
+worker 5 : 0.000000
+worker 3 : 0.000000
+worker 7 : 0.000000
+worker 8 : 0.000000
+FastFlow trace not enabled
+total_time:296.222
+worker 1 : 0.000000
+worker 9 : 0.000000
+worker 11 : 0.000000
+worker 10 : 0.000000
+worker 0 : 0.000000
+worker 2 : 0.000000
+worker 3 : 0.000000
+worker 4 : 0.000000
+worker 5 : 0.000000
+worker 6 : 0.000000
+worker 8 : 0.000000
+worker 7 : 0.000000
+FastFlow trace not enabled
+total_time:302.71
+worker 9 : 0.000000
+worker 0 : 0.000000
+worker 10 : 0.000000
+worker 1 : 0.000000
+worker 11 : 0.000000
+worker 4 : 0.000000
+worker 5 : 0.000000
+worker 2 : 0.000000
+worker 3 : 0.000000
+worker 7 : 0.000000
+worker 6 : 0.000000
+worker 8 : 0.000000
+FastFlow trace not enabled
+total_time:281.803
+worker 3 : 0.000000
+worker 10 : 0.000000
+worker 9 : 0.000000
+worker 11 : 0.000000
+worker 0 : 0.000000
+worker 1 : 0.000000
+worker 4 : 0.000000
+worker 5 : 0.000000
+worker 2 : 0.000000
+worker 7 : 0.000000
+worker 8 : 0.000000
+worker 6 : 0.000000
+FastFlow trace not enabled
+total_time:246.657
+worker 9 : 0.000000
+worker 11 : 0.000000
+worker 10 : 0.000000
+worker 0 : 0.000000
+worker 1 : 0.000000
+worker 5 : 0.000000
+worker 2 : 0.000000
+worker 6 : 0.000000
+worker 8 : 0.000000
+worker 3 : 0.000000
+worker 7 : 0.000000
+worker 4 : 0.000000
+FastFlow trace not enabled
+total_time:243.111
+./version5_CPU 8 14 0 1024 500
+worker 5 : 0.000000
+worker 13 : 0.000000
+worker 11 : 0.000000
+worker 12 : 0.000000
+worker 1 : 0.000000
+worker 2 : 0.000000
+worker 4 : 0.000000
+worker 0 : 0.000000
+worker 8 : 0.000000
+worker 9 : 0.000000
+worker 10 : 0.000000
+worker 6 : 0.000000
+worker 7 : 0.000000
+worker 3 : 0.000000
+FastFlow trace not enabled
+total_time:230.58
+worker 0 : 0.000000
+worker 12 : 0.000000
+worker 11 : 0.000000
+worker 13 : 0.000000
+worker 5 : 0.000000
+worker 4 : 0.000000
+worker 1 : 0.000000
+worker 3 : 0.000000
+worker 2 : 0.000000
+worker 6 : 0.000000
+worker 9 : 0.000000
+worker 8 : 0.000000
+worker 10 : 0.000000
+worker 7 : 0.000000
+FastFlow trace not enabled
+total_time:275.229
+worker 1 : 0.000000
+worker 3 : 0.000000
+worker 13 : 0.000000
+worker 11 : 0.000000
+worker 12 : 0.000000
+worker 4 : 0.000000
+worker 0 : 0.000000
+worker 9 : 0.000000
+worker 10 : 0.000000
+worker 5 : 0.000000
+worker 8 : 0.000000
+worker 7 : 0.000000
+worker 6 : 0.000000
+worker 2 : 0.000000
+FastFlow trace not enabled
+total_time:294.785
+worker 3 : 0.000000
+worker 1 : 0.000000
+worker 4 : 0.000000
+worker 7 : 0.000000
+worker 8 : 0.000000
+worker 13 : 0.000000
+worker 2 : 0.000000
+worker 12 : 0.000000
+worker 11 : 0.000000
+worker 5 : 0.000000
+worker 6 : 0.000000
+worker 0 : 0.000000
+worker 9 : 0.000000
+worker 10 : 0.000000
+FastFlow trace not enabled
+total_time:238.076
+worker 7 : 0.000000
+worker 2 : 0.000000
+worker 4 : 0.000000
+worker 11 : 0.000000
+worker 8 : 0.000000
+worker 12 : 0.000000
+worker 5 : 0.000000
+worker 0 : 0.000000
+worker 1 : 0.000000
+worker 13 : 0.000000
+worker 3 : 0.000000
+worker 9 : 0.000000
+worker 6 : 0.000000
+worker 10 : 0.000000
+FastFlow trace not enabled
+total_time:257.845
+./version5_CPU 8 16 0 1024 500
+worker 5 : 0.000000
+worker 8 : 0.000000
+worker 9 : 0.000000
+worker 13 : 0.000000
+worker 12 : 0.000000
+worker 10 : 0.000000
+worker 11 : 0.000000
+worker 14 : 0.000000
+worker 6 : 0.000000
+worker 15 : 0.000000
+worker 3 : 0.000000
+worker 7 : 0.000000
+worker 1 : 0.000000
+worker 2 : 0.000000
+worker 0 : 0.000000
+worker 4 : 0.000000
+FastFlow trace not enabled
+total_time:238.412
+worker 11 : 0.000000
+worker 15 : 0.000000
+worker 9 : 0.000000
+worker 8 : 0.000000
+worker 10 : 0.000000
+worker 12 : 0.000000
+worker 13 : 0.000000
+worker 14 : 0.000000
+worker 7 : 0.000000
+worker 5 : 0.000000
+worker 6 : 0.000000
+worker 3 : 0.000000
+worker 1 : 0.000000
+worker 2 : 0.000000
+worker 0 : 0.000000
+worker 4 : 0.000000
+FastFlow trace not enabled
+total_time:323.054
+worker 10 : 0.000000
+worker 8 : 0.000000
+worker 9 : 0.000000
+worker 12 : 0.000000
+worker 11 : 0.000000
+worker 15 : 0.000000
+worker 13 : 0.000000
+worker 14 : 0.000000
+worker 7 : 0.000000
+worker 6 : 0.000000
+worker 3 : 0.000000
+worker 5 : 0.000000
+worker 2 : 0.000000
+worker 1 : 0.000000
+worker 4 : 0.000000
+worker 0 : 0.000000
+FastFlow trace not enabled
+total_time:299.784
+worker 7 : 0.000000
+worker 6 : 0.000000
+worker 12 : 0.000000
+worker 8 : 0.000000
+worker 14 : 0.000000
+worker 9 : 0.000000
+worker 11 : 0.000000
+worker 13 : 0.000000
+worker 10 : 0.000000
+worker 5 : 0.000000
+worker 15 : 0.000000
+worker 1 : 0.000000
+worker 2 : 0.000000
+worker 3 : 0.000000
+worker 0 : 0.000000
+worker 4 : 0.000000
+FastFlow trace not enabled
+total_time:347.903
+worker 8 : 0.000000
+worker 9 : 0.000000
+worker 12 : 0.000000
+worker 15 : 0.000000
+worker 11 : 0.000000
+worker 10 : 0.000000
+worker 13 : 0.000000
+worker 14 : 0.000000
+worker 7 : 0.000000
+worker 5 : 0.000000
+worker 6 : 0.000000
+worker 3 : 0.000000
+worker 1 : 0.000000
+worker 2 : 0.000000
+worker 4 : 0.000000
+worker 0 : 0.000000
+FastFlow trace not enabled
+total_time:277.305
+./version5_CPU 10 1 0 1024 500
+worker 0 : 0.000000
+FastFlow trace not enabled
+total_time:135.518
+worker 0 : 0.000000
+FastFlow trace not enabled
+total_time:136.357
+worker 0 : 0.000000
+FastFlow trace not enabled
+total_time:140.066
+worker 0 : 0.000000
+FastFlow trace not enabled
+total_time:135.383
+worker 0 : 0.000000
+FastFlow trace not enabled
+total_time:137.518
+./version5_CPU 10 2 0 1024 500
+worker 1 : 0.000000
+worker 0 : 0.000000
+FastFlow trace not enabled
+total_time:75.3274
+worker 1 : 0.000000
+worker 0 : 0.000000
+FastFlow trace not enabled
+total_time:73.4212
+worker 0 : 0.000000
+worker 1 : 0.000000
+FastFlow trace not enabled
+total_time:75.7718
+worker 1 : 0.000000
+worker 0 : 0.000000
+FastFlow trace not enabled
+total_time:74.9516
+worker 1 : 0.000000
+worker 0 : 0.000000
+FastFlow trace not enabled
+total_time:74.5057
+./version5_CPU 10 4 0 1024 500
+worker 3 : 0.000000
+worker 1 : 0.000000
+worker 2 : 0.000000
+worker 0 : 0.000000
+FastFlow trace not enabled
+total_time:100.947
+worker 2 : 0.000000
+worker 3 : 0.000000
+worker 1 : 0.000000
+worker 0 : 0.000000
+FastFlow trace not enabled
+total_time:66.7119
+worker 3 : 0.000000
+worker 2 : 0.000000
+worker 1 : 0.000000
+worker 0 : 0.000000
+FastFlow trace not enabled
+total_time:80.6129
+worker 2 : 0.000000
+worker 3 : 0.000000
+worker 1 : 0.000000
+worker 0 : 0.000000
+FastFlow trace not enabled
+total_time:97.6132
+worker 2 : 0.000000
+worker 3 : 0.000000
+worker 1 : 0.000000
+worker 0 : 0.000000
+FastFlow trace not enabled
+total_time:71.5755
+./version5_CPU 10 6 0 1024 500
+worker 3 : 0.000000
+worker 2 : 0.000000
+worker 1 : 0.000000
+worker 5 : 0.000000
+worker 0 : 0.000000
+worker 4 : 0.000000
+FastFlow trace not enabled
+total_time:72.3271
+worker 3 : 0.000000
+worker 2 : 0.000000
+worker 0 : 0.000000
+worker 5 : 0.000000
+worker 1 : 0.000000
+worker 4 : 0.000000
+FastFlow trace not enabled
+total_time:71.4149
+worker 3 : 0.000000
+worker 2 : 0.000000
+worker 4 : 0.000000
+worker 5 : 0.000000
+worker 1 : 0.000000
+worker 0 : 0.000000
+FastFlow trace not enabled
+total_time:73.928
+worker 3 : 0.000000
+worker 2 : 0.000000
+worker 5 : 0.000000
+worker 4 : 0.000000
+worker 1 : 0.000000
+worker 0 : 0.000000
+FastFlow trace not enabled
+total_time:78.8158
+worker 3 : 0.000000
+worker 2 : 0.000000
+worker 5 : 0.000000
+worker 0 : 0.000000
+worker 4 : 0.000000
+worker 1 : 0.000000
+FastFlow trace not enabled
+total_time:65.9067
+./version5_CPU 10 8 0 1024 500
+worker 6 : 0.000000
+worker 7 : 0.000000
+worker 2 : 0.000000
+worker 3 : 0.000000
+worker 0 : 0.000000
+worker 1 : 0.000000
+worker 5 : 0.000000
+worker 4 : 0.000000
+FastFlow trace not enabled
+total_time:92.6351
+worker 6 : 0.000000
+worker 7 : 0.000000
+worker 2 : 0.000000
+worker 3 : 0.000000
+worker 5 : 0.000000
+worker 1 : 0.000000
+worker 0 : 0.000000
+worker 4 : 0.000000
+FastFlow trace not enabled
+total_time:91.3725
+worker 5 : 0.000000
+worker 6 : 0.000000
+worker 7 : 0.000000
+worker 2 : 0.000000
+worker 3 : 0.000000
+worker 1 : 0.000000
+worker 0 : 0.000000
+worker 4 : 0.000000
+FastFlow trace not enabled
+total_time:94.4251
+worker 2 : 0.000000
+worker 3 : 0.000000
+worker 7 : 0.000000
+worker 6 : 0.000000
+worker 0 : 0.000000
+worker 1 : 0.000000
+worker 5 : 0.000000
+worker 4 : 0.000000
+FastFlow trace not enabled
+total_time:108.989
+worker 2 : 0.000000
+worker 1 : 0.000000
+worker 5 : 0.000000
+worker 6 : 0.000000
+worker 7 : 0.000000
+worker 3 : 0.000000
+worker 4 : 0.000000
+worker 0 : 0.000000
+FastFlow trace not enabled
+total_time:91.4696
+./version5_CPU 10 10 0 1024 500
+worker 1 : 0.000000
+worker 2 : 0.000000
+worker 3 : 0.000000
+worker 8 : 0.000000
+worker 9 : 0.000000
+worker 6 : 0.000000
+worker 7 : 0.000000
+worker 5 : 0.000000
+worker 0 : 0.000000
+worker 4 : 0.000000
+FastFlow trace not enabled
+total_time:154.873
+worker 1 : 0.000000
+worker 6 : 0.000000
+worker 7 : 0.000000
+worker 2 : 0.000000
+worker 3 : 0.000000
+worker 9 : 0.000000
+worker 8 : 0.000000
+worker 4 : 0.000000
+worker 5 : 0.000000
+worker 0 : 0.000000
+FastFlow trace not enabled
+total_time:178.369
+worker 3 : 0.000000
+worker 2 : 0.000000
+worker 4 : 0.000000
+worker 1 : 0.000000
+worker 6 : 0.000000
+worker 7 : 0.000000
+worker 8 : 0.000000
+worker 9 : 0.000000
+worker 5 : 0.000000
+worker 0 : 0.000000
+FastFlow trace not enabled
+total_time:126.849
+worker 2 : 0.000000
+worker 3 : 0.000000
+worker 1 : 0.000000
+worker 0 : 0.000000
+worker 9 : 0.000000
+worker 8 : 0.000000
+worker 7 : 0.000000
+worker 6 : 0.000000
+worker 5 : 0.000000
+worker 4 : 0.000000
+FastFlow trace not enabled
+total_time:134.241
+worker 7 : 0.000000
+worker 2 : 0.000000
+worker 6 : 0.000000
+worker 3 : 0.000000
+worker 8 : 0.000000
+worker 9 : 0.000000
+worker 1 : 0.000000
+worker 5 : 0.000000
+worker 0 : 0.000000
+worker 4 : 0.000000
+FastFlow trace not enabled
+total_time:116.273
+./version5_CPU 10 12 0 1024 500
+worker 2 : 0.000000
+worker 11 : 0.000000
+worker 9 : 0.000000
+worker 10 : 0.000000
+worker 4 : 0.000000
+worker 0 : 0.000000
+worker 1 : 0.000000
+worker 3 : 0.000000
+worker 6 : 0.000000
+worker 7 : 0.000000
+worker 5 : 0.000000
+worker 8 : 0.000000
+FastFlow trace not enabled
+total_time:180.619
+worker 9 : 0.000000
+worker 10 : 0.000000
+worker 11 : 0.000000
+worker 3 : 0.000000
+worker 7 : 0.000000
+worker 6 : 0.000000
+worker 1 : 0.000000
+worker 2 : 0.000000
+worker 0 : 0.000000
+worker 8 : 0.000000
+worker 4 : 0.000000
+worker 5 : 0.000000
+FastFlow trace not enabled
+total_time:155.941
+worker 1 : 0.000000
+worker 2 : 0.000000
+worker 0 : 0.000000
+worker 11 : 0.000000
+worker 10 : 0.000000
+worker 9 : 0.000000
+worker 3 : 0.000000
+worker 6 : 0.000000
+worker 7 : 0.000000
+worker 5 : 0.000000
+worker 4 : 0.000000
+worker 8 : 0.000000
+FastFlow trace not enabled
+total_time:214.329
+worker 11 : 0.000000
+worker 9 : 0.000000
+worker 10 : 0.000000
+worker 3 : 0.000000
+worker 2 : 0.000000
+worker 1 : 0.000000
+worker 8 : 0.000000
+worker 7 : 0.000000
+worker 4 : 0.000000
+worker 0 : 0.000000
+worker 6 : 0.000000
+worker 5 : 0.000000
+FastFlow trace not enabled
+total_time:201.334
+worker 1 : 0.000000
+worker 9 : 0.000000
+worker 11 : 0.000000
+worker 10 : 0.000000
+worker 0 : 0.000000
+worker 8 : 0.000000
+worker 3 : 0.000000
+worker 6 : 0.000000
+worker 7 : 0.000000
+worker 4 : 0.000000
+worker 5 : 0.000000
+worker 2 : 0.000000
+FastFlow trace not enabled
+total_time:216.519
+./version5_CPU 10 14 0 1024 500
+worker 0 : 0.000000
+worker 12 : 0.000000
+worker 11 : 0.000000
+worker 13 : 0.000000
+worker 1 : 0.000000
+worker 2 : 0.000000
+worker 3 : 0.000000
+worker 5 : 0.000000
+worker 10 : 0.000000
+worker 4 : 0.000000
+worker 9 : 0.000000
+worker 8 : 0.000000
+worker 6 : 0.000000
+worker 7 : 0.000000
+FastFlow trace not enabled
+total_time:372.384
+worker 11 : 0.000000
+worker 12 : 0.000000
+worker 13 : 0.000000
+worker 0 : 0.000000
+worker 4 : 0.000000
+worker 7 : 0.000000
+worker 9 : 0.000000
+worker 3 : 0.000000
+worker 1 : 0.000000
+worker 6 : 0.000000
+worker 8 : 0.000000
+worker 10 : 0.000000
+worker 2 : 0.000000
+worker 5 : 0.000000
+FastFlow trace not enabled
+total_time:298.905
+worker 5 : 0.000000
+worker 9 : 0.000000
+worker 13 : 0.000000
+worker 11 : 0.000000
+worker 12 : 0.000000
+worker 6 : 0.000000
+worker 7 : 0.000000
+worker 8 : 0.000000
+worker 0 : 0.000000
+worker 4 : 0.000000
+worker 1 : 0.000000
+worker 10 : 0.000000
+worker 3 : 0.000000
+worker 2 : 0.000000
+FastFlow trace not enabled
+total_time:367.331
+worker 1 : 0.000000
+worker 11 : 0.000000
+worker 13 : 0.000000
+worker 2 : 0.000000
+worker 3 : 0.000000
+worker 12 : 0.000000
+worker 7 : 0.000000
+worker 5 : 0.000000
+worker 8 : 0.000000
+worker 0 : 0.000000
+worker 6 : 0.000000
+worker 9 : 0.000000
+worker 4 : 0.000000
+worker 10 : 0.000000
+FastFlow trace not enabled
+total_time:361.146
+worker 1 : 0.000000
+worker 2 : 0.000000
+worker 13 : 0.000000
+worker 6 : 0.000000
+worker 4 : 0.000000
+worker 12 : 0.000000
+worker 11 : 0.000000
+worker 7 : 0.000000
+worker 0 : 0.000000
+worker 3 : 0.000000
+worker 5 : 0.000000
+worker 8 : 0.000000
+worker 9 : 0.000000
+worker 10 : 0.000000
+FastFlow trace not enabled
+total_time:320.081
+./version5_CPU 10 16 0 1024 500
+worker 11 : 0.000000
+worker 6 : 0.000000
+worker 7 : 0.000000
+worker 10 : 0.000000
+worker 9 : 0.000000
+worker 8 : 0.000000
+worker 5 : 0.000000
+worker 13 : 0.000000
+worker 12 : 0.000000
+worker 1 : 0.000000
+worker 2 : 0.000000
+worker 3 : 0.000000
+worker 14 : 0.000000
+worker 15 : 0.000000
+worker 4 : 0.000000
+worker 0 : 0.000000
+FastFlow trace not enabled
+total_time:395.347
+worker 6 : 0.000000
+worker 0 : 0.000000
+worker 1 : 0.000000
+worker 5 : 0.000000
+worker 7 : 0.000000
+worker 14 : 0.000000
+worker 11 : 0.000000
+worker 3 : 0.000000
+worker 15 : 0.000000
+worker 13 : 0.000000
+worker 2 : 0.000000
+worker 8 : 0.000000
+worker 12 : 0.000000
+worker 9 : 0.000000
+worker 10 : 0.000000
+worker 4 : 0.000000
+FastFlow trace not enabled
+total_time:306.166
+worker 5 : 0.000000
+worker 7 : 0.000000
+worker 9 : 0.000000
+worker 8 : 0.000000
+worker 6 : 0.000000
+worker 1 : 0.000000
+worker 10 : 0.000000
+worker 13 : 0.000000
+worker 12 : 0.000000
+worker 11 : 0.000000
+worker 14 : 0.000000
+worker 15 : 0.000000
+worker 2 : 0.000000
+worker 3 : 0.000000
+worker 4 : 0.000000
+worker 0 : 0.000000
+FastFlow trace not enabled
+total_time:392.866
+worker 5 : 0.000000
+worker 3 : 0.000000
+worker 6 : 0.000000
+worker 7 : 0.000000
+worker 8 : 0.000000
+worker 11 : 0.000000
+worker 13 : 0.000000
+worker 9 : 0.000000
+worker 10 : 0.000000
+worker 12 : 0.000000
+worker 2 : 0.000000
+worker 15 : 0.000000
+worker 14 : 0.000000
+worker 1 : 0.000000
+worker 0 : 0.000000
+worker 4 : 0.000000
+FastFlow trace not enabled
+total_time:250.009
+worker 13 : 0.000000
+worker 8 : 0.000000
+worker 9 : 0.000000
+worker 11 : 0.000000
+worker 6 : 0.000000
+worker 7 : 0.000000
+worker 14 : 0.000000
+worker 10 : 0.000000
+worker 12 : 0.000000
+worker 5 : 0.000000
+worker 1 : 0.000000
+worker 2 : 0.000000
+worker 3 : 0.000000
+worker 15 : 0.000000
+worker 4 : 0.000000
+worker 0 : 0.000000
+FastFlow trace not enabled
+total_time:410.577
+./go: line 4: ./echo: No such file or directory
+./pdpSeq: line 1: 27310 Killed                  ./seq $Y 0 2048 500
