@@ -1,0 +1,3 @@
+m4 -s -Ulen -Uindex /Users/chrisb/Documents/Papers/hlpp2020/splash2/codes/null_macros/c.m4.null fft.C > fft_new.c
+
+gcc -c -O -pthread fft_new.c
