@@ -1,0 +1,5 @@
+- original.c -- pthread version
+- pth.1.c -- pthread removal
+  + We are back to simple pthread_create conversion here as pthread_join takes NULL
+    * Note that we should probably remove for loops that only have pthread_joins in them
+  + This is broken because the first stage adds more elements to the buffer than it has room for.
