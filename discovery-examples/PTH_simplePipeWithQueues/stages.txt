@@ -5,4 +5,26 @@
   + This is broken because the first stage adds more elements to the buffer than it has room for.
 - pth.2.cpp -- code repair begins
   + Lifted the pipeline stages into their own function, ready for unfolding.
+  + Equivalent to pth.1.cpp
 - pth.3.cpp
+  + Unfolded definitions of Stage1, Stage2, and Stage3
+  + Equivalent to pth.2.cpp
+- pth.4.cpp
+  + Merged do loops (should we convert these to for-loops first?)
+  + Equivalent to pth.3.cpp
+    * Wait, what?
+    * The output Queue keeps going up and the other stages don't seem to be firing.
+    * They're not firing because I've wrapped the if statements around the statement that fetches from the queues.
+    * Perhaps we should change the do-loops to for-loops first?
+      > Either way, we need to know what the iterator is
+      > Here, that's read_from_queue
+- pth.4.alt.cpp
+  + Converted do-loops to for-loops
+    * We need to know what the iterator is and what the initial value is.
+    * Note that in this case we need to weaken the bounds of the for-loops because in a do-loop the body executes before the bound. If you don't weaken it, the loops will not be equivalent. Would need to know how to weaken it; inequalities and numbers aren't too difficult.
+    * In this particular case, I don't think it would have a detrimental effect if we *didn't* weaken the bounds, because it would stop at the right time anyway. This is dangerous to apply generally, though.
+    * Is the if-condition in stage three wrong, Vladimir?
+  + The way I've done this doesn't work though...
+    * It either quits the loop immediately or it iterates infinitely.
+- pth.5.alt.cpp
+  + Merged for-loops
