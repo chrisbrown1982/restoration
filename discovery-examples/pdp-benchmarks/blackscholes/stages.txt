@@ -1,0 +1,30 @@
+blackscholes_seq.c
+blackscholes_pth.c -- starting point (with the parsec nonsence removed)
+blackscholes_pth.1.c -- pthread primitive removal
+  - note that this requires our updating pthread_create and pthread_join refactoring approach.
+    + calls the spawned function at the pthread_join location.
+    + (non-null) join and create calls are paired by their variables;
+      * what if those variables don't match up (or don't do so obviously)?
+      * what if we have (non-null) join and create calls left over?
+  - results in a segfault
+    + something to do with accessing tids... It's because `i` hasn't been decremented here.
+blackscholes_pth.2.c -- beginning code repair
+  + We need to merge the two for loops so that the call to bs_thread can access the i correctly
+  + This appears to have fixed it
+  + This rather means that you need to be careful of where the join and creates are when you bring them together; there could easily be unintended consequences.
+blackscholes_pth.3.c -- split the for loops
+  + Not sure how you could systematically remove the first part of the loop
+  + Or how often you'd be in a situation where you would need to
+blackscholes_pth.4.c -- Merge iterators
+  + They've the same increment so you just place one for the other
+blackscholes_pth.5.c -- Replace sole if condition with 
+  + The body of the for loop comprises only the if statement, and the condition depends on the iterator you can replace the if condition with the one in the for statement.
+  + What happens if the if condition has a greater range than the for condition?
+    * You need to restrict it in some way... 
+blackscholes_pth.6.c -- Introduce TBB Farm
+  + I had to cheat on this because I couldn't get the paraformance plugin working for some reason
+
+
+Shaping/deoptimisation/cleanup:
+- Get rid of the first loop, obviously.
+
