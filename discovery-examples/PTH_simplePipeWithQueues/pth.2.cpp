@@ -9,8 +9,6 @@
 //  
 
 #define _REENTRANT
-// #include <pthread.h>
-// #include <semaphore.h>
 #include <stdio.h>
 #include <stdlib.h>
 #include <limits.h>
@@ -26,40 +24,21 @@ typedef struct {
   int capacity;
   int readFrom; /* position in the array from which to read from */
   int addTo; /* position in the array of the first free slot for adding data */
-  // pthread_mutex_t queue_lock;
-  // pthread_cond_t queue_cond_write; /* signalled when we write something into the queue, wakes up threads waiting to read from an empty queue */
-  // pthread_cond_t queue_cond_read; /* signalled when we read something from the queue, wakes up threads waiting to write to a full queue */
 } queue_t;
 
 void add_to_queue(queue_t *queue, int elem)
 {
-  // pthread_mutex_lock(&queue->queue_lock);
-  /* If the queue is full, wait until something reads from it before adding a new element */
-  if (queue->nr_elements == queue->capacity) {
-    // pthread_cond_wait(&queue->queue_cond_read,&queue->queue_lock);
-  }
   queue->elements[queue->addTo] = elem;
   queue->addTo = (queue->addTo + 1) % queue->capacity;
   queue->nr_elements++;
-  // pthread_cond_signal(&queue->queue_cond_write);
-  // pthread_mutex_unlock(&queue->queue_lock);
-
-
 }
 
 int read_from_queue(queue_t *queue)
 {
   int elem;
-  // pthread_mutex_lock(&queue->queue_lock);
-  /* If the queue is empty, wait until something writes to it before trying to read */
-  if (queue->nr_elements == 0) {
-    // pthread_cond_wait(&queue->queue_cond_write,&queue->queue_lock);
-  }
   elem = queue->elements[queue->readFrom];
   queue->nr_elements--;
   queue->readFrom = (queue->readFrom + 1) % queue->capacity;
-  // pthread_cond_signal(&queue->queue_cond_read);
-  // pthread_mutex_unlock(&queue->queue_lock);
   return elem;
 }
 
@@ -135,22 +114,17 @@ void InitialiseQueue(queue_t *queue, int capacity) {
   queue->addTo = 0;
   queue->nr_elements = 0;
   queue->capacity = capacity;
-  // pthread_mutex_init(&queue->queue_lock, NULL);
-  // pthread_cond_init(&queue->queue_cond_write, NULL);
-  // pthread_cond_init(&queue->queue_cond_read, NULL);
+}
+
+void Pipe(void* a1, void* a2, void* a3) {
+  Stage1(a1);
+  Stage2(a2);
+  Stage3(a3);
 }
 
 int main(int argc, char *argv[]) {
-  /* thread ids and attributes */
-
-  // pthread_t workerid[NRSTAGES];
-  // pthread_attr_t attr;
   long i;
   FILE *results;
-
-  /* set global thread attributes */
-  // pthread_attr_init(&attr);
-  // pthread_attr_setscope(&attr, PTHREAD_SCOPE_SYSTEM);
 
   /* initialize queues */
   queue_t queue[NRSTAGES];
@@ -173,19 +147,7 @@ int main(int argc, char *argv[]) {
     stage_queues[i].outputQueue = &queue[i];
   }
   
-    
-  
-  /* create the workers, then wait for them to finish */
-  // pthread_create(&workerid[0], &attr, Stage1, (void *)&stage_queues[0]);
-  Stage1((void *)&stage_queues[0]);
-  // pthread_create(&workerid[1], &attr, Stage2, (void *)&stage_queues[1]);
-  Stage2((void *)&stage_queues[1]);
-  // pthread_create(&workerid[2], &attr, Stage3, (void *)&stage_queues[2]);
-  Stage3((void *)&stage_queues[2]);
-  
-  for (i = 0; i < NRSTAGES; i++) {
-    // pthread_join(workerid[i], NULL);
-  }
+  Pipe((void *)&stage_queues[0], (void *)&stage_queues[1], (void *)&stage_queues[2]);
 
   queue_t output_queue = queue[NRSTAGES-1];
 
