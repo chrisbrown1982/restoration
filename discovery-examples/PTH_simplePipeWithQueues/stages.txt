@@ -11,7 +11,14 @@
   + Equivalent to pth.2.cpp
 - pth.4.cpp
   + Merged do loops
-    * 
+    * Need to make sure that the variable in the condition is initialised
+    * Leave the iterator/assignment/initialisation outside the if statement
+    * Weaken the condition in the introduced if-statement (but not the while condition?)
+    * Do this for both the second and third loops; what about the first? Surely you have to apply them uniformly?
+      > I think we can argue that they're different types of do-loops; the first stage is over a simple integer that has already been initialised, whereas the second and third stages' condition argument(s) haven't been initialised so we have to bring them out of the introduced if-statement.
+      > Note also that you can't lift the assignments out of the merged do-loop because we don't know if they commute with the first stage.
+      > Note that we need to make sure that the assignments that occur between each of the loops can be moved above the merged loop.
+  + This is now equivalent to original.c
 
 
 
