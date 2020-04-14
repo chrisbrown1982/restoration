@@ -19,6 +19,12 @@
       > Note also that you can't lift the assignments out of the merged do-loop because we don't know if they commute with the first stage.
       > Note that we need to make sure that the assignments that occur between each of the loops can be moved above the merged loop.
   + This is now equivalent to original.c
+- pth.5.cpp -- shaping begins
+  + We want to match the reads and writes (to eliminate the queues, effectively)
+    * Yes, because 1) the queues are pointless in a sequential case and b) TBB doesn't need them
+  + In order to do this, we need to unfold read_from_queue and add_to_queue
+  + Labelling (automatic or otherwise) of reads/writes is more interesting than our simple example because here our reads also update the state (i.e. they remove something from the shared state).
+    * This likely means that our simple matching approach will not work?
 
 
 

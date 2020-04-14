@@ -28,14 +28,8 @@ pth.4: ./pth.4.cpp
 runpth.4: ./pth.4
 	./pth.4 && mv ./results ./results_pth.4.txt
 
-pth.4.alt: ./pth.4.alt.cpp
-	g++ pth.4.alt.cpp -lpthread -o pth.4.alt
+pth.5: ./pth.5.cpp
+	g++ pth.5.cpp -lpthread -o pth.5
 
-runpth.4.alt: ./pth.4.alt
-	./pth.4.alt && mv ./results ./results_pth.4.alt.txt
-
-pth.5.alt: ./pth.5.alt.cpp
-	g++ pth.5.alt.cpp -lpthread -o pth.5.alt
-
-runpth.5.alt: ./pth.5.alt
-	./pth.5.alt && mv ./results ./results_pth.5.alt.txt
+runpth.5: ./pth.5
+	./pth.5 && mv ./results ./results_pth.5.txt
