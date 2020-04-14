@@ -10,6 +10,12 @@
   + Unfolded definitions of Stage1, Stage2, and Stage3
   + Equivalent to pth.2.cpp
 - pth.4.cpp
+  + Merged do loops
+    * 
+
+
+
+- old.pth.4.cpp
   + Merged do loops (should we convert these to for-loops first?)
   + Equivalent to pth.3.cpp
     * Wait, what?
@@ -18,7 +24,7 @@
     * Perhaps we should change the do-loops to for-loops first?
       > Either way, we need to know what the iterator is
       > Here, that's read_from_queue
-- pth.4.alt.cpp
+- old.pth.4.alt.cpp
   + Converted do-loops to for-loops
     * We need to know what the iterator is and what the initial value is.
     * Note that in this case we need to weaken the bounds of the for-loops because in a do-loop the body executes before the bound. If you don't weaken it, the loops will not be equivalent. Would need to know how to weaken it; inequalities and numbers aren't too difficult.
@@ -26,5 +32,5 @@
     * Is the if-condition in stage three wrong, Vladimir?
   + The way I've done this doesn't work though...
     * It either quits the loop immediately or it iterates infinitely.
-- pth.5.alt.cpp
+- old.pth.5.alt.cpp
   + Merged for-loops
