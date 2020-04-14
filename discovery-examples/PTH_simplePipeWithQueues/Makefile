@@ -33,3 +33,9 @@ pth.5: ./pth.5.cpp
 
 runpth.5: ./pth.5
 	./pth.5 && mv ./results ./results_pth.5.txt
+
+pth.6: ./pth.6.cpp
+	g++ pth.6.cpp -lpthread -o pth.6
+
+runpth.6: ./pth.6
+	./pth.6 && mv ./results ./results_pth.6.txt

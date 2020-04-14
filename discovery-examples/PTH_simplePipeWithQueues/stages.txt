@@ -25,6 +25,37 @@
   + In order to do this, we need to unfold read_from_queue and add_to_queue
   + Labelling (automatic or otherwise) of reads/writes is more interesting than our simple example because here our reads also update the state (i.e. they remove something from the shared state).
     * This likely means that our simple matching approach will not work?
+- pth.6.cpp -- Now we match up reads and writes.
+  + I can't remember how we did this originally, but by the look of it, we can go down the merged loop in order.
+    * What happens in the event that a stage is skipped? Is this a valid pipeline?
+  + We end up with three cases:
+    1. a read by itself (source)
+    2. a write and a read
+    3. a write by itself (sink)
+  + This still rather assumes that we're grouping together operations that are reads and writes.
+    * Perhaps we should group together contiguous examples.
+      > In stage one, the three writes are one write.
+      > In stage two, we have a read and two writes, followed by three writes.
+      > In stage three we have a read and two writes, followed by three 
+  + How do we know what is meaningfull updating/reading code and what is just housekeeping?
+    * Perhaps we need to group also on the variables we're reading/writing?
+    * We need a third category, I think: updating, i.e. where you read and write in the same block
+      > Let's assume we don't pair updates: they're self-contained (inherently)
+    * We end up with the following cases:
+      0. an update (how do we handle those, threading-wise? Need to sort the wheat from the chaff)
+        (addTo, nr_elements, readFrom)
+      1. a read by itself
+        (addTo, capacity, readFrom)
+      2. a write and a read
+        (elements)
+      3. a write by itself (sink)
+        (elements)
+    * Leave updates (0) as they are for the moment
+    * A read by itself (1) can also be left for the moment
+    * For a write and a read (2), you replace the RHS of the read with the RHS of the write.
+    * For a write by itself (3), we leave it be for the moment
+  + Equivalent to original.c
+- pth.7.cpp -- localising the variables
 
 
 
