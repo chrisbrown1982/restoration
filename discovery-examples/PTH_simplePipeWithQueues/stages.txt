@@ -65,6 +65,11 @@
     * Next stage, I think. (See it as a merging of Structs and go from there.)
     * You also need to merge the inputs as well. Do that first, then merge all the structs?
   + Equivalent to original.c
+- pth.8.cpp -- merging structs
+  + We can merge parts of the struct according to how they're assigned/used
+  + Niggling question: how are we supposed to merge the elems in the final queue?
+  ...Actually, how exactly does this help.
+  + New thing for Friday: work out what the TBB version actually looks like and go from there.
 
 
 

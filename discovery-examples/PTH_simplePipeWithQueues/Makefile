@@ -45,3 +45,9 @@ pth.7: ./pth.7.cpp
 
 runpth.7: ./pth.7
 	./pth.7 && mv ./results ./results_pth.7.txt
+
+pth.8: ./pth.8.cpp
+	g++ pth.8.cpp -lpthread -o pth.8
+
+runpth.8: ./pth.8
+	./pth.8 && mv ./results ./results_pth.8.txt
