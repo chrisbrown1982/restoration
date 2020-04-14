@@ -55,7 +55,16 @@
     * For a write and a read (2), you replace the RHS of the read with the RHS of the write.
     * For a write by itself (3), we leave it be for the moment
   + Equivalent to original.c
-- pth.7.cpp -- localising the variables
+- pth.7.cpp -- lift into functions
+  + All variables are local, so we can split the pipe into functions (for introducing TBB)
+  + Recall that for producing such functions we also need to generate structs
+    * We really ought to get rid of the queues. I don't like them.
+    * I've made the individual parts of the queues local variables that are passed in and returned as part of the synthesised structures.
+  + Note that we don't return capacity because we don't update it in any way.
+  + Shouldn't we have this so that you pass the result of stage n straight into stage S n?
+    * Next stage, I think. (See it as a merging of Structs and go from there.)
+    * You also need to merge the inputs as well. Do that first, then merge all the structs?
+  + Equivalent to original.c
 
 
 
