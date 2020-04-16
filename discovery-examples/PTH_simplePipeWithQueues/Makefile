@@ -51,3 +51,9 @@ pth.8: ./pth.8.cpp
 
 runpth.8: ./pth.8
 	./pth.8 && mv ./results ./results_pth.8.txt
+
+pth.tbb: ./pth.tbb.cpp
+	g++ pth.tbb.cpp -lpthread -ltbb -o pth.tbb
+
+runpth.tbb: ./pth.tbb
+	./pth.tbb && mv ./results ./results_pth.tbb.txt

@@ -71,6 +71,8 @@
   ...Actually, how exactly does this help.
   + New thing for Friday: work out what the TBB version actually looks like and go from there.
 
+- pth.tbb.cpp -- our goal (with tbb pipeline in it)
+
 
 
 - old.pth.4.cpp
