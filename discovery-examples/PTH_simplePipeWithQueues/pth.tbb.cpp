@@ -15,8 +15,8 @@
 
 #include <tbb/pipeline.h>
 
-#define BUFSIZE 1000
-#define MAXDATA 5000
+#define BUFSIZE 100//0
+#define MAXDATA 500//0
 #define NRSTAGES 3
 
 #define NTOKEN 5
@@ -90,8 +90,18 @@ long long fib(int n)
   return f[n]; 
 } 
 
+long long fibr(long long n) {
+  if (n <= 0) {
+    return 0;
+  } else if (n == 1) {
+    return 1;
+  } else {
+    return (fibr(n-1) + fibr(n-2));
+  }
+}
+
 void PipeTBB(int* first, int* elements, int* addTo, int* capacity, int* nr_elements) {
-    tbb::parallel_pipeline( /*max_number_of_live_token=*/ 16,
+    tbb::parallel_pipeline( /*max_number_of_live_token=*/ 2,
         tbb::make_filter<void,int>(
             tbb::filter::serial,
             [&](tbb::flow_control& fc)-> int{
@@ -114,7 +124,7 @@ void PipeTBB(int* first, int* elements, int* addTo, int* capacity, int* nr_eleme
               int my_output;
               // printf("my_input : %i\n", my_input);
               if (my_input > 0) {
-                // long long fibn = fib(100);
+                long long fibn = fibr(32);
                 // fprintf(stderr, "fib : %lld\n", fibn);
                 my_output = my_input + 1;
               } else { // 0 is a terminating token...If we get it, we just pass it on...

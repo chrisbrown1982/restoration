@@ -72,6 +72,9 @@
   + New thing for Friday: work out what the TBB version actually looks like and go from there.
 
 - pth.tbb.cpp -- our goal (with tbb pipeline in it)
+  + We need to know a few things:
+    * The 'add_to_queue' for output queue remains the same (note that we're passing them in as pointers; perhaps we want a labelling of some description that states that its a sink?)
+    * 
 
 
 

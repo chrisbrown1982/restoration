@@ -15,8 +15,8 @@
 #include <stdlib.h>
 #include <limits.h>
 
-#define BUFSIZE 1000
-#define MAXDATA 5000
+#define BUFSIZE 100//0
+#define MAXDATA 500//0
 #define NRSTAGES 3
 
 /* Structure to keep info about queues between stages */
@@ -87,6 +87,16 @@ void *Stage1(void *arg) {
   return NULL;
 }
 
+long long fibr(long long n) {
+  if (n <= 0) {
+    return 0;
+  } else if (n == 1) {
+    return 1;
+  } else {
+    return (fibr(n-1) + fibr(n-2));
+  }
+}
+
 /* Second stage reads an element from the input queue, adds 1 to it and writes it to the output queue */
 void *Stage2(void *arg) {
   int my_input;
@@ -98,10 +108,12 @@ void *Stage2(void *arg) {
 
   do {
     my_input = read_from_queue(myInputQueue);
-    if (my_input > 0)
+    if (my_input > 0) {
+      long long fibn = fibr(32);
       my_output = my_input + 1;
-    else /* 0 is a terminating token...If we get it, we just pass it on... */
+    } else { /* 0 is a terminating token...If we get it, we just pass it on... */
       my_output = 0;
+    }
     add_to_queue(myOutputQueue, my_output);
   } while (my_input>0);
 
