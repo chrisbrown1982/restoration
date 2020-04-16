@@ -13,8 +13,8 @@
 #include <stdlib.h>
 #include <limits.h>
 
-#define BUFSIZE 1000
-#define MAXDATA 5000
+#define BUFSIZE 100//0
+#define MAXDATA 500//0
 #define NRSTAGES 3
 
 /* Structure to keep info about queues between stages */
@@ -92,9 +92,9 @@ void Pipe(void* a1, void* a2, void* a3) {
       // myOutputQueue_1->elements[myOutputQueue_1->addTo] = my_output_1;
       // READ -- capacity
       // UPDATE -- addTo
-      myOutputQueue_1->addTo = (myOutputQueue_1->addTo + 1) % myOutputQueue_1->capacity;
+      // myOutputQueue_1->addTo = (myOutputQueue_1->addTo + 1) % myOutputQueue_1->capacity;
       // UPDATE -- nr_elements
-      myOutputQueue_1->nr_elements++;
+      // myOutputQueue_1->nr_elements++;
     }
 
     printf("s1s2 queue : %i\n", myOutputQueue_1->nr_elements);
@@ -108,10 +108,10 @@ void Pipe(void* a1, void* a2, void* a3) {
     // elem_2 = myInputQueue_2->elements[myInputQueue_2->readFrom];
     elem_2 = my_output_1;
     // UPDATE -- nr_elements
-    myInputQueue_2->nr_elements--; // this would be classified as a write?
+    // myInputQueue_2->nr_elements--; // this would be classified as a write?
     // READ -- capacity
     // UPDATE -- readFrom
-    myInputQueue_2->readFrom = (myInputQueue_2->readFrom + 1) % myInputQueue_2->capacity; // this too?
+    // myInputQueue_2->readFrom = (myInputQueue_2->readFrom + 1) % myInputQueue_2->capacity; // this too?
     my_input_2 = elem_2;
 
     if (my_input_2 >= 0) {
@@ -127,9 +127,9 @@ void Pipe(void* a1, void* a2, void* a3) {
       // myOutputQueue_2->elements[myOutputQueue_2->addTo] = my_output_2;
       // READ -- capacity
       // UPDATE -- addTo
-      myOutputQueue_2->addTo = (myOutputQueue_2->addTo + 1) % myOutputQueue_2->capacity;
+      // myOutputQueue_2->addTo = (myOutputQueue_2->addTo + 1) % myOutputQueue_2->capacity;
       // UPDATE -- nr_elements
-      myOutputQueue_2->nr_elements++;
+      // myOutputQueue_2->nr_elements++;
     }
 
     // STAGE THREE
@@ -140,10 +140,10 @@ void Pipe(void* a1, void* a2, void* a3) {
     // elem_3 = myInputQueue_3->elements[myInputQueue_3->readFrom];
     elem_3 = my_output_2;
     // UPDATE -- nr_elements
-    myInputQueue_3->nr_elements--;
+    // myInputQueue_3->nr_elements--;
     // READ -- capacity
     // UPDATE -- readFrom
-    myInputQueue_3->readFrom = (myInputQueue_3->readFrom + 1) % myInputQueue_3->capacity;
+    // myInputQueue_3->readFrom = (myInputQueue_3->readFrom + 1) % myInputQueue_3->capacity;
     my_input_3 = elem_3;
     if (my_input_3 >= -1) {
       if (my_input_3 >= 0)

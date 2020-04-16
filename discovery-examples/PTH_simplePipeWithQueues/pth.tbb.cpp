@@ -100,16 +100,26 @@ long long fibr(long long n) {
   }
 }
 
-void PipeTBB(int* first, int* elements, int* addTo, int* capacity, int* nr_elements) {
+struct PipeStruct {
+  // INPUTS
+  int* i_1;
+  int  capacity; // of the (exploded) final output queue; it's never updated...
+  // OUTPUTS
+  int* elements; // final output queue (exploded)
+  int  addTo;
+  int  nr_elements;
+};
+
+PipeStruct PipeTBB(PipeStruct arg) {
     tbb::parallel_pipeline( /*max_number_of_live_token=*/ 2,
         tbb::make_filter<void,int>(
             tbb::filter::serial,
             [&](tbb::flow_control& fc)-> int{
                 // printf("Hello\n");
-                if( *first >= 0 ) {
-                    // printf("first: %i\n",*first);
-                    int my_output = *first;
-                    *first = *first-1;
+                if( *(arg.i_1) >= 0 ) {
+                    // printf("i_1: %i\n",*i_1);
+                    int my_output = *(arg.i_1);
+                    *(arg.i_1) = *(arg.i_1)-1;
                     return my_output;
                  } else {
                     // printf("Stop\n");
@@ -144,14 +154,52 @@ void PipeTBB(int* first, int* elements, int* addTo, int* capacity, int* nr_eleme
               else
                 my_output = -1;
               // add_to_queue(myOutputQueue, my_output);
-              elements[*addTo] = my_output;
-              *addTo = (*addTo + 1) % *capacity;
-              *nr_elements=*nr_elements+1;
+              arg.elements[arg.addTo] = my_output;
+              arg.addTo = (arg.addTo + 1) % arg.capacity;
+              arg.nr_elements=arg.nr_elements+1;
             }
         )
     );
+  return arg;
 }
-     
+
+void Pipe(void* a1, void* a2, void* a3) {
+  // STAGE ONE
+  // int my_output_1, 
+  int i_1 = MAXDATA;
+  
+  // pipeline_stage_queues_t *myQueues_1 = (pipeline_stage_queues_t *)a1;
+  // queue_t *myOutputQueue_1 = myQueues_1->outputQueue;
+
+  // // STAGE TWO
+  // int my_input_2;
+  // int my_output_2;
+
+  // pipeline_stage_queues_t *myQueues_2 = (pipeline_stage_queues_t *)a2;
+  // queue_t *myOutputQueue_2 = myQueues_2->outputQueue;
+  // queue_t *myInputQueue_2 = myQueues_2->inputQueue;
+
+  // // STAGE THREE
+  // int my_input_3;
+  // int my_output_3;
+
+  pipeline_stage_queues_t *myQueues_3 = (pipeline_stage_queues_t *)a3;
+  queue_t *myOutputQueue_3 = myQueues_3->outputQueue;
+  // queue_t *myInputQueue_3 = myQueues_3->inputQueue;
+
+  PipeStruct arg = PipeStruct {&i_1,
+                               myOutputQueue_3->capacity,
+                               myOutputQueue_3->elements,
+                               myOutputQueue_3->addTo,
+                               myOutputQueue_3->nr_elements};
+
+  PipeStruct r = PipeTBB(arg);
+  // No need to update i_1 because we passed it in as a pointer for the source stage.
+  // Capacity is not updated
+  myOutputQueue_3->elements = r.elements;
+  myOutputQueue_3->addTo = r.addTo;
+  myOutputQueue_3->nr_elements = r.nr_elements;
+}
 
 int main(int argc, char *argv[]) {
   long i;
@@ -178,15 +226,7 @@ int main(int argc, char *argv[]) {
     stage_queues[i].outputQueue = &queue[i];
   }
   
-  // Pipe((void *)&stage_queues[0], (void *)&stage_queues[1], (void *)&stage_queues[2]);
-
-  int first = MAXDATA;
-
-  PipeTBB(&first,
-          queue[NRSTAGES-1].elements,
-          &(queue[NRSTAGES-1].addTo),
-          &(queue[NRSTAGES-1].capacity),
-          &(queue[NRSTAGES-1].nr_elements));
+  Pipe((void *)&stage_queues[0], (void *)&stage_queues[1], (void *)&stage_queues[2]);
 
   queue_t output_queue = queue[NRSTAGES-1];
 

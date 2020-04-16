@@ -55,6 +55,24 @@
     * For a write and a read (2), you replace the RHS of the read with the RHS of the write.
     * For a write by itself (3), we leave it be for the moment
   + Equivalent to original.c
+  + See pth.tbb.cpp: we remove updates that aren't referenced anywhere else.
+
+- What we need is a way of piping the output of one stage into the next.
+  + We know that my_output_1 is the same as my_input_2 because of the unfolding we've done.
+    * elem_2 can be gotten rid of, and my_input_2 can be changed to my_output_1
+    * Same for my_output_2 and my_input_2.
+  + We know that by deleting updates (see pth.tbb.cpp) that the only thing passed on between s1 and s2 is my_output_1, and similarly, between s2 and s3 is my_output_2.
+
+- pth.tbb.cpp -- our goal (with tbb pipeline in it)
+  + We need to know a few things:
+    * The 'add_to_queue' for output queue remains the same (note that we're passing them in as pointers, this could easily be a synthesised struct; perhaps we want a labelling of some description that states that its a sink?)
+    * The first stage needs to have a `fc.stop()` somewhere.
+      > We can use the condition in the introduced if-statement from the loop merge.
+    * What if we were to just remove UPDATE operations (with the assumption that they're only used in the immediate pipeline)?
+      > This side condition spares the output queue because it's used elsewhere (in the output stuff).
+
+---------------------------------------------------------------------------------------------------
+
 - pth.7.cpp -- lift into functions
   + All variables are local, so we can split the pipe into functions (for introducing TBB)
   + Recall that for producing such functions we also need to generate structs
@@ -71,12 +89,7 @@
   ...Actually, how exactly does this help.
   + New thing for Friday: work out what the TBB version actually looks like and go from there.
 
-- pth.tbb.cpp -- our goal (with tbb pipeline in it)
-  + We need to know a few things:
-    * The 'add_to_queue' for output queue remains the same (note that we're passing them in as pointers; perhaps we want a labelling of some description that states that its a sink?)
-    * 
-
-
+---------------------------------------------------------------------------------------------------
 
 - old.pth.4.cpp
   + Merged do loops (should we convert these to for-loops first?)
