@@ -55,6 +55,12 @@ pth.8: ./pth.8.cpp
 runpth.8: ./pth.8
 	time ./pth.8 && mv ./results ./results_pth.8.txt
 
+pth.9: ./pth.9.cpp
+	$(CC) pth.9.cpp -lpthread -ltbb -o pth.9
+
+runpth.9: ./pth.9
+	time ./pth.9 && mv ./results ./results_pth.9.txt
+
 pth.tbb: ./pth.tbb.cpp
 	$(CC) pth.tbb.cpp -lpthread -ltbb -o pth.tbb
 
