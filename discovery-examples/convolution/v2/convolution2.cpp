@@ -422,12 +422,41 @@ void createpipe(void (*Worker1)(),void (*Worker2)()) {
 void createpipefarm(void (*Worker1)(), void (*Worker2)(), int n1, int n2) {
     for (long i=0; i< n1; i++) {
  //       printf("Making thread Stage1 %d\n", i);
-        makeThread(Worker1, i);
+        // makeThread(Worker1, i);
+
+        int rc;
+
+        pthread_t *pt = (pthread_t *) malloc(sizeof(pthread_t));
+
+        rc = pthread_create(pt, NULL, (void *(*)(void *))Worker1, (void *)i);
+        //  rc = pthread_create(pt, NULL, Worker, (void *)t);
+
+        if (rc){
+            printf("ERROR; return code from pthread_create() is %d\n", rc);
+            exit(-1);
+        }
+
+
     }
     
     for (long i=0; i<n2; i++) {
  //	printf("Making thread Stage2 %d\n", i+n1);
-        makeThread(Worker2, i+n1);
+        //makeThread(Worker2, i+n1);
+
+        int rc;
+
+        pthread_t *pt = (pthread_t *) malloc(sizeof(pthread_t));
+
+        int temp = i + n1;
+
+        rc = pthread_create(pt, NULL, (void *(*)(void *))Worker2, (void *)temp);
+        //  rc = pthread_create(pt, NULL, Worker, (void *)t);
+
+        if (rc){
+            printf("ERROR; return code from pthread_create() is %d\n", rc);
+            exit(-1);
+        }
+
     }
 
 }
