@@ -1,0 +1,3 @@
+gcc -c -O2 payload.c
+gcc -c -O2 xchg-spinlock2.c 
+g++ -o convolution convolution.o payload.o xchg-spinlock2.o -lpthread  -lpng

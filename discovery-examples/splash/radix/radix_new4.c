@@ -666,11 +666,14 @@ void slave_sort()
         rank_stop = rank_partition[MyNum + 1];
         rank_me_mynum = rank_me[MyNum];
         rank_ff_mynum = gp[MyNum].rank_ff;
+
         n = &(global->prefix_tree[MyNum]);
         for (i = 0; i < radix; i++) {
             n->densities[i] = key_density[i];
+     //       printf("schu0: n->densities[i] = %d\n", n->densities[i]);
             n->ranks[i] = rank_me_mynum[i];
         }
+
         offset = MyNum;
         level = number_of_processors >> 1;
         base = number_of_processors;
@@ -683,12 +686,25 @@ void slave_sort()
         }
 
         }
+        printf("offset & 0x1 %d\n", offset & 0x1);
+        printf("offset = %d\n", offset);
+        printf("offset >> 1 = %d\n", offset >> 1);
         while ((offset & 0x1) != 0) {
             offset >>= 1;
             r = n;
+            printf("n = %d\n", n);
+
             l = n - 1;
+            printf("moving l ... %d\n", l);
             index = base + offset;
+            printf("index = %d\n", index);
+
+            printf("schu1: r->densities[i] = %d\n", n->densities[34]);
+            printf("schu1: l->densities[i] = %d\n", l->densities[34]);
+
             n = &(global->prefix_tree[index]);
+            printf("schu2: r->densities[i] = %d\n", n->densities[34]);
+            printf("schu2: l->densities[i] = %d\n", l->densities[34]);
             {
 	// pthread_mutex_lock(&n->done.Mutex);
 	        if (n->done.Flag == 0) {
@@ -703,10 +719,13 @@ void slave_sort()
          for (i = 0; i < radix; i++) {
            n->densities[i] = r->densities[i] + l->densities[i];
            n->ranks[i] = r->ranks[i] + l->ranks[i];
+           printf("bob: n->densities[i] = %d\n", n->densities[i]);
          }
         } else {
          for (i = 0; i < radix; i++) {
            n->densities[i] = r->densities[i] + l->densities[i];
+           printf("bill: r->densities[i] = %d\n", r->densities[i]);
+           printf("bill: l->densities[i] = %d\n", l->densities[i]);
          }
         }
         base += level;
@@ -773,9 +792,10 @@ void slave_sort()
 	// pthread_mutex_unlock(&my_node->done.Mutex);
         };
         for (i = 0; i < radix; i++) {
-         my_node->densities[i] = their_node->densities[i];
+            my_node->densities[i] = their_node->densities[i];
         }
         } else {
+            printf("here!\n");
             my_node = &(global->prefix_tree[(2 * number_of_processors) - 2]);
         }
         offset = MyNum;
