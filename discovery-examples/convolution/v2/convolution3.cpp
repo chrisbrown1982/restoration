@@ -61,7 +61,7 @@ void my_lock_char( struct t_char *tq )
    char old_value ;
    char new_value = 1 ;
  
-   do {
+   /* do {
       // use an xchg to obtain a lock
       __asm__ __volatile__( "lock; xchgb  %0,%1\n\t" :
                             "=r" (old_value), "+m" (tq->lock) :
@@ -71,13 +71,15 @@ void my_lock_char( struct t_char *tq )
       // do we have the lock?  If so, exit the lock routine
       if ( 0 == old_value)
 	break;
+     */
 
+    // pthread_mutex_lock(&tq->lockmutex); 
       // otherwise wait until signalled
-      pthread_cond_wait(&tq->lockcond,&tq->lockmutex);
-
+    // pthread_cond_wait(&tq->lockcond,&tq->lockmutex);
+      
       // don't assume we have the lock yet...
       
-   } while ( 1 ) ;
+   // } while ( 1 ) ;
    lock_char++;
 }
  
@@ -91,7 +93,7 @@ void my_unlock_char( struct t_char *tq )
    //   pthread_cond_signal(&tq->lockcond);
 
    // this is safer, but may still be unnecessary
-   pthread_cond_broadcast(&tq->lockcond);
+   // pthread_cond_broadcast(&tq->lockcond);
    unlock_char++;
 }
 
@@ -100,7 +102,7 @@ void my_lock_t_task_t( struct t_task_t *tq )
    char old_value ;
    char new_value = 1 ;
  
-   do {
+   /* do {
       // use an xchg to obtain a lock
       __asm__ __volatile__( "lock; xchgb  %0,%1\n\t" :
                             "=r" (old_value), "+m" (tq->lock) :
@@ -110,13 +112,15 @@ void my_lock_t_task_t( struct t_task_t *tq )
       // do we have the lock?  If so, exit the lock routine
       if ( 0 == old_value)
 	break;
+     */
 
+    // pthread_mutex_lock(&tq->lockmutex); 
       // otherwise wait until signalled
-      pthread_cond_wait(&tq->lockcond,&tq->lockmutex);
-
+    // pthread_cond_wait(&tq->lockcond,&tq->lockmutex);
+      
       // don't assume we have the lock yet...
       
-   } while ( 1 ) ;
+   // } while ( 1 ) ;
    lock_t_task_t++;
 }
  
@@ -139,7 +143,7 @@ void my_lock_tq( struct tq *tq )
    char old_value ;
    char new_value = 1 ;
  
-   do {
+   /* do {
       // use an xchg to obtain a lock
       __asm__ __volatile__( "lock; xchgb  %0,%1\n\t" :
                             "=r" (old_value), "+m" (tq->lock) :
@@ -149,13 +153,15 @@ void my_lock_tq( struct tq *tq )
       // do we have the lock?  If so, exit the lock routine
       if ( 0 == old_value)
 	break;
-      
+     */
+
+    // pthread_mutex_lock(&tq->lockmutex); 
       // otherwise wait until signalled
-      pthread_cond_wait(&tq->lockcond,&tq->lockmutex);
+    // pthread_cond_wait(&tq->lockcond,&tq->lockmutex);
       
       // don't assume we have the lock yet...
       
-   } while ( 1 ) ;
+   // } while ( 1 ) ;
    lock_tq++;
 }
 
@@ -170,7 +176,7 @@ void my_unlock_tq( struct tq *tq )
    //   pthread_cond_signal(&tq->lockcond);
 
    // this is safer, but may still be unnecessary
-   pthread_cond_broadcast(&tq->lockcond);
+   // pthread_cond_broadcast(&tq->lockcond);
 }
 
 struct tq *newtq() {
@@ -178,9 +184,9 @@ struct tq *newtq() {
   tq->lock = 0; tq->addat = 0; tq->removeat = 0;
   //  pthread_condattr_init(&tq->notifycondattr);
   //  pthread_cond_init(&tq->notifycond,&tq->notifycondattr);
-  pthread_cond_init(&tq->notifycond,NULL); // NULL?
+  // pthread_cond_init(&tq->notifycond,NULL); // NULL?
 
-  pthread_mutex_init(&tq->notifymutex,NULL);
+  // pthread_mutex_init(&tq->notifymutex,NULL);
   return(tq);
 }
 
@@ -195,7 +201,7 @@ task_t2* gettask2(struct t_task_t *tq) {
     if (tq->removeat == tq->addat) {
       my_unlock_t_task_t(tq);
       //fprintf(stderr,"waiting...\n");
-      pthread_cond_wait(&tq->notifycond,&tq->notifymutex);
+      // pthread_cond_wait(&tq->notifycond,&tq->notifymutex);
      // fprintf (stderr, "%d got past cond wait\n", pthread_self());
       //fprintf(stderr,"finished waiting\n");
     }
@@ -209,7 +215,7 @@ task_t2* gettask2(struct t_task_t *tq) {
     // fprintf (stderr,"LALALALAALAL\n");
   }
   my_unlock_t_task_t(tq);
-  pthread_mutex_unlock(&tq->notifymutex);
+  // pthread_mutex_unlock(&tq->notifymutex);
   // fprintf(stderr,"got %d\n",t);
 
   return(t);
@@ -238,7 +244,7 @@ void puttask1(struct t_task_t *tq,task_t2* v) {
   // signal if there are blocked tasks
   if ((tq->removeat+1) % MAX_TASKS == tq->addat) {
     //    fprintf(stderr,"unblocking...\n");
-    pthread_cond_signal(&tq->notifycond);
+    // pthread_cond_signal(&tq->notifycond);
     // fprintf(stderr,"finished waiting\n");
   }
   //  fprintf(stderr,"put %d\n",v);
@@ -255,7 +261,7 @@ char* gettask1(struct t_char *tq) {
     if (tq->removeat == tq->addat) {
       my_unlock_char(tq);
       // fprintf(stderr," stage1 waiting...\n");
-      pthread_cond_wait(&tq->notifycond,&tq->notifymutex);
+      // pthread_cond_wait(&tq->notifycond,&tq->notifymutex);
       // fprintf(stderr,"stage1 finished waiting\n");
     }
   }  while (tq->removeat == tq->addat);
@@ -267,7 +273,7 @@ char* gettask1(struct t_char *tq) {
     tq->removeat = 0;
 
   my_unlock_char(tq);
- pthread_mutex_unlock(&tq->notifymutex);
+ // pthread_mutex_unlock(&tq->notifymutex);
   //  fprintf(stderr,"got %d\n",t);
 
   return(t);
@@ -285,7 +291,7 @@ int gettasktq(struct tq *tq) {
     if (tq->removeat == tq->addat) {
       my_unlock_tq(tq);
       //      fprintf(stderr,"waiting...\n");
-      pthread_cond_wait(&tq->notifycond,&tq->notifymutex);
+      // pthread_cond_wait(&tq->notifycond,&tq->notifymutex);
       // fprintf(stderr,"finished waiting\n");
     }
   }  while (tq->removeat == tq->addat);
@@ -296,7 +302,7 @@ int gettasktq(struct tq *tq) {
     tq->removeat = 0;
 
   my_unlock_tq(tq);
- pthread_mutex_unlock(&tq->notifymutex);
+ // pthread_mutex_unlock(&tq->notifymutex);
   //  fprintf(stderr,"got %d\n",t);
 
   return(t);
@@ -327,7 +333,7 @@ void puttask(struct tq *tq,int v) {
   // signal if there are blocked tasks
   if ((tq->removeat+1) % MAX_TASKS == tq->addat) {
     //    fprintf(stderr,"unblocking...\n");
-    pthread_cond_signal(&tq->notifycond);
+    // pthread_cond_signal(&tq->notifycond);
     // fprintf(stderr,"finished waiting\n");
   }
   //  fprintf(stderr,"put %d\n",v);
@@ -360,7 +366,7 @@ void puttask_char(struct t_char *tq,char * v) {
   // signal if there are blocked tasks
   if ((tq->removeat+1) % MAX_TASKS == tq->addat) {
     //    fprintf(stderr,"unblocking...\n");
-    pthread_cond_signal(&tq->notifycond);
+    // pthread_cond_signal(&tq->notifycond);
     // fprintf(stderr,"finished waiting\n");
   }
   //  fprintf(stderr,"put %d\n",v);
@@ -391,7 +397,8 @@ void makeThread(void (*Worker)(),long t) {
 
   pthread_t *pt = (pthread_t *) malloc(sizeof(pthread_t));
 
-  rc = pthread_create(pt, NULL, (void *(*)(void *))Worker, (void *)t);
+  rc = 0; // pthread_create(pt, NULL, (void *(*)(void *))Worker, (void *)t);
+  Worker();
   //  rc = pthread_create(pt, NULL, Worker, (void *)t);
 
   if (rc){
@@ -414,15 +421,46 @@ void createpipe(void (*Worker1)(),void (*Worker2)()) {
 }
 
 void createpipefarm(void (*Worker1)(), void (*Worker2)(), int n1, int n2) {
-    for (long i=0; i< n1; i++) {
+  //  for (long i=0; i< n1; i++) {
  //       printf("Making thread Stage1 %d\n", i);
-        makeThread(Worker1, i);
-    }
+        // makeThread(Worker1, i);
+
+        int rc;
+
+        // pthread_t *pt = (pthread_t *) malloc(sizeof(pthread_t));
+
+        rc = 0; // pthread_create(pt, NULL, (void *(*)(void *))Worker1, (void *)i);
+        Worker1();
+        //  rc = pthread_create(pt, NULL, Worker, (void *)t);
+
+        if (rc){
+            printf("ERROR; return code from pthread_create() is %d\n", rc);
+            exit(-1);
+        }
+
+
+ //   }
     
-    for (long i=0; i<n2; i++) {
+    // for (long i=0; i<n2; i++) {
  //	printf("Making thread Stage2 %d\n", i+n1);
-        makeThread(Worker2, i+n1);
-    }
+        //makeThread(Worker2, i+n1);
+
+        // int rc;
+
+        // pthread_t *pt = (pthread_t *) malloc(sizeof(pthread_t));
+
+        int temp = 0 + n1;
+
+        rc = 0 ; // pthread_create(pt, NULL, (void *(*)(void *))Worker2, (void *)temp);
+        Worker2();
+        //  rc = pthread_create(pt, NULL, Worker, (void *)t);
+
+        if (rc){
+            printf("ERROR; return code from pthread_create() is %d\n", rc);
+            exit(-1);
+        }
+
+    // }
 
 }
 
@@ -483,9 +521,9 @@ struct t_char *newtchar() {
   tq->lock = 0; tq->addat = 0; tq->removeat = 0;
   //  pthread_condattr_init(&tq->notifycondattr);
   //  pthread_cond_init(&tq->notifycond,&tq->notifycondattr);
-  pthread_cond_init(&tq->notifycond,NULL); // NULL?
+  // pthread_cond_init(&tq->notifycond,NULL); // NULL?
 
-  pthread_mutex_init(&tq->notifymutex,NULL);
+  // pthread_mutex_init(&tq->notifymutex,NULL);
   return(tq);
 }
 
@@ -494,9 +532,9 @@ struct t_task_t *newttaskt() {
   tq->lock = 0; tq->addat = 0; tq->removeat = 0;
   //  pthread_condattr_init(&tq->notifycondattr);
   //  pthread_cond_init(&tq->notifycond,&tq->notifycondattr);
-  pthread_cond_init(&tq->notifycond,NULL); // NULL?
+  // pthread_cond_init(&tq->notifycond,NULL); // NULL?
 
-  pthread_mutex_init(&tq->notifymutex,NULL);
+  // pthread_mutex_init(&tq->notifymutex,NULL);
   return(tq);
 }
 

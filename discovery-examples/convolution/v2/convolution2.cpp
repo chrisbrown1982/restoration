@@ -61,7 +61,7 @@ void my_lock_char( struct t_char *tq )
    char old_value ;
    char new_value = 1 ;
  
-   do {
+   /* do {
       // use an xchg to obtain a lock
       __asm__ __volatile__( "lock; xchgb  %0,%1\n\t" :
                             "=r" (old_value), "+m" (tq->lock) :
@@ -71,13 +71,15 @@ void my_lock_char( struct t_char *tq )
       // do we have the lock?  If so, exit the lock routine
       if ( 0 == old_value)
 	break;
+     */
 
+    pthread_mutex_lock(&tq->lockmutex); 
       // otherwise wait until signalled
-      pthread_cond_wait(&tq->lockcond,&tq->lockmutex);
-
+    pthread_cond_wait(&tq->lockcond,&tq->lockmutex);
+      
       // don't assume we have the lock yet...
       
-   } while ( 1 ) ;
+   // } while ( 1 ) ;
    lock_char++;
 }
  
@@ -100,7 +102,7 @@ void my_lock_t_task_t( struct t_task_t *tq )
    char old_value ;
    char new_value = 1 ;
  
-   do {
+   /* do {
       // use an xchg to obtain a lock
       __asm__ __volatile__( "lock; xchgb  %0,%1\n\t" :
                             "=r" (old_value), "+m" (tq->lock) :
@@ -110,13 +112,15 @@ void my_lock_t_task_t( struct t_task_t *tq )
       // do we have the lock?  If so, exit the lock routine
       if ( 0 == old_value)
 	break;
+     */
 
+    pthread_mutex_lock(&tq->lockmutex); 
       // otherwise wait until signalled
-      pthread_cond_wait(&tq->lockcond,&tq->lockmutex);
-
+    pthread_cond_wait(&tq->lockcond,&tq->lockmutex);
+      
       // don't assume we have the lock yet...
       
-   } while ( 1 ) ;
+   // } while ( 1 ) ;
    lock_t_task_t++;
 }
  
@@ -139,7 +143,7 @@ void my_lock_tq( struct tq *tq )
    char old_value ;
    char new_value = 1 ;
  
-   do {
+   /* do {
       // use an xchg to obtain a lock
       __asm__ __volatile__( "lock; xchgb  %0,%1\n\t" :
                             "=r" (old_value), "+m" (tq->lock) :
@@ -149,13 +153,15 @@ void my_lock_tq( struct tq *tq )
       // do we have the lock?  If so, exit the lock routine
       if ( 0 == old_value)
 	break;
-      
+     */
+
+    pthread_mutex_lock(&tq->lockmutex); 
       // otherwise wait until signalled
-      pthread_cond_wait(&tq->lockcond,&tq->lockmutex);
+    pthread_cond_wait(&tq->lockcond,&tq->lockmutex);
       
       // don't assume we have the lock yet...
       
-   } while ( 1 ) ;
+   // } while ( 1 ) ;
    lock_tq++;
 }
 
@@ -416,12 +422,41 @@ void createpipe(void (*Worker1)(),void (*Worker2)()) {
 void createpipefarm(void (*Worker1)(), void (*Worker2)(), int n1, int n2) {
     for (long i=0; i< n1; i++) {
  //       printf("Making thread Stage1 %d\n", i);
-        makeThread(Worker1, i);
+        // makeThread(Worker1, i);
+
+        int rc;
+
+        pthread_t *pt = (pthread_t *) malloc(sizeof(pthread_t));
+
+        rc = pthread_create(pt, NULL, (void *(*)(void *))Worker1, (void *)i);
+        //  rc = pthread_create(pt, NULL, Worker, (void *)t);
+
+        if (rc){
+            printf("ERROR; return code from pthread_create() is %d\n", rc);
+            exit(-1);
+        }
+
+
     }
     
     for (long i=0; i<n2; i++) {
  //	printf("Making thread Stage2 %d\n", i+n1);
-        makeThread(Worker2, i+n1);
+        //makeThread(Worker2, i+n1);
+
+        int rc;
+
+        pthread_t *pt = (pthread_t *) malloc(sizeof(pthread_t));
+
+        int temp = i + n1;
+
+        rc = pthread_create(pt, NULL, (void *(*)(void *))Worker2, (void *)temp);
+        //  rc = pthread_create(pt, NULL, Worker, (void *)t);
+
+        if (rc){
+            printf("ERROR; return code from pthread_create() is %d\n", rc);
+            exit(-1);
+        }
+
     }
 
 }
