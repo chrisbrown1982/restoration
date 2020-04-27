@@ -35,6 +35,9 @@
 # foo.bin: src/blackscholes-instrumented.c
 # 	$(CXX) $(CXXFLAGS) $(CXXLINKFLAGS) $^ -o $@
 
+# CC=g++
+CC=clang++
+
 # INPUTFILE=inputs/in_4.txt
 # INPUTFILE=inputs/in_16.txt
 # INPUTFILE=inputs/in_4K.txt
@@ -43,10 +46,10 @@ INPUTFILE=inputs/in_64K.txt
 all : seq pth
 
 seq : ./src/blackscholes_seq.c
-	g++ ./src/blackscholes_seq.c -o seq
+	$(CC) ./src/blackscholes_seq.c -o seq
 
 pth : ./src/blackscholes_pth.c
-	g++ ./src/blackscholes_pth.c -lpthread -o pth
+	$(CC) ./src/blackscholes_pth.c -lpthread -o pth
 
 inputs_test : ./inputs/input_test.tar
 	tar -C ./inputs -xvf ./inputs/input_test.tar
@@ -58,37 +61,49 @@ runpth : $(INPUTFILE) pth
 	./pth 2 $(INPUTFILE) out_pth.txt
 
 pth.1 : ./src/blackscholes_pth.1.c
-	g++ ./src/blackscholes_pth.1.c -lpthread -o pth.1
+	$(CC) ./src/blackscholes_pth.1.c -lpthread -o pth.1
 	
 runpth.1 : $(INPUTFILE) pth.1
 	./pth.1 2 $(INPUTFILE) out_pth.txt
 
+pth.alt.1 : ./src/blackscholes_pth.alt.1.c
+	$(CC) ./src/blackscholes_pth.alt.1.c -lpthread -o pth.alt.1
+	
+runpth.alt.1 : $(INPUTFILE) pth.alt.1
+	./pth.alt.1 2 $(INPUTFILE) out_pth.alt.1.txt
+
+pth.alt.2 : ./src/blackscholes_pth.alt.2.c
+	$(CC) ./src/blackscholes_pth.alt.2.c -lpthread -ltbb -o pth.alt.2
+	
+runpth.alt.2 : $(INPUTFILE) pth.alt.2
+	./pth.alt.2 2 $(INPUTFILE) out_pth.alt.2.txt
+
 pth.2 : ./src/blackscholes_pth.2.c
-	g++ ./src/blackscholes_pth.2.c -lpthread -o pth.2
+	$(CC) ./src/blackscholes_pth.2.c -lpthread -o pth.2
 
 runpth.2 : $(INPUTFILE) pth.2
 	./pth.2 2 $(INPUTFILE) out_pth.txt
 
 pth.3 : ./src/blackscholes_pth.3.c
-	g++ ./src/blackscholes_pth.3.c -lpthread -o pth.3
+	$(CC) ./src/blackscholes_pth.3.c -lpthread -o pth.3
 
 runpth.3 : $(INPUTFILE) pth.3
 	./pth.3 2 $(INPUTFILE) out_pth.txt
 
 pth.4 : ./src/blackscholes_pth.4.c
-	g++ ./src/blackscholes_pth.4.c -lpthread -o pth.4
+	$(CC) ./src/blackscholes_pth.4.c -lpthread -o pth.4
 
 runpth.4 : $(INPUTFILE) pth.4
 	./pth.4 2 $(INPUTFILE) out_pth.txt
 
 pth.5 : ./src/blackscholes_pth.5.c
-	g++ ./src/blackscholes_pth.5.c -lpthread -o pth.5
+	$(CC) ./src/blackscholes_pth.5.c -lpthread -o pth.5
 
 runpth.5 : $(INPUTFILE) pth.5
 	./pth.5 2 $(INPUTFILE) out_pth.txt
 
 pth.6 : ./src/blackscholes_pth.6.cpp
-	g++ ./src/blackscholes_pth.6.cpp -lpthread -ltbb -o pth.6
+	$(CC) ./src/blackscholes_pth.6.cpp -lpthread -ltbb -o pth.6
 
 runpth.6 : $(INPUTFILE) pth.6
 	./pth.6 2 $(INPUTFILE) out_pth.txt

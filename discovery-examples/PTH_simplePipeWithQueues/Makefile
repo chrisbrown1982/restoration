@@ -7,7 +7,7 @@ pth: ./original.c
 runpth: ./pth
 	time ./pth && mv ./results ./results_pth.txt
 
-pth.1: ./pth.1.c
+pth.1: ./pth.1.cpp
 	$(CC) pth.1.cpp -lpthread -o pth.1
 
 runpth.1: ./pth.1
