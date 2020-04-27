@@ -13,8 +13,8 @@
 #include <stdlib.h>
 #include <limits.h>
 
-#define BUFSIZE 1000
-#define MAXDATA 5000
+#define BUFSIZE 100//0
+#define MAXDATA 500//0
 #define NRSTAGES 3
 
 /* Structure to keep info about queues between stages */
@@ -109,7 +109,7 @@ void Pipe(void* a1, void* a2, void* a3) {
 
   do {
     // STAGE ONE
-    if (i_1 >= 0) {
+    if (i_1 >= -1) {
       my_output_1 = i_1;
       i_1--;
       add_to_queue(myOutputQueue_1, my_output_1);
@@ -130,14 +130,14 @@ void Pipe(void* a1, void* a2, void* a3) {
 
     // STAGE THREE
     my_input_3 = read_from_queue(myInputQueue_3);
-    if (my_input_3 >= -1) {
+    if (my_input_3 >= 0) {
       if (my_input_3 >= 0)
         my_output_3 = my_input_3 * 2;
       else
         my_output_3 = -1;
       add_to_queue(myOutputQueue_3, my_output_3);
     }
-  } while (i_1 >= 0 || my_input_2 > 0 || my_input_3 > 0);
+  } while (i_1 >=0 || my_input_2 > 0 || my_input_3 > 0);
 }
 
 int main(int argc, char *argv[]) {
