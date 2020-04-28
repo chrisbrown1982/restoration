@@ -128,7 +128,7 @@ task_t workerStage2(task_t task)
                         
     /* Initialize stack */
     aStack[0] = -1; /* set sentinel -- signifies end of stack */
-        
+            
     numrows                   = task.numrow;
     aQueenBitCol[numrows]     = task.aQueenBitCol;
     aQueenBitNegDiag[numrows] = task.aQueenBitNegDiag;
