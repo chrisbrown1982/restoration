@@ -16,7 +16,7 @@
 #include <limits.h>
 
 #define BUFSIZE 100//0
-#define MAXDATA 5//00//0
+#define MAXDATA 5//0//0//0
 #define NRSTAGES 3
 
 /* Structure to keep info about queues between stages */
@@ -73,18 +73,18 @@ queue_t *outputQueue;
 
 /* First stage just emits data */
 void *Stage1(void *arg) {
-  int my_output, i = MAXDATA;
+  int my_output, i; // = MAXDATA;
   
   pipeline_stage_queues_t *myQueues = (pipeline_stage_queues_t *)arg;
   queue_t *myOutputQueue = myQueues->outputQueue;
 
-  do {
+  for (i = MAXDATA ; i>=-1; i--) {
     // printf("S1 : %d\n",i);
     my_output = i;
-    i--;
     add_to_queue(myOutputQueue, my_output);
-  } while(i>=0);
+  }
   
+  printf("S1 break\n");
   return NULL;
 }
 
@@ -107,18 +107,19 @@ void *Stage2(void *arg) {
   queue_t *myOutputQueue = myQueues->outputQueue;
   queue_t *myInputQueue = myQueues->inputQueue;
 
-  do {
-    my_input = read_from_queue(myInputQueue);
+  // my_input = read_from_queue(myInputQueue);
+  for (my_input = read_from_queue(myInputQueue); my_input>=0; my_input = read_from_queue(myInputQueue)) {
     // printf("S2 : %d\n",my_input);
     if (my_input > 0) {
-      long long fibn = fibr(32);
+      // long long fibn = fibr(32);
       my_output = my_input + 1;
     } else { /* 0 is a terminating token...If we get it, we just pass it on... */
-      my_output = 0;
+      my_output = -1;
     }
     add_to_queue(myOutputQueue, my_output);
-  } while (my_input>0);
+  }
 
+  printf("S2 break\n");
   return NULL;
 }
 
@@ -131,15 +132,17 @@ void *Stage3(void *arg) {
   queue_t *myOutputQueue = myQueues->outputQueue;
   queue_t *myInputQueue = myQueues->inputQueue;
 
-  do {
-    my_input = read_from_queue(myInputQueue);
+  // my_input ;
+  for (my_input = read_from_queue(myInputQueue); my_input>=0; my_input = read_from_queue(myInputQueue)) {
     printf("S3 : %d\n",my_input);
-    if (my_input >= 0)
+    if (my_input > 0)
       my_output = my_input * 2;
     else
       my_output = -1;
     add_to_queue(myOutputQueue, my_output);
-  } while (my_input>0);
+  }
+
+  printf("S3 break\n");
 
   return NULL;
 }

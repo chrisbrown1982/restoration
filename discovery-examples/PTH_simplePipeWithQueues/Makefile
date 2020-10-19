@@ -66,3 +66,6 @@ pth.tbb: ./pth.tbb.cpp
 
 runpth.tbb: ./pth.tbb
 	time ./pth.tbb && mv ./results ./results_pth.tbb.txt
+
+forloops : ./forloops.c
+	$(CC) forloops.c -lpthread -o forloops
