@@ -69,3 +69,15 @@ runpth.tbb: ./pth.tbb
 
 forloops : ./forloops.c
 	$(CC) forloops.c -lpthread -o forloops
+
+forloops.1 : ./forloops.1.cpp
+	$(CC) forloops.1.cpp -o forloops.1
+
+forloops.2 : ./forloops.2.cpp
+	$(CC) forloops.2.cpp -o forloops.2
+
+forloops.3 : ./forloops.3.cpp
+	$(CC) forloops.3.cpp -o forloops.3
+
+forloops.4 : ./forloops.4.cpp
+	$(CC) forloops.4.cpp -o forloops.4
