@@ -79,7 +79,7 @@ void *Stage1(void *arg) {
   queue_t *myOutputQueue = myQueues->outputQueue;
 
   do {
-    // printf("S1 : %d\n",i);
+    printf("S1 : %d\n",i);
     my_output = i;
     i--;
     add_to_queue(myOutputQueue, my_output);

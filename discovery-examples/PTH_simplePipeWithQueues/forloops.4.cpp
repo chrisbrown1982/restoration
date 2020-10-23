@@ -126,7 +126,7 @@ void Pipe(void* a0[], void* a1, void* a2, void* a3) {
   //   add_to_queue(myOutputQueue3, my_output3);
   // }
 
-  for (i1 = MAXDATA; i1>=-1 || my_input2>=0 || my_input3>=0; i1--) {
+  for (i1 = MAXDATA; i1>=-1; i1--) {
     if (i1>=-1) {
       printf("S1 : %d\n",i1);
       my_output1 = i1;
@@ -135,7 +135,7 @@ void Pipe(void* a0[], void* a1, void* a2, void* a3) {
 
     my_input2 = read_from_queue(myInputQueue2);
     if (my_input2>=0) {
-      // printf("S2 : %d\n",my_input2);
+      printf("S2 : %d\n",my_input2);
       if (my_input2 > 0) {
         my_output2 = my_input2 + 1;
       } else {

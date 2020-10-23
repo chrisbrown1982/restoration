@@ -81,3 +81,6 @@ forloops.3 : ./forloops.3.cpp
 
 forloops.4 : ./forloops.4.cpp
 	$(CC) forloops.4.cpp -o forloops.4
+
+breakloops : ./breakloops.cpp
+	$(CC) breakloops.cpp -lpthread -o breakloops
