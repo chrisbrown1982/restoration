@@ -16,7 +16,7 @@
 #include <limits.h>
 
 #define BUFSIZE 100//0
-#define MAXDATA 500//0
+#define MAXDATA 5//00//0
 #define NRSTAGES 3
 #define EOS -1
 
