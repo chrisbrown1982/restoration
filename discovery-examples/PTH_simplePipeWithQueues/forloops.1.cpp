@@ -9,7 +9,7 @@
 //  
 
 #define _REENTRANT
-#include <pthread.h>
+// #include <pthread.h>
 #include <semaphore.h>
 #include <stdio.h>
 #include <stdlib.h>

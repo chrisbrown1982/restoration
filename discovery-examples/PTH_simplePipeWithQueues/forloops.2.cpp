@@ -18,6 +18,17 @@
 #define BUFSIZE 100//0
 #define MAXDATA 5//0//0//0
 #define NRSTAGES 3
+#define EOS -1
+
+long long fibr(long long n) {
+  if (n <= 0) {
+    return 0;
+  } else if (n == 1) {
+    return 1;
+  } else {
+    return (fibr(n-1) + fibr(n-2));
+  }
+}
 
 /* Structure to keep info about queues between stages */
 typedef struct {
@@ -33,16 +44,9 @@ typedef struct {
 
 void add_to_queue(queue_t *queue, int elem)
 {
-  // pthread_mutex_lock(&queue->queue_lock);
-  /* If the queue is full, wait until something reads from it before adding a new element */
-  // if (queue->nr_elements == queue->capacity) {
-  //   pthread_cond_wait(&queue->queue_cond_read,&queue->queue_lock);
-  // }
   queue->elements[queue->addTo] = elem;
   queue->addTo = (queue->addTo + 1) % queue->capacity;
   queue->nr_elements++;
-  // pthread_cond_signal(&queue->queue_cond_write);
-  // pthread_mutex_unlock(&queue->queue_lock);
 }
 
 int read_from_queue(queue_t *queue)
@@ -69,9 +73,13 @@ void *Stage1(void *arg) {
   pipeline_stage_queues_t *myQueues = (pipeline_stage_queues_t *)arg;
   queue_t *myOutputQueue = myQueues->outputQueue;
 
-  for (i = MAXDATA ; i>=-1; i--) {
+  for (i = MAXDATA ; i>=0; i--) {
     printf("S1 : %d\n",i);
-    my_output = i;
+    if (i > 0) {
+      my_output = i;
+    } else {
+      my_output = EOS;
+    }
     add_to_queue(myOutputQueue, my_output);
   }
   
@@ -79,15 +87,7 @@ void *Stage1(void *arg) {
   return NULL;
 }
 
-long long fibr(long long n) {
-  if (n <= 0) {
-    return 0;
-  } else if (n == 1) {
-    return 1;
-  } else {
-    return (fibr(n-1) + fibr(n-2));
-  }
-}
+
 
 /* Second stage reads an element from the input queue, adds 1 to it and writes it to the output queue */
 void *Stage2(void *arg) {
@@ -99,15 +99,18 @@ void *Stage2(void *arg) {
   queue_t *myInputQueue = myQueues->inputQueue;
 
   // my_input = read_from_queue(myInputQueue);
-  for (my_input = read_from_queue(myInputQueue); my_input>=0; my_input = read_from_queue(myInputQueue)) {
-    // printf("S2 : %d\n",my_input);
-    if (my_input > 0) {
-      // long long fibn = fibr(32);
+  for (my_input = read_from_queue(myInputQueue);
+       my_input>0 || my_input == EOS;
+       my_input = read_from_queue(myInputQueue)) {
+    printf("S2 : %d\n",my_input);
+    if (my_input != EOS) {
       my_output = my_input + 1;
+      printf("S2.out : %d\n",my_output);
+      add_to_queue(myOutputQueue, my_output);
     } else { /* 0 is a terminating token...If we get it, we just pass it on... */
-      my_output = -1;
+      add_to_queue(myOutputQueue, EOS);
+      break;
     }
-    add_to_queue(myOutputQueue, my_output);
   }
 
   printf("S2 break\n");
@@ -124,13 +127,17 @@ void *Stage3(void *arg) {
   queue_t *myInputQueue = myQueues->inputQueue;
 
   // my_input ;
-  for (my_input = read_from_queue(myInputQueue); my_input>=0; my_input = read_from_queue(myInputQueue)) {
+  for (my_input = read_from_queue(myInputQueue);
+       my_input>0 || my_input == EOS;
+       my_input = read_from_queue(myInputQueue)) {
     printf("S3 : %d\n",my_input);
-    if (my_input > 0)
+    if (my_input != EOS) {
       my_output = my_input * 2;
-    else
-      my_output = -1;
-    add_to_queue(myOutputQueue, my_output);
+      printf("S3.out : %d\n",my_output);
+      add_to_queue(myOutputQueue, my_output);
+    } else {
+      break;
+    }
   }
 
   printf("S3 break\n");
@@ -144,13 +151,9 @@ void InitialiseQueue(queue_t *queue, int capacity) {
   queue->addTo = 0;
   queue->nr_elements = 0;
   queue->capacity = capacity;
-  // pthread_mutex_init(&queue->queue_lock, NULL);
-  // pthread_cond_init(&queue->queue_cond_write, NULL);
-  // pthread_cond_init(&queue->queue_cond_read, NULL);
 }
 
-
-void Pipe(void* a0[], void* a1, void* a2, void* a3) {
+void Pipe(void** a0, void* a1, void* a2, void* a3) {
   a0[0] = Stage1(a1);
   a0[1] = Stage2(a2);
   a0[2] = Stage3(a3);
@@ -189,17 +192,12 @@ int main(int argc, char *argv[]) {
     stage_queues[i].outputQueue = &queue[i];
   }
   
-    
-  
   /* create the workers, then wait for them to finish */
   // workerid[0] = Stage1((void *)&stage_queues[0]);
   // workerid[1] = Stage2((void *)&stage_queues[1]);
   // workerid[2] = Stage3((void *)&stage_queues[2]);
   Pipe(workerid, (void *)&stage_queues[0], (void *)&stage_queues[1], (void *)&stage_queues[2]);
   
-  // for (i = 0; i < NRSTAGES; i++)
-  //   pthread_join(workerid[i], NULL);
-
   queue_t output_queue = queue[NRSTAGES-1];
 
   results = fopen("results", "w");

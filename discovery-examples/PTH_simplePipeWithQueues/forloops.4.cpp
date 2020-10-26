@@ -16,8 +16,19 @@
 #include <limits.h>
 
 #define BUFSIZE 100//0
-#define MAXDATA 5//0//0//0
+#define MAXDATA 500//0
 #define NRSTAGES 3
+#define EOS -1
+
+long long fibr(long long n) {
+  if (n <= 0) {
+    return 0;
+  } else if (n == 1) {
+    return 1;
+  } else {
+    return (fibr(n-1) + fibr(n-2));
+  }
+}
 
 /* Structure to keep info about queues between stages */
 typedef struct {
@@ -54,17 +65,6 @@ queue_t *inputQueue;
 queue_t *outputQueue;
 } pipeline_stage_queues_t;
 
-
-long long fibr(long long n) {
-  if (n <= 0) {
-    return 0;
-  } else if (n == 1) {
-    return 1;
-  } else {
-    return (fibr(n-1) + fibr(n-2));
-  }
-}
-
 void InitialiseQueue(queue_t *queue, int capacity) {
   queue->elements = (int*) malloc (sizeof(int) * capacity);
   queue->readFrom = 0;
@@ -73,9 +73,8 @@ void InitialiseQueue(queue_t *queue, int capacity) {
   queue->capacity = capacity;
 }
 
-
-void Pipe(void* a0[], void* a1, void* a2, void* a3) {
-  int my_output1, i1; // = MAXDATA;
+void Pipe(void** a0, void* a1, void* a2, void* a3) {
+  int my_output1, i1;
   
   pipeline_stage_queues_t *myQueues1 = (pipeline_stage_queues_t *)a1;
   queue_t *myOutputQueue1 = myQueues1->outputQueue;
@@ -89,6 +88,7 @@ void Pipe(void* a0[], void* a1, void* a2, void* a3) {
   queue_t *myOutputQueue2 = myQueues2->outputQueue;
   queue_t *myInputQueue2 = myQueues2->inputQueue;
 
+  // printf("S2 break\n");
   a0[1] = NULL;
 
   int my_input3;
@@ -98,59 +98,36 @@ void Pipe(void* a0[], void* a1, void* a2, void* a3) {
   queue_t *myOutputQueue3 = myQueues3->outputQueue;
   queue_t *myInputQueue3 = myQueues3->inputQueue;
 
-  // for (i1 = MAXDATA ; i1>=-1; i1--) {
-  //   printf("S1 : %d\n",i1);
-  //   my_output1 = i1;
-  //   add_to_queue(myOutputQueue1, my_output1);
-  // }
-  
-  // // my_input2 = read_from_queue(myInputQueue2);
-  // for (my_input2 = read_from_queue(myInputQueue2); my_input2>=0; my_input2 = read_from_queue(myInputQueue2)) {
-  //   // printf("S2 : %d\n",my_input2);
-  //   if (my_input2 > 0) {
-  //     // long long fibn = fibr(32);
-  //     my_output2 = my_input2 + 1;
-  //   } else { /* 0 is a terminating token...If we get it, we just pass it on... */
-  //     my_output2 = -1;
-  //   }
-  //   add_to_queue(myOutputQueue2, my_output2);
-  // }
-
-  // // my_input3 ;
-  // for (my_input3 = read_from_queue(myInputQueue3); my_input3>=0; my_input3 = read_from_queue(myInputQueue3)) {
-  //   printf("S3 : %d\n",my_input3);
-  //   if (my_input3 > 0)
-  //     my_output3 = my_input3 * 2;
-  //   else
-  //     my_output3 = -1;
-  //   add_to_queue(myOutputQueue3, my_output3);
-  // }
-
-  for (i1 = MAXDATA; i1>=-1; i1--) {
-    if (i1>=-1) {
-      printf("S1 : %d\n",i1);
+  for (i1 = MAXDATA ; i1>=0; i1--) {
+    // no if statement needed here because we know the set of iterations doesn't change.
+    printf("S1 : %d\n",i1);
+    if (i1 > 0) {
       my_output1 = i1;
-      add_to_queue(myOutputQueue1, my_output1);
+    } else {
+      my_output1 = EOS;
     }
+    add_to_queue(myOutputQueue1, my_output1);
+    printf("S1 break\n");
 
     my_input2 = read_from_queue(myInputQueue2);
-    if (my_input2>=0) {
-      printf("S2 : %d\n",my_input2);
-      if (my_input2 > 0) {
-        my_output2 = my_input2 + 1;
-      } else {
-        my_output2 = -1;
-      }
+    printf("S2 : %d\n",my_input2);
+    if (my_input2 != EOS) {
+      my_output2 = my_input2 + 1;
+      printf("S2.out : %d\n",my_output2);
       add_to_queue(myOutputQueue2, my_output2);
+    } else { /* 0 is a terminating token...If we get it, we just pass it on... */
+      add_to_queue(myOutputQueue2, EOS);
+      // break; // I think it's safe to simply remove the break statement because the
+                // overall iteration of the loop is now controlled by the first stage
+                // and we know that the number of stages doesn't change.
+                // We don't want to remove this completely (yet), I think.
     }
 
     my_input3 = read_from_queue(myInputQueue3);
-    if (my_input3>=0) {
-      printf("S3 : %d\n",my_input3);
-      if (my_input3 > 0)
-        my_output3 = my_input3 * 2;
-      else
-        my_output3 = -1;
+    printf("S3 : %d\n",my_input3);
+    if (my_input3 != EOS) {
+      my_output3 = my_input3 * 2;
+      printf("S3.out : %d\n",my_output3);
       add_to_queue(myOutputQueue3, my_output3);
     }
   }
@@ -192,17 +169,12 @@ int main(int argc, char *argv[]) {
     stage_queues[i].outputQueue = &queue[i];
   }
   
-    
-  
   /* create the workers, then wait for them to finish */
   // workerid[0] = Stage1((void *)&stage_queues[0]);
   // workerid[1] = Stage2((void *)&stage_queues[1]);
   // workerid[2] = Stage3((void *)&stage_queues[2]);
   Pipe(workerid, (void *)&stage_queues[0], (void *)&stage_queues[1], (void *)&stage_queues[2]);
   
-  // for (i = 0; i < NRSTAGES; i++)
-  //   pthread_join(workerid[i], NULL);
-
   queue_t output_queue = queue[NRSTAGES-1];
 
   results = fopen("results", "w");
